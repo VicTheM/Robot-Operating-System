@@ -1,0 +1,6 @@
+msg/AmazingQuote.idl
+msg/AmazingQuote.msg
+srv/WhatIsThePoint.idl
+srv/WhatIsThePoint.srv
+srv/WhatIsThePoint_Request.msg
+srv/WhatIsThePoint_Response.msg

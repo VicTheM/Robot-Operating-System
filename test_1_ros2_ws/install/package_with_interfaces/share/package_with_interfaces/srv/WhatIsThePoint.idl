@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from package_with_interfaces/srv/WhatIsThePoint.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "package_with_interfaces/msg/AmazingQuote.idl"
+
+module package_with_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "WhatIsThePoint.srv from https://ros2-tutorial.readthedocs.io" "\n"
+      "Receives an AmazingQuote and returns what is the point")
+    struct WhatIsThePoint_Request {
+      package_with_interfaces::msg::AmazingQuote quote;
+    };
+    struct WhatIsThePoint_Response {
+      geometry_msgs::msg::Point point;
+    };
+  };
+};

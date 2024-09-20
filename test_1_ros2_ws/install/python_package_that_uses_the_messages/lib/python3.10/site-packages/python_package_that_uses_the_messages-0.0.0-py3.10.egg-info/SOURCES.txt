@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/PKG-INFO
+../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/SOURCES.txt
+../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/dependency_links.txt
+../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/entry_points.txt
+../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/requires.txt
+../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/top_level.txt
+../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/zip-safe
+python_package_that_uses_the_messages/__init__.py
+python_package_that_uses_the_messages/amazing_quote_publisher_node.py
+python_package_that_uses_the_messages/amazing_quote_subscriber_node.py
+resource/python_package_that_uses_the_messages
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

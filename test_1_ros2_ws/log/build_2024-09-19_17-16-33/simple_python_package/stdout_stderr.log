@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/simple_python_package/simple_python_package.egg-info
+writing ../../build/simple_python_package/simple_python_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/simple_python_package/simple_python_package.egg-info/dependency_links.txt
+writing entry points to ../../build/simple_python_package/simple_python_package.egg-info/entry_points.txt
+writing requirements to ../../build/simple_python_package/simple_python_package.egg-info/requires.txt
+writing top-level names to ../../build/simple_python_package/simple_python_package.egg-info/top_level.txt
+writing manifest file '../../build/simple_python_package/simple_python_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/simple_python_package/simple_python_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/simple_python_package/simple_python_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/build
+creating /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/build/lib
+creating /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/build/lib/simple_python_package
+copying simple_python_package/__init__.py -> /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/build/lib/simple_python_package
+running install
+running install_lib
+creating /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages/simple_python_package
+copying /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/build/lib/simple_python_package/__init__.py -> /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages/simple_python_package
+byte-compiling /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages/simple_python_package/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/share/ament_index
+creating /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/share/ament_index/resource_index
+creating /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/share/ament_index/resource_index/packages
+copying resource/simple_python_package -> /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/share/simple_python_package
+running install_egg_info
+Copying ../../build/simple_python_package/simple_python_package.egg-info to /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages/simple_python_package-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/install.log'

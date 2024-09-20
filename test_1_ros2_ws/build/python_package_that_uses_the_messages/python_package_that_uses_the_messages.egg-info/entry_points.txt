@@ -1,0 +1,4 @@
+[console_scripts]
+amazing_quote_publisher = python_package_that_uses_the_messages.amazing_quote_publisher_node:main
+amazing_quote_subscriber = python_package_that_uses_the_messages.amazing_quote_subscriber_node:main
+

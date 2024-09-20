@@ -1,0 +1,6 @@
+source;share/python_package_that_uses_the_messages/hook/pythonpath.ps1
+source;share/python_package_that_uses_the_messages/hook/pythonpath.dsv
+source;share/python_package_that_uses_the_messages/hook/pythonpath.sh
+source;share/python_package_that_uses_the_messages/hook/ament_prefix_path.ps1
+source;share/python_package_that_uses_the_messages/hook/ament_prefix_path.dsv
+source;share/python_package_that_uses_the_messages/hook/ament_prefix_path.sh

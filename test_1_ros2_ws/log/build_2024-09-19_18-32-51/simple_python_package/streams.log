@@ -1,0 +1,20 @@
+[1.460s] Invoking command in '/home/victory/RoboNish/test_1_ros2_ws/src/simple_python_package': PYTHONPATH=/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simple_python_package build --build-base /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/build install --record /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/install.log --single-version-externally-managed install_data
+[1.937s] running egg_info
+[1.939s] writing ../../build/simple_python_package/simple_python_package.egg-info/PKG-INFO
+[1.939s] writing dependency_links to ../../build/simple_python_package/simple_python_package.egg-info/dependency_links.txt
+[1.939s] writing entry points to ../../build/simple_python_package/simple_python_package.egg-info/entry_points.txt
+[1.940s] writing requirements to ../../build/simple_python_package/simple_python_package.egg-info/requires.txt
+[1.940s] writing top-level names to ../../build/simple_python_package/simple_python_package.egg-info/top_level.txt
+[1.944s] reading manifest file '../../build/simple_python_package/simple_python_package.egg-info/SOURCES.txt'
+[1.946s] writing manifest file '../../build/simple_python_package/simple_python_package.egg-info/SOURCES.txt'
+[1.946s] running build
+[1.946s] running build_py
+[1.947s] running install
+[1.948s] running install_lib
+[1.951s] running install_data
+[1.951s] running install_egg_info
+[1.955s] removing '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages/simple_python_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.955s] Copying ../../build/simple_python_package/simple_python_package.egg-info to /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages/simple_python_package-0.0.0-py3.10.egg-info
+[1.957s] running install_scripts
+[2.000s] writing list of installed files to '/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/install.log'
+[2.080s] Invoked command in '/home/victory/RoboNish/test_1_ros2_ws/src/simple_python_package' returned '0': PYTHONPATH=/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simple_python_package build --build-base /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/build install --record /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/install.log --single-version-externally-managed install_data

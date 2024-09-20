@@ -1,0 +1,659 @@
+[0.000000] (-) TimerEvent: {}
+[0.000486] (package_with_interfaces) JobQueued: {'identifier': 'package_with_interfaces', 'dependencies': OrderedDict()}
+[0.000655] (simple_python_package) JobQueued: {'identifier': 'simple_python_package', 'dependencies': OrderedDict()}
+[0.000735] (simple_python_package_with_node) JobQueued: {'identifier': 'simple_python_package_with_node', 'dependencies': OrderedDict()}
+[0.000810] (package_with_interfaces) JobStarted: {'identifier': 'package_with_interfaces'}
+[0.009251] (simple_python_package) JobStarted: {'identifier': 'simple_python_package'}
+[0.018057] (simple_python_package_with_node) JobStarted: {'identifier': 'simple_python_package_with_node'}
+[0.031179] (package_with_interfaces) JobProgress: {'identifier': 'package_with_interfaces', 'progress': 'cmake'}
+[0.031793] (package_with_interfaces) Command: {'cmd': ['/home/linuxbrew/.linuxbrew/bin/cmake', '/home/victory/RoboNish/test_1_ros2_ws/package_with_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces'], 'cwd': '/home/victory/RoboNish/test_1_ros2_ws/build/package_with_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victory'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victory'), ('OLDPWD', '/home/victory/RoboNish/test_1_ros2_ws/package_with_interfaces/srv'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victory/RoboNish/test_1_ros2_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victory'), ('NAME', 'Victory'), ('WSL_INTEROP', '/run/WSL/116_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2204.3.49.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victory/RoboNish/test_1_ros2_ws/build/package_with_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:/home/linuxbrew/.linuxbrew/share/man::'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package:/opt/ros/humble')]), 'shell': False}
+[0.124917] (-) TimerEvent: {}
+[0.226178] (-) TimerEvent: {}
+[0.326787] (-) TimerEvent: {}
+[0.427401] (-) TimerEvent: {}
+[0.527807] (-) TimerEvent: {}
+[0.628257] (-) TimerEvent: {}
+[0.728591] (-) TimerEvent: {}
+[0.828986] (-) TimerEvent: {}
+[0.929525] (-) TimerEvent: {}
+[1.029950] (-) TimerEvent: {}
+[1.130455] (-) TimerEvent: {}
+[1.230859] (-) TimerEvent: {}
+[1.331669] (-) TimerEvent: {}
+[1.432270] (-) TimerEvent: {}
+[1.448915] (simple_python_package_with_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/simple_python_package_with_node', 'build', '--build-base', '/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node/build', 'install', '--record', '/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/victory/RoboNish/test_1_ros2_ws/src/simple_python_package_with_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'victory', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/victory', 'OLDPWD': '/home/victory/RoboNish/test_1_ros2_ws/package_with_interfaces/srv', 'ROS_PYTHON_VERSION': '3', 'HOMEBREW_PREFIX': '/home/linuxbrew/.linuxbrew', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/victory/RoboNish/test_1_ros2_ws/install', 'INFOPATH': '/home/linuxbrew/.linuxbrew/share/info:/home/linuxbrew/.linuxbrew/share/info:', 'ROS_DISTRO': 'humble', 'LOGNAME': 'victory', 'NAME': 'Victory', 'WSL_INTEROP': '/run/WSL/116_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2204.3.49.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin', 'HOMEBREW_CELLAR': '/home/linuxbrew/.linuxbrew/Cellar', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HOMEBREW_REPOSITORY': '/home/linuxbrew/.linuxbrew/Homebrew', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'MANPATH': '/home/linuxbrew/.linuxbrew/share/man:/home/linuxbrew/.linuxbrew/share/man::', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.466015] (simple_python_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/simple_python_package', 'build', '--build-base', '/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/build', 'install', '--record', '/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/victory/RoboNish/test_1_ros2_ws/src/simple_python_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'victory', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/victory', 'OLDPWD': '/home/victory/RoboNish/test_1_ros2_ws/package_with_interfaces/srv', 'ROS_PYTHON_VERSION': '3', 'HOMEBREW_PREFIX': '/home/linuxbrew/.linuxbrew', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/victory/RoboNish/test_1_ros2_ws/install', 'INFOPATH': '/home/linuxbrew/.linuxbrew/share/info:/home/linuxbrew/.linuxbrew/share/info:', 'ROS_DISTRO': 'humble', 'LOGNAME': 'victory', 'NAME': 'Victory', 'WSL_INTEROP': '/run/WSL/116_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2204.3.49.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin', 'HOMEBREW_CELLAR': '/home/linuxbrew/.linuxbrew/Cellar', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HOMEBREW_REPOSITORY': '/home/linuxbrew/.linuxbrew/Homebrew', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'MANPATH': '/home/linuxbrew/.linuxbrew/share/man:/home/linuxbrew/.linuxbrew/share/man::', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.532445] (-) TimerEvent: {}
+[1.632916] (-) TimerEvent: {}
+[1.733439] (-) TimerEvent: {}
+[1.833880] (-) TimerEvent: {}
+[1.913651] (simple_python_package_with_node) StdoutLine: {'line': b'running egg_info\n'}
+[1.915697] (simple_python_package_with_node) StdoutLine: {'line': b'writing ../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/PKG-INFO\n'}
+[1.916204] (simple_python_package_with_node) StdoutLine: {'line': b'writing dependency_links to ../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/dependency_links.txt\n'}
+[1.916996] (simple_python_package_with_node) StdoutLine: {'line': b'writing entry points to ../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/entry_points.txt\n'}
+[1.917310] (simple_python_package_with_node) StdoutLine: {'line': b'writing requirements to ../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/requires.txt\n'}
+[1.917786] (simple_python_package_with_node) StdoutLine: {'line': b'writing top-level names to ../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/top_level.txt\n'}
+[1.921536] (simple_python_package_with_node) StdoutLine: {'line': b"reading manifest file '../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/SOURCES.txt'\n"}
+[1.923737] (simple_python_package_with_node) StdoutLine: {'line': b"writing manifest file '../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/SOURCES.txt'\n"}
+[1.924152] (simple_python_package_with_node) StdoutLine: {'line': b'running build\n'}
+[1.924287] (simple_python_package_with_node) StdoutLine: {'line': b'running build_py\n'}
+[1.925024] (simple_python_package_with_node) StdoutLine: {'line': b'running install\n'}
+[1.925710] (simple_python_package_with_node) StdoutLine: {'line': b'running install_lib\n'}
+[1.928117] (simple_python_package_with_node) StdoutLine: {'line': b'running install_data\n'}
+[1.928395] (simple_python_package_with_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.932195] (simple_python_package_with_node) StdoutLine: {'line': b"removing '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages/simple_python_package_with_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.932825] (simple_python_package_with_node) StdoutLine: {'line': b'Copying ../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info to /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages/simple_python_package_with_node-0.0.0-py3.10.egg-info\n'}
+[1.934012] (-) TimerEvent: {}
+[1.935423] (simple_python_package_with_node) StdoutLine: {'line': b'running install_scripts\n'}
+[1.945540] (simple_python_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.947796] (simple_python_package) StdoutLine: {'line': b'writing ../../build/simple_python_package/simple_python_package.egg-info/PKG-INFO\n'}
+[1.948164] (simple_python_package) StdoutLine: {'line': b'writing dependency_links to ../../build/simple_python_package/simple_python_package.egg-info/dependency_links.txt\n'}
+[1.948422] (simple_python_package) StdoutLine: {'line': b'writing entry points to ../../build/simple_python_package/simple_python_package.egg-info/entry_points.txt\n'}
+[1.948814] (simple_python_package) StdoutLine: {'line': b'writing requirements to ../../build/simple_python_package/simple_python_package.egg-info/requires.txt\n'}
+[1.948997] (simple_python_package) StdoutLine: {'line': b'writing top-level names to ../../build/simple_python_package/simple_python_package.egg-info/top_level.txt\n'}
+[1.952897] (simple_python_package) StdoutLine: {'line': b"reading manifest file '../../build/simple_python_package/simple_python_package.egg-info/SOURCES.txt'\n"}
+[1.955069] (simple_python_package) StdoutLine: {'line': b"writing manifest file '../../build/simple_python_package/simple_python_package.egg-info/SOURCES.txt'\n"}
+[1.955369] (simple_python_package) StdoutLine: {'line': b'running build\n'}
+[1.955458] (simple_python_package) StdoutLine: {'line': b'running build_py\n'}
+[1.955800] (simple_python_package) StdoutLine: {'line': b'running install\n'}
+[1.956852] (simple_python_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.960073] (simple_python_package) StdoutLine: {'line': b'running install_data\n'}
+[1.960451] (simple_python_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.963626] (simple_python_package) StdoutLine: {'line': b"removing '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages/simple_python_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.964286] (simple_python_package) StdoutLine: {'line': b'Copying ../../build/simple_python_package/simple_python_package.egg-info to /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages/simple_python_package-0.0.0-py3.10.egg-info\n'}
+[1.965962] (simple_python_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.984239] (simple_python_package_with_node) StdoutLine: {'line': b'Installing talk_forever_node script to /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/simple_python_package_with_node\n'}
+[1.984708] (simple_python_package_with_node) StdoutLine: {'line': b'Installing victory_is_talking_python_node script to /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/simple_python_package_with_node\n'}
+[1.984982] (simple_python_package_with_node) StdoutLine: {'line': b"writing list of installed files to '/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node/install.log'\n"}
+[1.988034] (package_with_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.009239] (simple_python_package) StdoutLine: {'line': b"writing list of installed files to '/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package/install.log'\n"}
+[2.034231] (-) TimerEvent: {}
+[2.053142] (simple_python_package_with_node) CommandEnded: {'returncode': 0}
+[2.083364] (simple_python_package_with_node) JobEnded: {'identifier': 'simple_python_package_with_node', 'rc': 0}
+[2.088913] (simple_python_package) CommandEnded: {'returncode': 0}
+[2.106101] (simple_python_package) JobEnded: {'identifier': 'simple_python_package', 'rc': 0}
+[2.134335] (-) TimerEvent: {}
+[2.234780] (-) TimerEvent: {}
+[2.335269] (-) TimerEvent: {}
+[2.435651] (-) TimerEvent: {}
+[2.535978] (-) TimerEvent: {}
+[2.636326] (-) TimerEvent: {}
+[2.736940] (-) TimerEvent: {}
+[2.837675] (-) TimerEvent: {}
+[2.938119] (-) TimerEvent: {}
+[3.038689] (-) TimerEvent: {}
+[3.139196] (-) TimerEvent: {}
+[3.239685] (-) TimerEvent: {}
+[3.340116] (-) TimerEvent: {}
+[3.440698] (-) TimerEvent: {}
+[3.541225] (-) TimerEvent: {}
+[3.641724] (-) TimerEvent: {}
+[3.742440] (-) TimerEvent: {}
+[3.843447] (-) TimerEvent: {}
+[3.944543] (-) TimerEvent: {}
+[4.045497] (-) TimerEvent: {}
+[4.146762] (-) TimerEvent: {}
+[4.247736] (-) TimerEvent: {}
+[4.348667] (-) TimerEvent: {}
+[4.449894] (-) TimerEvent: {}
+[4.551061] (-) TimerEvent: {}
+[4.651575] (-) TimerEvent: {}
+[4.751994] (-) TimerEvent: {}
+[4.852555] (-) TimerEvent: {}
+[4.919042] (package_with_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.952765] (-) TimerEvent: {}
+[5.053429] (-) TimerEvent: {}
+[5.154395] (-) TimerEvent: {}
+[5.255081] (-) TimerEvent: {}
+[5.355743] (-) TimerEvent: {}
+[5.456402] (-) TimerEvent: {}
+[5.557079] (-) TimerEvent: {}
+[5.657700] (-) TimerEvent: {}
+[5.758371] (-) TimerEvent: {}
+[5.859019] (-) TimerEvent: {}
+[5.959539] (-) TimerEvent: {}
+[6.060152] (-) TimerEvent: {}
+[6.160712] (-) TimerEvent: {}
+[6.261299] (-) TimerEvent: {}
+[6.361712] (-) TimerEvent: {}
+[6.462288] (-) TimerEvent: {}
+[6.562937] (-) TimerEvent: {}
+[6.663500] (-) TimerEvent: {}
+[6.764277] (-) TimerEvent: {}
+[6.864933] (-) TimerEvent: {}
+[6.965573] (-) TimerEvent: {}
+[7.066149] (-) TimerEvent: {}
+[7.166764] (-) TimerEvent: {}
+[7.267343] (-) TimerEvent: {}
+[7.368552] (-) TimerEvent: {}
+[7.372307] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.468996] (-) TimerEvent: {}
+[7.569664] (-) TimerEvent: {}
+[7.671025] (-) TimerEvent: {}
+[7.771959] (-) TimerEvent: {}
+[7.872482] (-) TimerEvent: {}
+[7.972983] (-) TimerEvent: {}
+[8.073542] (-) TimerEvent: {}
+[8.174165] (-) TimerEvent: {}
+[8.180171] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.226232] (package_with_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.228210] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.238641] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.267046] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.274366] (-) TimerEvent: {}
+[8.374890] (-) TimerEvent: {}
+[8.475582] (-) TimerEvent: {}
+[8.576203] (-) TimerEvent: {}
+[8.676856] (-) TimerEvent: {}
+[8.777403] (-) TimerEvent: {}
+[8.847078] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.868384] (package_with_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.869057] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.869937] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.877649] (-) TimerEvent: {}
+[8.978344] (-) TimerEvent: {}
+[9.080038] (-) TimerEvent: {}
+[9.164404] (package_with_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.180553] (-) TimerEvent: {}
+[9.281764] (-) TimerEvent: {}
+[9.382733] (-) TimerEvent: {}
+[9.483746] (-) TimerEvent: {}
+[9.584585] (-) TimerEvent: {}
+[9.620896] (package_with_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[9.684838] (-) TimerEvent: {}
+[9.785578] (-) TimerEvent: {}
+[9.886278] (-) TimerEvent: {}
+[9.987668] (-) TimerEvent: {}
+[10.088527] (-) TimerEvent: {}
+[10.189479] (-) TimerEvent: {}
+[10.290497] (-) TimerEvent: {}
+[10.391542] (-) TimerEvent: {}
+[10.492443] (-) TimerEvent: {}
+[10.550342] (package_with_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[10.592913] (-) TimerEvent: {}
+[10.694064] (-) TimerEvent: {}
+[10.795299] (-) TimerEvent: {}
+[10.896274] (-) TimerEvent: {}
+[10.997179] (-) TimerEvent: {}
+[11.098252] (-) TimerEvent: {}
+[11.199770] (-) TimerEvent: {}
+[11.300661] (-) TimerEvent: {}
+[11.401385] (-) TimerEvent: {}
+[11.502074] (-) TimerEvent: {}
+[11.602968] (-) TimerEvent: {}
+[11.703999] (-) TimerEvent: {}
+[11.804611] (-) TimerEvent: {}
+[11.905338] (-) TimerEvent: {}
+[12.006257] (-) TimerEvent: {}
+[12.107293] (-) TimerEvent: {}
+[12.128422] (package_with_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[12.193255] (package_with_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[12.207728] (-) TimerEvent: {}
+[12.264895] (package_with_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[12.308136] (-) TimerEvent: {}
+[12.409081] (-) TimerEvent: {}
+[12.460983] (package_with_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.509206] (-) TimerEvent: {}
+[12.610114] (-) TimerEvent: {}
+[12.627696] (package_with_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.710540] (-) TimerEvent: {}
+[12.811539] (-) TimerEvent: {}
+[12.912250] (-) TimerEvent: {}
+[12.983961] (package_with_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[13.012807] (-) TimerEvent: {}
+[13.113403] (-) TimerEvent: {}
+[13.213821] (-) TimerEvent: {}
+[13.314246] (-) TimerEvent: {}
+[13.414970] (-) TimerEvent: {}
+[13.515679] (-) TimerEvent: {}
+[13.616173] (-) TimerEvent: {}
+[13.716682] (-) TimerEvent: {}
+[13.817320] (-) TimerEvent: {}
+[13.917733] (-) TimerEvent: {}
+[13.968571] (package_with_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[14.018016] (-) TimerEvent: {}
+[14.118691] (-) TimerEvent: {}
+[14.219280] (-) TimerEvent: {}
+[14.319782] (-) TimerEvent: {}
+[14.420223] (-) TimerEvent: {}
+[14.520730] (-) TimerEvent: {}
+[14.621152] (-) TimerEvent: {}
+[14.721606] (-) TimerEvent: {}
+[14.822037] (-) TimerEvent: {}
+[14.922479] (-) TimerEvent: {}
+[15.023006] (-) TimerEvent: {}
+[15.123421] (-) TimerEvent: {}
+[15.223816] (-) TimerEvent: {}
+[15.324241] (-) TimerEvent: {}
+[15.385016] (package_with_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.424486] (-) TimerEvent: {}
+[15.525009] (-) TimerEvent: {}
+[15.625460] (-) TimerEvent: {}
+[15.725895] (-) TimerEvent: {}
+[15.826475] (-) TimerEvent: {}
+[15.924603] (package_with_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.926705] (-) TimerEvent: {}
+[15.936218] (package_with_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[15.936587] (package_with_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[15.936748] (package_with_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[15.936894] (package_with_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[15.937029] (package_with_interfaces) StderrLine: {'line': b'\n'}
+[15.937162] (package_with_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[15.937298] (package_with_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[15.937487] (package_with_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[15.937643] (package_with_interfaces) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[15.937777] (package_with_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[15.937911] (package_with_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[16.026897] (-) TimerEvent: {}
+[16.127326] (-) TimerEvent: {}
+[16.227832] (-) TimerEvent: {}
+[16.328492] (-) TimerEvent: {}
+[16.429057] (-) TimerEvent: {}
+[16.529575] (-) TimerEvent: {}
+[16.610430] (package_with_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")\n'}
+[16.629894] (-) TimerEvent: {}
+[16.672013] (package_with_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[16.687264] (package_with_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[16.688010] (package_with_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[16.688904] (package_with_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[16.689366] (package_with_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[16.689896] (package_with_interfaces) StderrLine: {'line': b'\n'}
+[16.690195] (package_with_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[16.690607] (package_with_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[16.690953] (package_with_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[16.691272] (package_with_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[16.692147] (package_with_interfaces) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[16.692644] (package_with_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[16.692980] (package_with_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[16.730096] (-) TimerEvent: {}
+[16.735852] (package_with_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[16.736113] (package_with_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[16.736226] (package_with_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[16.736318] (package_with_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[16.736392] (package_with_interfaces) StderrLine: {'line': b'\n'}
+[16.736465] (package_with_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[16.736538] (package_with_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[16.736608] (package_with_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[16.736680] (package_with_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[16.736750] (package_with_interfaces) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[16.736888] (package_with_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[16.736966] (package_with_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[16.830288] (-) TimerEvent: {}
+[16.930771] (-) TimerEvent: {}
+[17.031157] (-) TimerEvent: {}
+[17.131676] (-) TimerEvent: {}
+[17.232016] (-) TimerEvent: {}
+[17.332360] (-) TimerEvent: {}
+[17.432812] (-) TimerEvent: {}
+[17.533279] (-) TimerEvent: {}
+[17.634215] (-) TimerEvent: {}
+[17.734896] (-) TimerEvent: {}
+[17.835615] (-) TimerEvent: {}
+[17.936197] (-) TimerEvent: {}
+[18.036642] (-) TimerEvent: {}
+[18.137155] (-) TimerEvent: {}
+[18.237664] (-) TimerEvent: {}
+[18.338159] (-) TimerEvent: {}
+[18.438608] (-) TimerEvent: {}
+[18.539094] (-) TimerEvent: {}
+[18.639768] (-) TimerEvent: {}
+[18.663230] (package_with_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")\n'}
+[18.665742] (package_with_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[18.667730] (package_with_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[18.668191] (package_with_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[18.710448] (package_with_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so\n'}
+[18.739914] (-) TimerEvent: {}
+[18.840452] (-) TimerEvent: {}
+[18.941121] (-) TimerEvent: {}
+[19.041840] (-) TimerEvent: {}
+[19.142420] (-) TimerEvent: {}
+[19.166869] (package_with_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[19.242749] (-) TimerEvent: {}
+[19.343925] (-) TimerEvent: {}
+[19.445221] (-) TimerEvent: {}
+[19.475224] (package_with_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[19.499969] (package_with_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[19.531971] (package_with_interfaces) StdoutLine: {'line': b'-- Configuring done (18.9s)\n'}
+[19.545419] (-) TimerEvent: {}
+[19.628335] (package_with_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[19.632381] (package_with_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/victory/RoboNish/test_1_ros2_ws/build/package_with_interfaces\n'}
+[19.645655] (-) TimerEvent: {}
+[19.646829] (package_with_interfaces) CommandEnded: {'returncode': 0}
+[19.648018] (package_with_interfaces) JobProgress: {'identifier': 'package_with_interfaces', 'progress': 'build'}
+[19.649744] (package_with_interfaces) Command: {'cmd': ['/home/linuxbrew/.linuxbrew/bin/cmake', '--build', '/home/victory/RoboNish/test_1_ros2_ws/build/package_with_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/victory/RoboNish/test_1_ros2_ws/build/package_with_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victory'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victory'), ('OLDPWD', '/home/victory/RoboNish/test_1_ros2_ws/package_with_interfaces/srv'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victory/RoboNish/test_1_ros2_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victory'), ('NAME', 'Victory'), ('WSL_INTEROP', '/run/WSL/116_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2204.3.49.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victory/RoboNish/test_1_ros2_ws/build/package_with_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:/home/linuxbrew/.linuxbrew/share/man::'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package:/opt/ros/humble')]), 'shell': False}
+[19.683050] (package_with_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[19.692379] (package_with_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[19.698221] (package_with_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_package_with_interfaces\n'}
+[19.745901] (-) TimerEvent: {}
+[19.846287] (-) TimerEvent: {}
+[19.946658] (-) TimerEvent: {}
+[20.047093] (-) TimerEvent: {}
+[20.122921] (package_with_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[20.124401] (package_with_interfaces) StdoutLine: {'line': b'creating package_with_interfaces.egg-info\n'}
+[20.125036] (package_with_interfaces) StdoutLine: {'line': b'writing package_with_interfaces.egg-info/PKG-INFO\n'}
+[20.125399] (package_with_interfaces) StdoutLine: {'line': b'writing dependency_links to package_with_interfaces.egg-info/dependency_links.txt\n'}
+[20.125738] (package_with_interfaces) StdoutLine: {'line': b'writing top-level names to package_with_interfaces.egg-info/top_level.txt\n'}
+[20.126775] (package_with_interfaces) StdoutLine: {'line': b"writing manifest file 'package_with_interfaces.egg-info/SOURCES.txt'\n"}
+[20.129582] (package_with_interfaces) StdoutLine: {'line': b"reading manifest file 'package_with_interfaces.egg-info/SOURCES.txt'\n"}
+[20.130469] (package_with_interfaces) StdoutLine: {'line': b"writing manifest file 'package_with_interfaces.egg-info/SOURCES.txt'\n"}
+[20.147257] (-) TimerEvent: {}
+[20.181233] (package_with_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_package_with_interfaces_egg\n'}
+[20.247436] (-) TimerEvent: {}
+[20.347951] (-) TimerEvent: {}
+[20.376609] (package_with_interfaces) StdoutLine: {'line': b'[  5%] Built target package_with_interfaces__cpp\n'}
+[20.388080] (package_with_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[20.388487] (package_with_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[20.390305] (package_with_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[20.448129] (-) TimerEvent: {}
+[20.498518] (package_with_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_generator_c.dir/rosidl_generator_c/package_with_interfaces/msg/detail/amazing_quote__functions.c.o\x1b[0m\n'}
+[20.548262] (-) TimerEvent: {}
+[20.648646] (-) TimerEvent: {}
+[20.749458] (-) TimerEvent: {}
+[20.851541] (-) TimerEvent: {}
+[20.953176] (-) TimerEvent: {}
+[21.053529] (-) TimerEvent: {}
+[21.132297] (package_with_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/package_with_interfaces/msg/amazing_quote__type_support.cpp.o\x1b[0m\n'}
+[21.153808] (-) TimerEvent: {}
+[21.206565] (package_with_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/package_with_interfaces/msg/detail/amazing_quote__type_support.cpp.o\x1b[0m\n'}
+[21.253577] (package_with_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/package_with_interfaces/msg/detail/dds_fastrtps/amazing_quote__type_support.cpp.o\x1b[0m\n'}
+[21.254039] (-) TimerEvent: {}
+[21.333384] (package_with_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_generator_c.dir/rosidl_generator_c/package_with_interfaces/srv/detail/what_is_the_point__functions.c.o\x1b[0m\n'}
+[21.354198] (-) TimerEvent: {}
+[21.454820] (-) TimerEvent: {}
+[21.555700] (-) TimerEvent: {}
+[21.649058] (package_with_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking C shared library libpackage_with_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[21.655822] (-) TimerEvent: {}
+[21.756352] (-) TimerEvent: {}
+[21.856987] (-) TimerEvent: {}
+[21.957656] (-) TimerEvent: {}
+[22.058360] (package_with_interfaces) StdoutLine: {'line': b'[ 28%] Built target package_with_interfaces__rosidl_generator_c\n'}
+[22.058939] (-) TimerEvent: {}
+[22.067661] (package_with_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/package_with_interfaces/srv/detail/what_is_the_point__type_support.cpp.o\x1b[0m\n'}
+[22.159217] (-) TimerEvent: {}
+[22.260060] (-) TimerEvent: {}
+[22.361118] (-) TimerEvent: {}
+[22.462172] (-) TimerEvent: {}
+[22.562899] (-) TimerEvent: {}
+[22.663496] (-) TimerEvent: {}
+[22.764098] (-) TimerEvent: {}
+[22.864914] (-) TimerEvent: {}
+[22.965353] (-) TimerEvent: {}
+[23.066159] (-) TimerEvent: {}
+[23.143329] (package_with_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/package_with_interfaces/srv/what_is_the_point__type_support.cpp.o\x1b[0m\n'}
+[23.166292] (-) TimerEvent: {}
+[23.266682] (-) TimerEvent: {}
+[23.367103] (-) TimerEvent: {}
+[23.467579] (-) TimerEvent: {}
+[23.525718] (package_with_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[23.535306] (package_with_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libpackage_with_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[23.567699] (-) TimerEvent: {}
+[23.635690] (package_with_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/package_with_interfaces/srv/detail/dds_fastrtps/what_is_the_point__type_support.cpp.o\x1b[0m\n'}
+[23.667891] (-) TimerEvent: {}
+[23.768294] (-) TimerEvent: {}
+[23.868682] (-) TimerEvent: {}
+[23.876175] (package_with_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libpackage_with_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[23.962125] (package_with_interfaces) StdoutLine: {'line': b'[ 43%] Built target package_with_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[23.968824] (-) TimerEvent: {}
+[23.974795] (package_with_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[24.068924] (-) TimerEvent: {}
+[24.169324] (-) TimerEvent: {}
+[24.249216] (package_with_interfaces) StdoutLine: {'line': b'[ 46%] Built target package_with_interfaces__rosidl_typesupport_cpp\n'}
+[24.259439] (package_with_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[24.269435] (-) TimerEvent: {}
+[24.369834] (-) TimerEvent: {}
+[24.424155] (package_with_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/package_with_interfaces/msg/detail/amazing_quote__type_support_c.cpp.o\x1b[0m\n'}
+[24.469967] (-) TimerEvent: {}
+[24.570408] (-) TimerEvent: {}
+[24.670964] (-) TimerEvent: {}
+[24.738693] (package_with_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libpackage_with_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[24.771270] (-) TimerEvent: {}
+[24.804857] (package_with_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/package_with_interfaces/msg/detail/amazing_quote__type_support.c.o\x1b[0m\n'}
+[24.871433] (-) TimerEvent: {}
+[24.958140] (package_with_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/package_with_interfaces/msg/amazing_quote__type_support.cpp.o\x1b[0m\n'}
+[24.971625] (-) TimerEvent: {}
+[24.979701] (package_with_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/package_with_interfaces/srv/detail/what_is_the_point__type_support.c.o\x1b[0m\n'}
+[25.071773] (-) TimerEvent: {}
+[25.082300] (package_with_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/package_with_interfaces/srv/what_is_the_point__type_support.cpp.o\x1b[0m\n'}
+[25.131717] (package_with_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libpackage_with_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[25.171892] (-) TimerEvent: {}
+[25.174518] (package_with_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library libpackage_with_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[25.272056] (-) TimerEvent: {}
+[25.284077] (package_with_interfaces) StdoutLine: {'line': b'[ 69%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[25.295808] (package_with_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/package_with_interfaces/srv/detail/what_is_the_point__type_support_c.cpp.o\x1b[0m\n'}
+[25.372195] (-) TimerEvent: {}
+[25.447362] (package_with_interfaces) StdoutLine: {'line': b'[ 71%] Built target package_with_interfaces__rosidl_typesupport_c\n'}
+[25.472354] (-) TimerEvent: {}
+[25.500193] (package_with_interfaces) StdoutLine: {'line': b'[ 71%] Built target package_with_interfaces__rosidl_typesupport_introspection_c\n'}
+[25.572548] (-) TimerEvent: {}
+[25.673008] (-) TimerEvent: {}
+[25.773483] (-) TimerEvent: {}
+[25.848177] (package_with_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libpackage_with_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[25.873729] (-) TimerEvent: {}
+[25.974263] (-) TimerEvent: {}
+[26.074916] (-) TimerEvent: {}
+[26.175574] (-) TimerEvent: {}
+[26.276159] (-) TimerEvent: {}
+[26.376748] (-) TimerEvent: {}
+[26.431889] (package_with_interfaces) StdoutLine: {'line': b'[ 74%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[26.447360] (package_with_interfaces) StdoutLine: {'line': b'[ 74%] Built target package_with_interfaces\n'}
+[26.463168] (package_with_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[26.476923] (-) TimerEvent: {}
+[26.577340] (-) TimerEvent: {}
+[26.677713] (-) TimerEvent: {}
+[26.778070] (-) TimerEvent: {}
+[26.878484] (-) TimerEvent: {}
+[26.978890] (-) TimerEvent: {}
+[27.079285] (-) TimerEvent: {}
+[27.150947] (package_with_interfaces) StdoutLine: {'line': b'[ 76%] Built target package_with_interfaces__py\n'}
+[27.167715] (package_with_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_generator_py.dir/rosidl_generator_py/package_with_interfaces/srv/_what_is_the_point_s.c.o\x1b[0m\n'}
+[27.168003] (package_with_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_generator_py.dir/rosidl_generator_py/package_with_interfaces/msg/_amazing_quote_s.c.o\x1b[0m\n'}
+[27.179579] (-) TimerEvent: {}
+[27.280147] (-) TimerEvent: {}
+[27.380983] (-) TimerEvent: {}
+[27.482011] (-) TimerEvent: {}
+[27.582664] (-) TimerEvent: {}
+[27.683605] (-) TimerEvent: {}
+[27.784674] (-) TimerEvent: {}
+[27.886366] (-) TimerEvent: {}
+[27.987076] (-) TimerEvent: {}
+[28.070877] (package_with_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/package_with_interfaces/libpackage_with_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[28.087343] (-) TimerEvent: {}
+[28.188039] (-) TimerEvent: {}
+[28.288632] (-) TimerEvent: {}
+[28.389269] (-) TimerEvent: {}
+[28.489777] (-) TimerEvent: {}
+[28.590391] (-) TimerEvent: {}
+[28.634585] (package_with_interfaces) StdoutLine: {'line': b'[ 84%] Built target package_with_interfaces__rosidl_generator_py\n'}
+[28.654129] (package_with_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[28.654880] (package_with_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[28.655627] (package_with_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[28.690580] (-) TimerEvent: {}
+[28.791025] (-) TimerEvent: {}
+[28.840769] (package_with_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[28.851381] (package_with_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[28.864284] (package_with_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[28.891217] (-) TimerEvent: {}
+[28.991695] (-) TimerEvent: {}
+[29.059381] (package_with_interfaces) StdoutLine: {'line': b'[100%] Built target package_with_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[29.060840] (package_with_interfaces) StdoutLine: {'line': b'[100%] Built target package_with_interfaces__rosidl_typesupport_c__pyext\n'}
+[29.091884] (-) TimerEvent: {}
+[29.125383] (package_with_interfaces) StdoutLine: {'line': b'[100%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[29.133664] (package_with_interfaces) CommandEnded: {'returncode': 0}
+[29.192016] (-) TimerEvent: {}
+[29.245112] (package_with_interfaces) JobProgress: {'identifier': 'package_with_interfaces', 'progress': 'install'}
+[29.250975] (package_with_interfaces) Command: {'cmd': ['/home/linuxbrew/.linuxbrew/bin/cmake', '--install', '/home/victory/RoboNish/test_1_ros2_ws/build/package_with_interfaces'], 'cwd': '/home/victory/RoboNish/test_1_ros2_ws/build/package_with_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victory'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victory'), ('OLDPWD', '/home/victory/RoboNish/test_1_ros2_ws/package_with_interfaces/srv'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victory/RoboNish/test_1_ros2_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victory'), ('NAME', 'Victory'), ('WSL_INTEROP', '/run/WSL/116_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2204.3.49.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victory/RoboNish/test_1_ros2_ws/build/package_with_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:/home/linuxbrew/.linuxbrew/share/man::'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package:/opt/ros/humble')]), 'shell': False}
+[29.256658] (package_with_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.257656] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/ament_index/resource_index/rosidl_interfaces/package_with_interfaces\n'}
+[29.257951] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces\n'}
+[29.258632] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg\n'}
+[29.259111] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail\n'}
+[29.259593] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__functions.c\n'}
+[29.259833] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__struct.h\n'}
+[29.260167] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__type_support.h\n'}
+[29.260432] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__functions.h\n'}
+[29.260883] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[29.261070] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/amazing_quote.h\n'}
+[29.261325] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv\n'}
+[29.261563] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail\n'}
+[29.261974] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__functions.c\n'}
+[29.262418] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__struct.h\n'}
+[29.262552] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__type_support.h\n'}
+[29.262645] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__functions.h\n'}
+[29.262722] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/what_is_the_point.h\n'}
+[29.263146] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/environment/library_path.sh\n'}
+[29.263581] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/environment/library_path.dsv\n'}
+[29.263872] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_generator_c.so\n'}
+[29.264701] (package_with_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_generator_c.so" to ""\n'}
+[29.265205] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces\n'}
+[29.265568] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg\n'}
+[29.265996] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail\n'}
+[29.266205] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_c.h\n'}
+[29.266500] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[29.266832] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv\n'}
+[29.267384] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail\n'}
+[29.267661] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_fastrtps_c.h\n'}
+[29.268237] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[29.268479] (package_with_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[29.269075] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces\n'}
+[29.269503] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg\n'}
+[29.269913] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail\n'}
+[29.270275] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__struct.hpp\n'}
+[29.270636] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__traits.hpp\n'}
+[29.270901] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__builder.hpp\n'}
+[29.271349] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/amazing_quote.hpp\n'}
+[29.271812] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv\n'}
+[29.272005] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail\n'}
+[29.272204] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__struct.hpp\n'}
+[29.272517] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__builder.hpp\n'}
+[29.272799] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__traits.hpp\n'}
+[29.273053] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/what_is_the_point.hpp\n'}
+[29.273141] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces\n'}
+[29.273220] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg\n'}
+[29.273296] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail\n'}
+[29.273421] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/dds_fastrtps\n'}
+[29.273498] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.274149] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[29.274757] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv\n'}
+[29.275025] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail\n'}
+[29.275252] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/dds_fastrtps\n'}
+[29.275557] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.275786] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[29.276035] (package_with_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[29.276461] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces\n'}
+[29.276685] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg\n'}
+[29.276998] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[29.277340] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail\n'}
+[29.277670] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_introspection_c.h\n'}
+[29.278005] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__type_support.c\n'}
+[29.278564] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv\n'}
+[29.278824] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail\n'}
+[29.279105] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__type_support.c\n'}
+[29.279323] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_introspection_c.h\n'}
+[29.279603] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[29.279864] (package_with_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[29.280101] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_c.so\n'}
+[29.280322] (package_with_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[29.280544] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces\n'}
+[29.280872] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg\n'}
+[29.280990] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail\n'}
+[29.281067] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.281194] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__type_support.cpp\n'}
+[29.281555] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv\n'}
+[29.281791] (package_with_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail\n'}
+[29.282070] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.282310] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__type_support.cpp\n'}
+[29.282543] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[29.282754] (package_with_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[29.282960] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_cpp.so\n'}
+[29.283247] (package_with_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[29.283630] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/environment/pythonpath.sh\n'}
+[29.284115] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/environment/pythonpath.dsv\n'}
+[29.284492] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info\n'}
+[29.284602] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[29.284724] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[29.285145] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[29.285261] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[29.285399] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces\n'}
+[29.285696] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/__init__.py\n'}
+[29.285989] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/libpackage_with_interfaces__rosidl_generator_py.so\n'}
+[29.286402] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[29.286723] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.287016] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg\n'}
+[29.287263] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/__init__.py\n'}
+[29.287535] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/_amazing_quote.py\n'}
+[29.288038] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/_amazing_quote_s.c\n'}
+[29.288141] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.288376] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[29.288643] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv\n'}
+[29.289072] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/__init__.py\n'}
+[29.289197] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/_what_is_the_point.py\n'}
+[29.289275] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/_what_is_the_point_s.c\n'}
+[29.289347] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.289419] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[29.292144] (-) TimerEvent: {}
+[29.392598] (-) TimerEvent: {}
+[29.395710] (package_with_interfaces) StdoutLine: {'line': b"Listing '/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces'...\n"}
+[29.396046] (package_with_interfaces) StdoutLine: {'line': b"Compiling '/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/__init__.py'...\n"}
+[29.396266] (package_with_interfaces) StdoutLine: {'line': b"Listing '/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg'...\n"}
+[29.396446] (package_with_interfaces) StdoutLine: {'line': b"Compiling '/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/__init__.py'...\n"}
+[29.396680] (package_with_interfaces) StdoutLine: {'line': b"Compiling '/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/_amazing_quote.py'...\n"}
+[29.396877] (package_with_interfaces) StdoutLine: {'line': b"Listing '/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv'...\n"}
+[29.397138] (package_with_interfaces) StdoutLine: {'line': b"Compiling '/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/__init__.py'...\n"}
+[29.397323] (package_with_interfaces) StdoutLine: {'line': b"Compiling '/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/_what_is_the_point.py'...\n"}
+[29.404619] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.405475] (package_with_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[29.406054] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.407034] (package_with_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[29.407508] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.408316] (package_with_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[29.408766] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_generator_py.so\n'}
+[29.409394] (package_with_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_generator_py.so" to ""\n'}
+[29.409801] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/msg/AmazingQuote.idl\n'}
+[29.410532] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint.idl\n'}
+[29.410938] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/msg/AmazingQuote.msg\n'}
+[29.411402] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint.srv\n'}
+[29.411583] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint_Request.msg\n'}
+[29.411984] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint_Response.msg\n'}
+[29.412381] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/ament_index/resource_index/package_run_dependencies/package_with_interfaces\n'}
+[29.412829] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/ament_index/resource_index/parent_prefix_path/package_with_interfaces\n'}
+[29.413152] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/environment/ament_prefix_path.sh\n'}
+[29.413394] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/environment/ament_prefix_path.dsv\n'}
+[29.413897] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/environment/path.sh\n'}
+[29.414177] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/environment/path.dsv\n'}
+[29.414594] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/local_setup.bash\n'}
+[29.415010] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/local_setup.sh\n'}
+[29.415329] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/local_setup.zsh\n'}
+[29.415609] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/local_setup.dsv\n'}
+[29.415724] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/package.dsv\n'}
+[29.416063] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/ament_index/resource_index/packages/package_with_interfaces\n'}
+[29.416566] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_cExport.cmake\n'}
+[29.416861] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[29.417167] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[29.417535] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[29.418001] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_cppExport.cmake\n'}
+[29.418435] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[29.418640] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[29.419199] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[29.419543] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[29.419960] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[29.420211] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[29.420723] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[29.420859] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[29.421110] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[29.421656] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[29.421884] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_pyExport.cmake\n'}
+[29.422130] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[29.422505] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[29.422679] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.422954] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.423337] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.423472] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[29.423840] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[29.424368] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[29.424573] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfacesConfig.cmake\n'}
+[29.424916] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfacesConfig-version.cmake\n'}
+[29.425017] (package_with_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/RoboNish/test_1_ros2_ws/install/package_with_interfaces/share/package_with_interfaces/package.xml\n'}
+[29.428459] (package_with_interfaces) CommandEnded: {'returncode': 0}
+[29.492781] (-) TimerEvent: {}
+[29.570176] (package_with_interfaces) JobEnded: {'identifier': 'package_with_interfaces', 'rc': 0}
+[29.571806] (-) EventReactorShutdown: {}

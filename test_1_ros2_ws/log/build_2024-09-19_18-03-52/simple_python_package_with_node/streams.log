@@ -1,0 +1,25 @@
+[1.234s] Invoking command in '/home/victory/RoboNish/test_1_ros2_ws/src/simple_python_package_with_node': PYTHONPATH=/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simple_python_package_with_node build --build-base /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node/build install --record /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node/install.log --single-version-externally-managed install_data
+[1.611s] running egg_info
+[1.613s] writing ../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/PKG-INFO
+[1.613s] writing dependency_links to ../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/dependency_links.txt
+[1.614s] writing entry points to ../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/entry_points.txt
+[1.614s] writing requirements to ../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/requires.txt
+[1.615s] writing top-level names to ../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/top_level.txt
+[1.619s] reading manifest file '../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/SOURCES.txt'
+[1.621s] writing manifest file '../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info/SOURCES.txt'
+[1.622s] running build
+[1.622s] running build_py
+[1.623s] copying simple_python_package_with_node/talk_forever_node.py -> /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node/build/lib/simple_python_package_with_node
+[1.623s] running install
+[1.623s] running install_lib
+[1.624s] copying /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node/build/lib/simple_python_package_with_node/talk_forever_node.py -> /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages/simple_python_package_with_node
+[1.625s] byte-compiling /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages/simple_python_package_with_node/talk_forever_node.py to talk_forever_node.cpython-310.pyc
+[1.626s] running install_data
+[1.626s] running install_egg_info
+[1.629s] removing '/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages/simple_python_package_with_node-0.0.0-py3.10.egg-info' (and everything under it)
+[1.630s] Copying ../../build/simple_python_package_with_node/simple_python_package_with_node.egg-info to /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages/simple_python_package_with_node-0.0.0-py3.10.egg-info
+[1.631s] running install_scripts
+[1.662s] Installing talk_forever_node script to /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/simple_python_package_with_node
+[1.662s] Installing victory_is_talking_python_node script to /home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/simple_python_package_with_node
+[1.663s] writing list of installed files to '/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node/install.log'
+[1.729s] Invoked command in '/home/victory/RoboNish/test_1_ros2_ws/src/simple_python_package_with_node' returned '0': PYTHONPATH=/home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/RoboNish/test_1_ros2_ws/install/simple_python_package_with_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simple_python_package_with_node build --build-base /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node/build install --record /home/victory/RoboNish/test_1_ros2_ws/build/simple_python_package_with_node/install.log --single-version-externally-managed install_data
