@@ -1,0 +1,4 @@
+[console_scripts]
+position_decoder_node = positio_encoder_decoder_python_package.position_decoder_node:main
+position_encoder_node = positio_encoder_decoder_python_package.position_encoder_node:main
+

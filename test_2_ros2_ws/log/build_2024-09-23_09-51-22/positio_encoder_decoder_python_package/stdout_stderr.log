@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info
+writing ../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/dependency_links.txt
+writing entry points to ../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/entry_points.txt
+writing requirements to ../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/requires.txt
+writing top-level names to ../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/top_level.txt
+writing manifest file '../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/build/positio_encoder_decoder_python_package/build
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/build/positio_encoder_decoder_python_package/build/lib
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/build/positio_encoder_decoder_python_package/build/lib/positio_encoder_decoder_python_package
+copying positio_encoder_decoder_python_package/__init__.py -> /home/victory/Robot-Operating-System/test_2_ros2_ws/build/positio_encoder_decoder_python_package/build/lib/positio_encoder_decoder_python_package
+running install
+running install_lib
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages/positio_encoder_decoder_python_package
+copying /home/victory/Robot-Operating-System/test_2_ros2_ws/build/positio_encoder_decoder_python_package/build/lib/positio_encoder_decoder_python_package/__init__.py -> /home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages/positio_encoder_decoder_python_package
+byte-compiling /home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages/positio_encoder_decoder_python_package/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/ament_index
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/ament_index/resource_index
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/ament_index/resource_index/packages
+copying resource/positio_encoder_decoder_python_package -> /home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/positio_encoder_decoder_python_package
+running install_egg_info
+Copying ../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info to /home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages/positio_encoder_decoder_python_package-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/victory/Robot-Operating-System/test_2_ros2_ws/build/positio_encoder_decoder_python_package/install.log'

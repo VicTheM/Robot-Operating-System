@@ -1,0 +1,5 @@
+  File "/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages/positio_encoder_decoder_python_package/position_encoder_node.py", line 31
+    self.publisher_ self.create_publisher(String, 'planar_position', 10)
+                    ^^^^
+SyntaxError: invalid syntax
+
