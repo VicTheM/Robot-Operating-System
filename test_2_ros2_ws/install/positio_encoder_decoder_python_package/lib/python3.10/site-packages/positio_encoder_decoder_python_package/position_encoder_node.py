@@ -32,6 +32,8 @@ class PositionEncoder(Node):
         timer_period = 1            # In seconds
         self.num_of_points = 0
         self.x = 0                  # In degrees
+        self.prev_x = 0
+        self.prev_y = 0
         self.timer = self.create_timer(timer_period, self.get_position)
 
     def get_position(self):
@@ -39,17 +41,20 @@ class PositionEncoder(Node):
         This function generates a planar position co-ordinate that simulates
         a sinusodial movement
         """
+        amplitude = 4
 
-        y = math.sin(math.radians(self.x))
+        y = amplitude * math.sin(math.radians(self.x))
         point = String()
-        point.data = f"{self.x} {y:.2f}"
+        point.data = f"{self.x - self.prev_x} {y - self.prev_y:.2f}"
+        self.prev_x = self.x
         self.x += 5
         self.num_of_points += 1
 
         # publish the point
         self.publisher_.publish(point)
         # spit it on the terminal
-        self.get_logger().info(f"\tx:\t{self.x},\t y:\t{y:.2f}")
+        self.get_logger().info(f"\tx:\t{self.x - self.prev_x},\t y:\t{y - self.prev_y:.2f}")
+        self.prev_y = y
 
 
 

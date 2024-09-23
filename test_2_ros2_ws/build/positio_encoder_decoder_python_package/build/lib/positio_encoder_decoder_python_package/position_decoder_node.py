@@ -5,6 +5,7 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import String
+from geometry_msgs.msg import Twist
 
 
 class PositionDecoder(Node):
@@ -22,12 +23,35 @@ class PositionDecoder(Node):
                 'planar_position',
                 self.custom_callback,
                 10)
+
+        # Publisher to control the tortise
+        self.publisher_ = self.create_publisher(
+                Twist,
+                'turtle1/cmd_vel',
+                10)
+        timer_period = 1        # in secs
+        self.timer = self.create_timer(timer_period, self.control)
         self.subscription       # To prevent unused variable warning
 
     def custom_callback(self, msg):
         x: float = float(msg.data.split()[0])
         y: float = float(msg.data.split()[1])
-        self.get_logger().info(f'x: {x} | y: {y}')
+        self.get_logger().info(f'x: {x - 4.98} | y: {y}')
+        
+        self.control(x - 4.98, y)
+
+    def control(self, x=0.0, y=0.0, z=0.0, angular_x=0.0, angular_y=0.0, angular_z=0.0):
+        twist = Twist()
+
+        twist.linear.x = x
+        twist.linear.y = y
+        twist.linear.z = z
+        
+        twist.angular.x = angular_x
+        twist.angular.y = angular_y
+        twist.angular.z = angular_z
+
+        self.publisher_.publish(twist)
 
 
 

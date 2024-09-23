@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info
+writing ../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/dependency_links.txt
+writing entry points to ../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/entry_points.txt
+writing requirements to ../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/requires.txt
+writing top-level names to ../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/top_level.txt
+writing manifest file '../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/build/motor_distance_sensor_package/build
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/build/motor_distance_sensor_package/build/lib
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/build/motor_distance_sensor_package/build/lib/motor_distance_sensor_package
+copying motor_distance_sensor_package/__init__.py -> /home/victory/Robot-Operating-System/test_2_ros2_ws/build/motor_distance_sensor_package/build/lib/motor_distance_sensor_package
+copying motor_distance_sensor_package/distance_sensor_node.py -> /home/victory/Robot-Operating-System/test_2_ros2_ws/build/motor_distance_sensor_package/build/lib/motor_distance_sensor_package
+running install
+running install_lib
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages/motor_distance_sensor_package
+copying /home/victory/Robot-Operating-System/test_2_ros2_ws/build/motor_distance_sensor_package/build/lib/motor_distance_sensor_package/__init__.py -> /home/victory/Robot-Operating-System/test_2_ros2_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages/motor_distance_sensor_package
+copying /home/victory/Robot-Operating-System/test_2_ros2_ws/build/motor_distance_sensor_package/build/lib/motor_distance_sensor_package/distance_sensor_node.py -> /home/victory/Robot-Operating-System/test_2_ros2_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages/motor_distance_sensor_package
+byte-compiling /home/victory/Robot-Operating-System/test_2_ros2_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages/motor_distance_sensor_package/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/victory/Robot-Operating-System/test_2_ros2_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages/motor_distance_sensor_package/distance_sensor_node.py to distance_sensor_node.cpython-310.pyc
+running install_data
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/install/motor_distance_sensor_package/share/ament_index
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/install/motor_distance_sensor_package/share/ament_index/resource_index
+creating /home/victory/Robot-Operating-System/test_2_ros2_ws/install/motor_distance_sensor_package/share/ament_index/resource_index/packages
+copying resource/motor_distance_sensor_package -> /home/victory/Robot-Operating-System/test_2_ros2_ws/install/motor_distance_sensor_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/victory/Robot-Operating-System/test_2_ros2_ws/install/motor_distance_sensor_package/share/motor_distance_sensor_package
+running install_egg_info
+Copying ../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info to /home/victory/Robot-Operating-System/test_2_ros2_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages/motor_distance_sensor_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing distance_sensor_node script to /home/victory/Robot-Operating-System/test_2_ros2_ws/install/motor_distance_sensor_package/lib/motor_distance_sensor_package
+writing list of installed files to '/home/victory/Robot-Operating-System/test_2_ros2_ws/build/motor_distance_sensor_package/install.log'

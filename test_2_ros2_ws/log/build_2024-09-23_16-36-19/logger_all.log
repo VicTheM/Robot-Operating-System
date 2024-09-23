@@ -1,0 +1,129 @@
+[3.666s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.666s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f5f5363df90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5f5363cf40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5f5363cf40>>, mixin_verb=('build',))
+[11.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[11.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.490s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/victory/Robot-Operating-System/test_2_ros2_ws'
+[11.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[11.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[11.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[11.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[11.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[11.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[11.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[11.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[11.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[11.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[11.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[11.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[11.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[11.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[11.589s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[11.590s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[11.590s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[11.598s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[11.598s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[11.599s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[11.599s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[11.599s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[11.599s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[11.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[11.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[11.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[11.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[11.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[11.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[11.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[11.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[11.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[11.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[11.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[11.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[11.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[11.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[11.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/positio_encoder_decoder_python_package) by extensions ['ignore', 'ignore_ament_install']
+[11.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/positio_encoder_decoder_python_package) by extension 'ignore'
+[11.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/positio_encoder_decoder_python_package) by extension 'ignore_ament_install'
+[11.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/positio_encoder_decoder_python_package) by extensions ['colcon_pkg']
+[11.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/positio_encoder_decoder_python_package) by extension 'colcon_pkg'
+[11.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/positio_encoder_decoder_python_package) by extensions ['colcon_meta']
+[11.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/positio_encoder_decoder_python_package) by extension 'colcon_meta'
+[11.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/positio_encoder_decoder_python_package) by extensions ['ros']
+[11.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/positio_encoder_decoder_python_package) by extension 'ros'
+[11.648s] DEBUG:colcon.colcon_core.package_identification:Package 'src/positio_encoder_decoder_python_package' with type 'ros.ament_python' and name 'positio_encoder_decoder_python_package'
+[11.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[11.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[11.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[11.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[11.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[11.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[11.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[12.078s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/victory/Robot-Operating-System/test_2_ros2_ws/install
+[12.105s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 293 installed packages in /opt/ros/humble
+[12.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[14.296s] Level 5:colcon.colcon_core.verb:set package 'positio_encoder_decoder_python_package' build argument 'cmake_args' from command line to 'None'
+[14.296s] Level 5:colcon.colcon_core.verb:set package 'positio_encoder_decoder_python_package' build argument 'cmake_target' from command line to 'None'
+[14.297s] Level 5:colcon.colcon_core.verb:set package 'positio_encoder_decoder_python_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.297s] Level 5:colcon.colcon_core.verb:set package 'positio_encoder_decoder_python_package' build argument 'cmake_clean_cache' from command line to 'False'
+[14.297s] Level 5:colcon.colcon_core.verb:set package 'positio_encoder_decoder_python_package' build argument 'cmake_clean_first' from command line to 'False'
+[14.297s] Level 5:colcon.colcon_core.verb:set package 'positio_encoder_decoder_python_package' build argument 'cmake_force_configure' from command line to 'False'
+[14.297s] Level 5:colcon.colcon_core.verb:set package 'positio_encoder_decoder_python_package' build argument 'ament_cmake_args' from command line to 'None'
+[14.297s] Level 5:colcon.colcon_core.verb:set package 'positio_encoder_decoder_python_package' build argument 'catkin_cmake_args' from command line to 'None'
+[14.297s] Level 5:colcon.colcon_core.verb:set package 'positio_encoder_decoder_python_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.297s] DEBUG:colcon.colcon_core.verb:Building package 'positio_encoder_decoder_python_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victory/Robot-Operating-System/test_2_ros2_ws/build/positio_encoder_decoder_python_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package', 'merge_install': False, 'path': '/home/victory/Robot-Operating-System/test_2_ros2_ws/src/positio_encoder_decoder_python_package', 'symlink_install': False, 'test_result_base': None}
+[14.298s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[14.300s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[14.300s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/victory/Robot-Operating-System/test_2_ros2_ws/src/positio_encoder_decoder_python_package' with build type 'ament_python'
+[14.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('positio_encoder_decoder_python_package', 'ament_prefix_path')
+[14.429s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[14.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/positio_encoder_decoder_python_package/hook/ament_prefix_path.ps1'
+[14.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/positio_encoder_decoder_python_package/hook/ament_prefix_path.dsv'
+[14.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/positio_encoder_decoder_python_package/hook/ament_prefix_path.sh'
+[14.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.965s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/victory/Robot-Operating-System/test_2_ros2_ws/src/positio_encoder_decoder_python_package'
+[14.965s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.965s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victory/Robot-Operating-System/test_2_ros2_ws/src/positio_encoder_decoder_python_package': PYTHONPATH=/home/victory/Robot-Operating-System/test_2_ros2_ws/build/positio_encoder_decoder_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/positio_encoder_decoder_python_package build --build-base /home/victory/Robot-Operating-System/test_2_ros2_ws/build/positio_encoder_decoder_python_package/build install --record /home/victory/Robot-Operating-System/test_2_ros2_ws/build/positio_encoder_decoder_python_package/install.log --single-version-externally-managed install_data
+[16.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victory/Robot-Operating-System/test_2_ros2_ws/src/positio_encoder_decoder_python_package' returned '0': PYTHONPATH=/home/victory/Robot-Operating-System/test_2_ros2_ws/build/positio_encoder_decoder_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/positio_encoder_decoder_python_package build --build-base /home/victory/Robot-Operating-System/test_2_ros2_ws/build/positio_encoder_decoder_python_package/build install --record /home/victory/Robot-Operating-System/test_2_ros2_ws/build/positio_encoder_decoder_python_package/install.log --single-version-externally-managed install_data
+[16.828s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package' for CMake module files
+[16.838s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package' for CMake config files
+[16.884s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/lib'
+[16.884s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/bin'
+[16.884s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/lib/pkgconfig/positio_encoder_decoder_python_package.pc'
+[16.885s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages'
+[16.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('positio_encoder_decoder_python_package', 'pythonpath')
+[16.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/positio_encoder_decoder_python_package/hook/pythonpath.ps1'
+[16.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/positio_encoder_decoder_python_package/hook/pythonpath.dsv'
+[16.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/positio_encoder_decoder_python_package/hook/pythonpath.sh'
+[16.887s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/bin'
+[16.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(positio_encoder_decoder_python_package)
+[16.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/positio_encoder_decoder_python_package/package.ps1'
+[16.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/positio_encoder_decoder_python_package/package.dsv'
+[16.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/positio_encoder_decoder_python_package/package.sh'
+[16.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/positio_encoder_decoder_python_package/package.bash'
+[16.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/positio_encoder_decoder_python_package/package.zsh'
+[16.922s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/share/colcon-core/packages/positio_encoder_decoder_python_package)
+[16.922s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.923s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.923s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.924s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.120s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[17.120s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.120s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.120s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.139s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[17.139s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/local_setup.ps1'
+[17.156s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/_local_setup_util_ps1.py'
+[17.173s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/setup.ps1'
+[17.176s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/local_setup.sh'
+[17.185s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/_local_setup_util_sh.py'
+[17.185s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/setup.sh'
+[17.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/local_setup.bash'
+[17.205s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/setup.bash'
+[17.207s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/local_setup.zsh'
+[17.209s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victory/Robot-Operating-System/test_2_ros2_ws/install/setup.zsh'
