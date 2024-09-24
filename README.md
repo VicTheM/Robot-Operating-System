@@ -37,8 +37,8 @@ workspace_folder/
 **This repo is organized as follows**
 - two top level folders, both exclusively dedicated to rlcpy and rclcpp. I tried as much as possible to cover
 all ROS2 inbuilt concepts in both folders. Unfortunately, some things can only be done in cpp and not python, so
-they are not included in the python folder, and if other pythin things are dependent on them, then a little cpp will
-be written in the python folder. Example of such things are creating custiom messages
+they are not included in the python folder, and if other python things are dependent on them, then a little cpp will
+be written in the python folder. Example of such things we can't do with python is creating interfaces in ROS2. All interfaces (at the time of writing this in September 2024) must be created with ament_cmake package
 
 - Almost every sub-folder has a readme file explaining what is in each folder, so a parent folder will only explain
 its immediate directory and not that of the subfolders
