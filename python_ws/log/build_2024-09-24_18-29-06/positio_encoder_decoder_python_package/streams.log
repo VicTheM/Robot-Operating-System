@@ -1,0 +1,22 @@
+[1.944s] Invoking command in '/home/victory/Robot-Operating-System/python_ws/src/positio_encoder_decoder_python_package': PYTHONPATH=/home/victory/Robot-Operating-System/python_ws/build/positio_encoder_decoder_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/positio_encoder_decoder_python_package build --build-base /home/victory/Robot-Operating-System/python_ws/build/positio_encoder_decoder_python_package/build install --record /home/victory/Robot-Operating-System/python_ws/build/positio_encoder_decoder_python_package/install.log --single-version-externally-managed install_data
+[2.513s] running egg_info
+[2.516s] writing ../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/PKG-INFO
+[2.516s] writing dependency_links to ../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/dependency_links.txt
+[2.517s] writing entry points to ../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/entry_points.txt
+[2.517s] writing requirements to ../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/requires.txt
+[2.517s] writing top-level names to ../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/top_level.txt
+[2.520s] reading manifest file '../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/SOURCES.txt'
+[2.523s] writing manifest file '../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info/SOURCES.txt'
+[2.523s] running build
+[2.523s] running build_py
+[2.524s] running install
+[2.525s] running install_lib
+[2.528s] running install_data
+[2.528s] running install_egg_info
+[2.538s] removing '/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages/positio_encoder_decoder_python_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.538s] Copying ../../build/positio_encoder_decoder_python_package/positio_encoder_decoder_python_package.egg-info to /home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages/positio_encoder_decoder_python_package-0.0.0-py3.10.egg-info
+[2.540s] running install_scripts
+[2.583s] Installing position_decoder_node script to /home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package/lib/positio_encoder_decoder_python_package
+[2.583s] Installing position_encoder_node script to /home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package/lib/positio_encoder_decoder_python_package
+[2.584s] writing list of installed files to '/home/victory/Robot-Operating-System/python_ws/build/positio_encoder_decoder_python_package/install.log'
+[2.631s] Invoked command in '/home/victory/Robot-Operating-System/python_ws/src/positio_encoder_decoder_python_package' returned '0': PYTHONPATH=/home/victory/Robot-Operating-System/python_ws/build/positio_encoder_decoder_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/positio_encoder_decoder_python_package build --build-base /home/victory/Robot-Operating-System/python_ws/build/positio_encoder_decoder_python_package/build install --record /home/victory/Robot-Operating-System/python_ws/build/positio_encoder_decoder_python_package/install.log --single-version-externally-managed install_data

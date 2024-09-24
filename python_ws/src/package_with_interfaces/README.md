@@ -3,3 +3,5 @@ All messages are defined in the msg folder while services are defined in the srv
 
 > To use a message in same package in another file, simply use the filename as message type
 > To use a message from another package, use <packagename>/<filename> as message type
+
+A topic only accepts one message type and the topic is uniquely identified by a string
