@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'configurable_quote_publisher = package_with_configurable_nodes.configurable_quote_publisher_node:main'
         ],
     },
 )
