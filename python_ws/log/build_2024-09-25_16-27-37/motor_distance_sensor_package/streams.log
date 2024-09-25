@@ -1,0 +1,22 @@
+[2.202s] Invoking command in '/home/victory/Robot-Operating-System/python_ws/src/motor_distance_sensor_package': PYTHONPATH=/home/victory/Robot-Operating-System/python_ws/build/motor_distance_sensor_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_distance_sensor_package build --build-base /home/victory/Robot-Operating-System/python_ws/build/motor_distance_sensor_package/build install --record /home/victory/Robot-Operating-System/python_ws/build/motor_distance_sensor_package/install.log --single-version-externally-managed install_data
+[2.900s] running egg_info
+[2.901s] writing ../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/PKG-INFO
+[2.919s] writing dependency_links to ../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/dependency_links.txt
+[2.920s] writing entry points to ../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/entry_points.txt
+[2.920s] writing requirements to ../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/requires.txt
+[2.920s] writing top-level names to ../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/top_level.txt
+[2.923s] reading manifest file '../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/SOURCES.txt'
+[2.949s] writing manifest file '../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info/SOURCES.txt'
+[2.950s] running build
+[2.950s] running build_py
+[2.969s] running install
+[2.970s] running install_lib
+[2.982s] running install_data
+[3.009s] running install_egg_info
+[3.013s] removing '/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages/motor_distance_sensor_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.014s] Copying ../../build/motor_distance_sensor_package/motor_distance_sensor_package.egg-info to /home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages/motor_distance_sensor_package-0.0.0-py3.10.egg-info
+[3.041s] running install_scripts
+[3.077s] Installing distance_sensor_node script to /home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package/lib/motor_distance_sensor_package
+[3.088s] Installing motor_control_node script to /home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package/lib/motor_distance_sensor_package
+[3.089s] writing list of installed files to '/home/victory/Robot-Operating-System/python_ws/build/motor_distance_sensor_package/install.log'
+[3.972s] Invoked command in '/home/victory/Robot-Operating-System/python_ws/src/motor_distance_sensor_package' returned '0': PYTHONPATH=/home/victory/Robot-Operating-System/python_ws/build/motor_distance_sensor_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_distance_sensor_package build --build-base /home/victory/Robot-Operating-System/python_ws/build/motor_distance_sensor_package/build install --record /home/victory/Robot-Operating-System/python_ws/build/motor_distance_sensor_package/install.log --single-version-externally-managed install_data

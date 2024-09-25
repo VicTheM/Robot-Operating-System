@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/python_package_that_uses_parameters_and_launch_files/python_package_that_uses_parameters_and_launch_files.egg-info/PKG-INFO
+../../build/python_package_that_uses_parameters_and_launch_files/python_package_that_uses_parameters_and_launch_files.egg-info/SOURCES.txt
+../../build/python_package_that_uses_parameters_and_launch_files/python_package_that_uses_parameters_and_launch_files.egg-info/dependency_links.txt
+../../build/python_package_that_uses_parameters_and_launch_files/python_package_that_uses_parameters_and_launch_files.egg-info/entry_points.txt
+../../build/python_package_that_uses_parameters_and_launch_files/python_package_that_uses_parameters_and_launch_files.egg-info/requires.txt
+../../build/python_package_that_uses_parameters_and_launch_files/python_package_that_uses_parameters_and_launch_files.egg-info/top_level.txt
+../../build/python_package_that_uses_parameters_and_launch_files/python_package_that_uses_parameters_and_launch_files.egg-info/zip-safe
+launch/publisher_launch.py
+python_package_that_uses_parameters_and_launch_files/__init__.py
+python_package_that_uses_parameters_and_launch_files/amazing_quote_configurable_publisher_node.py
+resource/python_package_that_uses_parameters_and_launch_files
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

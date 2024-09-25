@@ -1,0 +1,3 @@
+[console_scripts]
+configurable_amazing_quote_publisher_node = package_with_configurable_nodes.configurable_amazing_quote_publisher_node:main
+

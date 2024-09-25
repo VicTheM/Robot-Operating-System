@@ -1,0 +1,179 @@
+[0.064s] Invoking command in '/home/victory/Robot-Operating-System/python_ws/build/package_with_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/python_ws/build/package_with_interfaces -- -j4 -l4
+[1.241s] [  2%] Built target package_with_interfaces__cpp
+[1.242s] [ 12%] Built target package_with_interfaces__rosidl_generator_c
+[1.243s] [ 12%] Built target ament_cmake_python_copy_package_with_interfaces
+[1.244s] [ 23%] Built target package_with_interfaces__rosidl_typesupport_introspection_cpp
+[1.244s] [ 33%] Built target package_with_interfaces__rosidl_typesupport_cpp
+[1.244s] [ 43%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.245s] [ 53%] Built target package_with_interfaces__rosidl_typesupport_introspection_c
+[1.245s] [ 64%] Built target package_with_interfaces__rosidl_typesupport_c
+[1.246s] [ 74%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_c
+[1.247s] [ 74%] Built target package_with_interfaces
+[1.247s] [ 76%] Built target package_with_interfaces__py
+[1.247s] [ 84%] Built target package_with_interfaces__rosidl_generator_py
+[1.248s] [ 89%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.248s] [ 94%] Built target package_with_interfaces__rosidl_typesupport_c__pyext
+[1.248s] [100%] Built target package_with_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.249s] running egg_info
+[1.249s] writing package_with_interfaces.egg-info/PKG-INFO
+[1.249s] writing dependency_links to package_with_interfaces.egg-info/dependency_links.txt
+[1.250s] writing top-level names to package_with_interfaces.egg-info/top_level.txt
+[1.250s] reading manifest file 'package_with_interfaces.egg-info/SOURCES.txt'
+[1.251s] writing manifest file 'package_with_interfaces.egg-info/SOURCES.txt'
+[1.251s] [100%] Built target ament_cmake_python_build_package_with_interfaces_egg
+[1.252s] Invoked command in '/home/victory/Robot-Operating-System/python_ws/build/package_with_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/python_ws/build/package_with_interfaces -- -j4 -l4
+[1.470s] Invoking command in '/home/victory/Robot-Operating-System/python_ws/build/package_with_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/python_ws/build/package_with_interfaces
+[1.484s] -- Install configuration: ""
+[1.484s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/ament_index/resource_index/rosidl_interfaces/package_with_interfaces
+[1.484s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[1.485s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[1.485s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[1.486s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__functions.c
+[1.486s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__struct.h
+[1.486s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__type_support.h
+[1.486s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__functions.h
+[1.486s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.487s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/amazing_quote.h
+[1.487s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[1.487s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[1.488s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__functions.c
+[1.488s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__struct.h
+[1.488s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__type_support.h
+[1.488s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__functions.h
+[1.488s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/what_is_the_point.h
+[1.488s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/environment/library_path.sh
+[1.489s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/environment/library_path.dsv
+[1.489s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_generator_c.so
+[1.494s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[1.495s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[1.495s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[1.496s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_c.h
+[1.496s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.497s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[1.497s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[1.497s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_fastrtps_c.h
+[1.498s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.498s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[1.498s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[1.499s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[1.499s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__struct.hpp
+[1.499s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__traits.hpp
+[1.500s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__builder.hpp
+[1.501s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/amazing_quote.hpp
+[1.501s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[1.502s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[1.503s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__struct.hpp
+[1.503s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__builder.hpp
+[1.504s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__traits.hpp
+[1.505s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/what_is_the_point.hpp
+[1.505s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[1.505s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[1.506s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[1.506s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/dds_fastrtps
+[1.506s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_cpp.hpp
+[1.507s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.507s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[1.507s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[1.508s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/dds_fastrtps
+[1.508s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.508s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.508s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[1.509s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[1.509s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.512s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[1.514s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_introspection_c.h
+[1.514s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__type_support.c
+[1.515s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[1.515s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[1.515s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__type_support.c
+[1.516s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_introspection_c.h
+[1.516s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_introspection_c.so
+[1.516s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_c.so
+[1.517s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[1.517s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[1.518s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[1.518s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_introspection_cpp.hpp
+[1.519s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__type_support.cpp
+[1.520s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[1.520s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[1.521s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_introspection_cpp.hpp
+[1.521s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__type_support.cpp
+[1.521s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.521s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_cpp.so
+[1.522s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/environment/pythonpath.sh
+[1.522s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/environment/pythonpath.dsv
+[1.522s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info
+[1.522s] -- Installing: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.522s] -- Installing: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.523s] -- Installing: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.523s] -- Installing: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.523s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces
+[1.523s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/__init__.py
+[1.523s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/libpackage_with_interfaces__rosidl_generator_py.so
+[1.524s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.524s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.524s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg
+[1.524s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/__init__.py
+[1.524s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/_amazing_quote.py
+[1.525s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/_amazing_quote_s.c
+[1.525s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.525s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_c.c
+[1.525s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv
+[1.525s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/__init__.py
+[1.526s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/_what_is_the_point.py
+[1.526s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/_what_is_the_point_s.c
+[1.526s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.526s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.609s] Listing '/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces'...
+[1.610s] Listing '/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg'...
+[1.610s] Listing '/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv'...
+[1.618s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.619s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.620s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.620s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_generator_py.so
+[1.621s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/msg/AmazingQuote.idl
+[1.622s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint.idl
+[1.622s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/msg/AmazingQuote.msg
+[1.623s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint.srv
+[1.623s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint_Request.msg
+[1.623s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint_Response.msg
+[1.623s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/ament_index/resource_index/package_run_dependencies/package_with_interfaces
+[1.624s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/ament_index/resource_index/parent_prefix_path/package_with_interfaces
+[1.624s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/environment/ament_prefix_path.sh
+[1.624s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/environment/ament_prefix_path.dsv
+[1.625s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/environment/path.sh
+[1.625s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/environment/path.dsv
+[1.625s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/local_setup.bash
+[1.626s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/local_setup.sh
+[1.626s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/local_setup.zsh
+[1.626s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/local_setup.dsv
+[1.627s] -- Installing: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/package.dsv
+[1.627s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/ament_index/resource_index/packages/package_with_interfaces
+[1.627s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_cExport.cmake
+[1.627s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.628s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.628s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.628s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_cppExport.cmake
+[1.628s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.628s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.628s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.629s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.631s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cExport.cmake
+[1.632s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.632s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.633s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.634s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cppExport.cmake
+[1.634s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.634s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_pyExport.cmake
+[1.635s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.635s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.635s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.636s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.636s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.636s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.637s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.637s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.640s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfacesConfig.cmake
+[1.640s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfacesConfig-version.cmake
+[1.641s] -- Up-to-date: /home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/package.xml
+[1.641s] Invoked command in '/home/victory/Robot-Operating-System/python_ws/build/package_with_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/python_ws/build/package_with_interfaces

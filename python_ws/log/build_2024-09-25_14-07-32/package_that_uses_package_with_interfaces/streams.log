@@ -1,0 +1,24 @@
+[1.781s] Invoking command in '/home/victory/Robot-Operating-System/python_ws/src/package_that_uses_package_with_interfaces': PYTHONPATH=/home/victory/Robot-Operating-System/python_ws/build/package_that_uses_package_with_interfaces/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/package_that_uses_package_with_interfaces build --build-base /home/victory/Robot-Operating-System/python_ws/build/package_that_uses_package_with_interfaces/build install --record /home/victory/Robot-Operating-System/python_ws/build/package_that_uses_package_with_interfaces/install.log --single-version-externally-managed install_data
+[2.156s] running egg_info
+[2.159s] writing ../../build/package_that_uses_package_with_interfaces/package_that_uses_package_with_interfaces.egg-info/PKG-INFO
+[2.168s] writing dependency_links to ../../build/package_that_uses_package_with_interfaces/package_that_uses_package_with_interfaces.egg-info/dependency_links.txt
+[2.169s] writing entry points to ../../build/package_that_uses_package_with_interfaces/package_that_uses_package_with_interfaces.egg-info/entry_points.txt
+[2.169s] writing requirements to ../../build/package_that_uses_package_with_interfaces/package_that_uses_package_with_interfaces.egg-info/requires.txt
+[2.169s] writing top-level names to ../../build/package_that_uses_package_with_interfaces/package_that_uses_package_with_interfaces.egg-info/top_level.txt
+[2.172s] reading manifest file '../../build/package_that_uses_package_with_interfaces/package_that_uses_package_with_interfaces.egg-info/SOURCES.txt'
+[2.200s] writing manifest file '../../build/package_that_uses_package_with_interfaces/package_that_uses_package_with_interfaces.egg-info/SOURCES.txt'
+[2.200s] running build
+[2.200s] running build_py
+[2.219s] running install
+[2.220s] running install_lib
+[2.224s] running install_data
+[2.224s] running install_egg_info
+[2.227s] removing '/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/python3.10/site-packages/package_that_uses_package_with_interfaces-0.0.0-py3.10.egg-info' (and everything under it)
+[2.227s] Copying ../../build/package_that_uses_package_with_interfaces/package_that_uses_package_with_interfaces.egg-info to /home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/python3.10/site-packages/package_that_uses_package_with_interfaces-0.0.0-py3.10.egg-info
+[2.261s] running install_scripts
+[2.290s] Installing amazing_quote_publisher_node script to /home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/package_that_uses_package_with_interfaces
+[2.295s] Installing amazing_quote_subscription_node script to /home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/package_that_uses_package_with_interfaces
+[2.296s] Installing service_client_node script to /home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/package_that_uses_package_with_interfaces
+[2.296s] Installing service_server_node script to /home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/package_that_uses_package_with_interfaces
+[2.296s] writing list of installed files to '/home/victory/Robot-Operating-System/python_ws/build/package_that_uses_package_with_interfaces/install.log'
+[2.340s] Invoked command in '/home/victory/Robot-Operating-System/python_ws/src/package_that_uses_package_with_interfaces' returned '0': PYTHONPATH=/home/victory/Robot-Operating-System/python_ws/build/package_that_uses_package_with_interfaces/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/package_that_uses_package_with_interfaces build --build-base /home/victory/Robot-Operating-System/python_ws/build/package_that_uses_package_with_interfaces/build install --record /home/victory/Robot-Operating-System/python_ws/build/package_that_uses_package_with_interfaces/install.log --single-version-externally-managed install_data

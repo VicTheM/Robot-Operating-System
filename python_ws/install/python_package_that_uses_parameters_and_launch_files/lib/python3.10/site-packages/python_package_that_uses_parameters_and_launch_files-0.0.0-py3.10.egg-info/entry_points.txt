@@ -1,0 +1,3 @@
+[console_scripts]
+amazing_quote_configurable_publisher_node = python_package_that_uses_parameters_and_launch_files.amazing_quote_configurable_publisher_node:main
+

@@ -1,0 +1,25 @@
+[3.256s] Invoking command in '/home/victory/Robot-Operating-System/python_ws/src/package_with_configurable_nodes': PYTHONPATH=/home/victory/Robot-Operating-System/python_ws/build/package_with_configurable_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/package_with_configurable_nodes build --build-base /home/victory/Robot-Operating-System/python_ws/build/package_with_configurable_nodes/build install --record /home/victory/Robot-Operating-System/python_ws/build/package_with_configurable_nodes/install.log --single-version-externally-managed install_data
+[3.859s] running egg_info
+[3.860s] writing ../../build/package_with_configurable_nodes/package_with_configurable_nodes.egg-info/PKG-INFO
+[3.861s] writing dependency_links to ../../build/package_with_configurable_nodes/package_with_configurable_nodes.egg-info/dependency_links.txt
+[3.862s] writing entry points to ../../build/package_with_configurable_nodes/package_with_configurable_nodes.egg-info/entry_points.txt
+[3.862s] writing requirements to ../../build/package_with_configurable_nodes/package_with_configurable_nodes.egg-info/requires.txt
+[3.862s] writing top-level names to ../../build/package_with_configurable_nodes/package_with_configurable_nodes.egg-info/top_level.txt
+[3.866s] reading manifest file '../../build/package_with_configurable_nodes/package_with_configurable_nodes.egg-info/SOURCES.txt'
+[3.868s] writing manifest file '../../build/package_with_configurable_nodes/package_with_configurable_nodes.egg-info/SOURCES.txt'
+[3.869s] running build
+[3.869s] running build_py
+[3.870s] copying package_with_configurable_nodes/configurable_amazing_quote_publisher_node.py -> /home/victory/Robot-Operating-System/python_ws/build/package_with_configurable_nodes/build/lib/package_with_configurable_nodes
+[3.870s] running install
+[3.871s] running install_lib
+[3.873s] copying /home/victory/Robot-Operating-System/python_ws/build/package_with_configurable_nodes/build/lib/package_with_configurable_nodes/configurable_amazing_quote_publisher_node.py -> /home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/python3.10/site-packages/package_with_configurable_nodes
+[3.874s] byte-compiling /home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/python3.10/site-packages/package_with_configurable_nodes/configurable_amazing_quote_publisher_node.py to configurable_amazing_quote_publisher_node.cpython-310.pyc
+[3.875s] running install_data
+[3.876s] copying launch/configurable_node_launch.py -> /home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/share/package_with_configurable_nodes/launch
+[3.876s] running install_egg_info
+[3.879s] removing '/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/python3.10/site-packages/package_with_configurable_nodes-0.0.0-py3.10.egg-info' (and everything under it)
+[3.880s] Copying ../../build/package_with_configurable_nodes/package_with_configurable_nodes.egg-info to /home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/python3.10/site-packages/package_with_configurable_nodes-0.0.0-py3.10.egg-info
+[3.881s] running install_scripts
+[3.911s] Installing configurable_amazing_quote_publisher_node script to /home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/package_with_configurable_nodes
+[3.912s] writing list of installed files to '/home/victory/Robot-Operating-System/python_ws/build/package_with_configurable_nodes/install.log'
+[3.970s] Invoked command in '/home/victory/Robot-Operating-System/python_ws/src/package_with_configurable_nodes' returned '0': PYTHONPATH=/home/victory/Robot-Operating-System/python_ws/build/package_with_configurable_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/package_with_configurable_nodes build --build-base /home/victory/Robot-Operating-System/python_ws/build/package_with_configurable_nodes/build install --record /home/victory/Robot-Operating-System/python_ws/build/package_with_configurable_nodes/install.log --single-version-externally-managed install_data

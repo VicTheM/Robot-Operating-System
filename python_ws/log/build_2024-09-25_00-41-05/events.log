@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000197] (-) JobUnselected: {'identifier': 'motor_distance_sensor_package'}
+[0.000252] (-) JobUnselected: {'identifier': 'package_that_uses_package_with_interfaces'}
+[0.000368] (-) JobUnselected: {'identifier': 'package_with_configurable_nodes'}
+[0.000430] (-) JobUnselected: {'identifier': 'package_with_interfaces'}
+[0.000471] (-) JobUnselected: {'identifier': 'positio_encoder_decoder_python_package'}
+[0.000512] (-) EventReactorShutdown: {}
