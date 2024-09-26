@@ -9,7 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
-# --------- User inserted -------------------- #
+# ------------- User inserted ---------------- #
 find_package(rosidl_default_generators REQUIRED)
 
 #### ROS2 Interface Directives ####
@@ -19,6 +19,9 @@ set(interface_files
   
   # Services
   "srv/WhatIsThePoint.srv"
+
+  # Actions
+  "action/Fibonacci.action"
 
 )
 
