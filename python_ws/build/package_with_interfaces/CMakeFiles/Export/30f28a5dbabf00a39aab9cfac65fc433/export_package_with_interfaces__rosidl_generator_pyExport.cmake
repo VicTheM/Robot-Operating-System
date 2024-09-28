@@ -59,7 +59,7 @@ endif()
 add_library(package_with_interfaces::package_with_interfaces__rosidl_generator_py SHARED IMPORTED)
 
 set_target_properties(package_with_interfaces::package_with_interfaces__rosidl_generator_py PROPERTIES
-  INTERFACE_LINK_LIBRARIES "package_with_interfaces::package_with_interfaces__rosidl_generator_c;/usr/lib/x86_64-linux-gnu/libpython3.10.so;package_with_interfaces::package_with_interfaces__rosidl_typesupport_c;geometry_msgs::geometry_msgs__rosidl_generator_py;std_msgs::std_msgs__rosidl_generator_py"
+  INTERFACE_LINK_LIBRARIES "package_with_interfaces::package_with_interfaces__rosidl_generator_c;/usr/lib/x86_64-linux-gnu/libpython3.10.so;package_with_interfaces::package_with_interfaces__rosidl_typesupport_c;geometry_msgs::geometry_msgs__rosidl_generator_py;std_msgs::std_msgs__rosidl_generator_py;action_msgs::action_msgs__rosidl_generator_py;builtin_interfaces::builtin_interfaces__rosidl_generator_py;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_py"
 )
 
 # Load information for each installed configuration.

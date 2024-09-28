@@ -1,0 +1,2 @@
+Invoking command in '/home/victory/Robot-Operating-System/python_ws/build/package_with_action_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/python_ws/build/package_with_action_interface -- -j4 -l4
+Invoked command in '/home/victory/Robot-Operating-System/python_ws/build/package_with_action_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/python_ws/build/package_with_action_interface -- -j4 -l4

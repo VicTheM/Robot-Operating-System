@@ -23,7 +23,9 @@ setup(
             'amazing_quote_publisher_node = package_that_uses_package_with_interfaces.amazing_quote_publisher_node:main',
             'amazing_quote_subscription_node = package_that_uses_package_with_interfaces.amazing_quote_subscription_node:main',
             'service_server_node = package_that_uses_package_with_interfaces.service_server_node:main',
-            'service_client_node = package_that_uses_package_with_interfaces.service_client_node:main'
+            'service_client_node = package_that_uses_package_with_interfaces.service_client_node:main',
+            'fibo_action_server = package_that_uses_package_with_interfaces.fibo_action_server:main',
+            'fibo_action_client = package_that_uses_package_with_interfaces.fibo_action_client:main'
             ],
     },
 )

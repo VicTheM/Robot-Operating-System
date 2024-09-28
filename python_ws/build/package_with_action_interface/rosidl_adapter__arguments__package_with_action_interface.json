@@ -1,0 +1,6 @@
+{
+  "package_name": "package_with_action_interface",
+  "non_idl_tuples": [
+    "/home/victory/Robot-Operating-System/python_ws/src/package_with_action_interface:action/Fibo_Nacci.action"
+  ]
+}

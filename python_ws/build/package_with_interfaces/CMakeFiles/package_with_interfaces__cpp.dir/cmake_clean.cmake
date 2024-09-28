@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/package_with_interfaces__cpp"
+  "rosidl_generator_cpp/package_with_interfaces/action/detail/fibonacci__builder.hpp"
+  "rosidl_generator_cpp/package_with_interfaces/action/detail/fibonacci__struct.hpp"
+  "rosidl_generator_cpp/package_with_interfaces/action/detail/fibonacci__traits.hpp"
+  "rosidl_generator_cpp/package_with_interfaces/action/fibonacci.hpp"
   "rosidl_generator_cpp/package_with_interfaces/msg/amazing_quote.hpp"
   "rosidl_generator_cpp/package_with_interfaces/msg/detail/amazing_quote__builder.hpp"
   "rosidl_generator_cpp/package_with_interfaces/msg/detail/amazing_quote__struct.hpp"

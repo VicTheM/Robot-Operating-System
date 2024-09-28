@@ -376,6 +376,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/package_with_interfaces/action" TYPE FILE FILES "/home/victory/Robot-Operating-System/python_ws/build/package_with_interfaces/rosidl_adapter/package_with_interfaces/action/Fibonacci.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/package_with_interfaces/msg" TYPE FILE FILES "/home/victory/Robot-Operating-System/python_ws/src/package_with_interfaces/msg/AmazingQuote.msg")
 endif()
 
@@ -389,6 +393,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/package_with_interfaces/srv" TYPE FILE FILES "/home/victory/Robot-Operating-System/python_ws/build/package_with_interfaces/rosidl_cmake/srv/WhatIsThePoint_Response.msg")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/package_with_interfaces/action" TYPE FILE FILES "/home/victory/Robot-Operating-System/python_ws/src/package_with_interfaces/action/Fibonacci.action")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

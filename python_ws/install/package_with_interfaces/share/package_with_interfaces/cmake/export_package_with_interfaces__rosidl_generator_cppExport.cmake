@@ -60,7 +60,7 @@ add_library(package_with_interfaces::package_with_interfaces__rosidl_generator_c
 
 set_target_properties(package_with_interfaces::package_with_interfaces__rosidl_generator_cpp PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/package_with_interfaces"
-  INTERFACE_LINK_LIBRARIES "geometry_msgs::geometry_msgs__rosidl_generator_cpp;std_msgs::std_msgs__rosidl_generator_cpp;rosidl_runtime_cpp::rosidl_runtime_cpp"
+  INTERFACE_LINK_LIBRARIES "geometry_msgs::geometry_msgs__rosidl_generator_cpp;std_msgs::std_msgs__rosidl_generator_cpp;action_msgs::action_msgs__rosidl_generator_cpp;builtin_interfaces::builtin_interfaces__rosidl_generator_cpp;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_cpp;rosidl_runtime_cpp::rosidl_runtime_cpp"
 )
 
 # Load information for each installed configuration.
