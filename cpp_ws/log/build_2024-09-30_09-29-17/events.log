@@ -1,0 +1,198 @@
+[0.000000] (-) TimerEvent: {}
+[0.000456] (msg_pub_sub_simple_node) JobQueued: {'identifier': 'msg_pub_sub_simple_node', 'dependencies': OrderedDict()}
+[0.000569] (msg_pub_sub_simple_node) JobStarted: {'identifier': 'msg_pub_sub_simple_node'}
+[0.012698] (msg_pub_sub_simple_node) JobProgress: {'identifier': 'msg_pub_sub_simple_node', 'progress': 'cmake'}
+[0.013717] (msg_pub_sub_simple_node) JobProgress: {'identifier': 'msg_pub_sub_simple_node', 'progress': 'build'}
+[0.016598] (msg_pub_sub_simple_node) Command: {'cmd': ['/home/linuxbrew/.linuxbrew/bin/cmake', '--build', '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node', '--', '-j4', '-l4'], 'cwd': '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victory'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/victory'), ('OLDPWD', '/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victory'), ('NAME', 'Victory'), ('WSL_INTEROP', '/run/WSL/284_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2204.3.49.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.041010] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.097932] (-) TimerEvent: {}
+[0.198337] (-) TimerEvent: {}
+[0.298813] (-) TimerEvent: {}
+[0.369550] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399267] (-) TimerEvent: {}
+[0.500353] (-) TimerEvent: {}
+[0.601241] (-) TimerEvent: {}
+[0.702112] (-) TimerEvent: {}
+[0.802960] (-) TimerEvent: {}
+[0.903583] (-) TimerEvent: {}
+[1.004257] (-) TimerEvent: {}
+[1.104899] (-) TimerEvent: {}
+[1.205995] (-) TimerEvent: {}
+[1.306736] (-) TimerEvent: {}
+[1.362917] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.407312] (-) TimerEvent: {}
+[1.428921] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.507686] (-) TimerEvent: {}
+[1.509845] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.608349] (-) TimerEvent: {}
+[1.700849] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.708844] (-) TimerEvent: {}
+[1.809871] (-) TimerEvent: {}
+[1.884415] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.910141] (-) TimerEvent: {}
+[2.010844] (-) TimerEvent: {}
+[2.111436] (-) TimerEvent: {}
+[2.214665] (-) TimerEvent: {}
+[2.296032] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.314903] (-) TimerEvent: {}
+[2.342197] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.415174] (-) TimerEvent: {}
+[2.515670] (-) TimerEvent: {}
+[2.616233] (-) TimerEvent: {}
+[2.716879] (-) TimerEvent: {}
+[2.817524] (-) TimerEvent: {}
+[2.918077] (-) TimerEvent: {}
+[3.018585] (-) TimerEvent: {}
+[3.119073] (-) TimerEvent: {}
+[3.219701] (-) TimerEvent: {}
+[3.320730] (-) TimerEvent: {}
+[3.421439] (-) TimerEvent: {}
+[3.522441] (-) TimerEvent: {}
+[3.623113] (-) TimerEvent: {}
+[3.723783] (-) TimerEvent: {}
+[3.824338] (-) TimerEvent: {}
+[3.924770] (-) TimerEvent: {}
+[4.025348] (-) TimerEvent: {}
+[4.125966] (-) TimerEvent: {}
+[4.226585] (-) TimerEvent: {}
+[4.327131] (-) TimerEvent: {}
+[4.427993] (-) TimerEvent: {}
+[4.528662] (-) TimerEvent: {}
+[4.629203] (-) TimerEvent: {}
+[4.729765] (-) TimerEvent: {}
+[4.830632] (-) TimerEvent: {}
+[4.931433] (-) TimerEvent: {}
+[5.032274] (-) TimerEvent: {}
+[5.132771] (-) TimerEvent: {}
+[5.233486] (-) TimerEvent: {}
+[5.334263] (-) TimerEvent: {}
+[5.435414] (-) TimerEvent: {}
+[5.467885] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[5.535677] (-) TimerEvent: {}
+[5.636398] (-) TimerEvent: {}
+[5.736875] (-) TimerEvent: {}
+[5.837365] (-) TimerEvent: {}
+[5.938067] (-) TimerEvent: {}
+[6.038591] (-) TimerEvent: {}
+[6.139239] (-) TimerEvent: {}
+[6.239880] (-) TimerEvent: {}
+[6.340555] (-) TimerEvent: {}
+[6.441406] (-) TimerEvent: {}
+[6.541981] (-) TimerEvent: {}
+[6.642741] (-) TimerEvent: {}
+[6.743332] (-) TimerEvent: {}
+[6.843971] (-) TimerEvent: {}
+[6.944619] (-) TimerEvent: {}
+[7.045344] (-) TimerEvent: {}
+[7.145965] (-) TimerEvent: {}
+[7.246998] (-) TimerEvent: {}
+[7.347670] (-) TimerEvent: {}
+[7.448356] (-) TimerEvent: {}
+[7.549020] (-) TimerEvent: {}
+[7.649818] (-) TimerEvent: {}
+[7.750436] (-) TimerEvent: {}
+[7.851137] (-) TimerEvent: {}
+[7.951783] (-) TimerEvent: {}
+[8.052531] (-) TimerEvent: {}
+[8.153157] (-) TimerEvent: {}
+[8.253865] (-) TimerEvent: {}
+[8.354587] (-) TimerEvent: {}
+[8.455084] (-) TimerEvent: {}
+[8.555724] (-) TimerEvent: {}
+[8.656494] (-) TimerEvent: {}
+[8.757229] (-) TimerEvent: {}
+[8.857839] (-) TimerEvent: {}
+[8.958466] (-) TimerEvent: {}
+[9.058955] (-) TimerEvent: {}
+[9.159534] (-) TimerEvent: {}
+[9.249706] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[9.260094] (-) TimerEvent: {}
+[9.360703] (-) TimerEvent: {}
+[9.461403] (-) TimerEvent: {}
+[9.561908] (-) TimerEvent: {}
+[9.662312] (-) TimerEvent: {}
+[9.762875] (-) TimerEvent: {}
+[9.863315] (-) TimerEvent: {}
+[9.963838] (-) TimerEvent: {}
+[10.064333] (-) TimerEvent: {}
+[10.164842] (-) TimerEvent: {}
+[10.265418] (-) TimerEvent: {}
+[10.365986] (-) TimerEvent: {}
+[10.466593] (-) TimerEvent: {}
+[10.567145] (-) TimerEvent: {}
+[10.667864] (-) TimerEvent: {}
+[10.768420] (-) TimerEvent: {}
+[10.869131] (-) TimerEvent: {}
+[10.969872] (-) TimerEvent: {}
+[11.070426] (-) TimerEvent: {}
+[11.170963] (-) TimerEvent: {}
+[11.271616] (-) TimerEvent: {}
+[11.372355] (-) TimerEvent: {}
+[11.472910] (-) TimerEvent: {}
+[11.573542] (-) TimerEvent: {}
+[11.674029] (-) TimerEvent: {}
+[11.774485] (-) TimerEvent: {}
+[11.874965] (-) TimerEvent: {}
+[11.975396] (-) TimerEvent: {}
+[12.075969] (-) TimerEvent: {}
+[12.176572] (-) TimerEvent: {}
+[12.277021] (-) TimerEvent: {}
+[12.377557] (-) TimerEvent: {}
+[12.478146] (-) TimerEvent: {}
+[12.578681] (-) TimerEvent: {}
+[12.679331] (-) TimerEvent: {}
+[12.780050] (-) TimerEvent: {}
+[12.880756] (-) TimerEvent: {}
+[12.981273] (-) TimerEvent: {}
+[13.081810] (-) TimerEvent: {}
+[13.182256] (-) TimerEvent: {}
+[13.282693] (-) TimerEvent: {}
+[13.383436] (-) TimerEvent: {}
+[13.484130] (-) TimerEvent: {}
+[13.584788] (-) TimerEvent: {}
+[13.685462] (-) TimerEvent: {}
+[13.786201] (-) TimerEvent: {}
+[13.886842] (-) TimerEvent: {}
+[13.987579] (-) TimerEvent: {}
+[14.088250] (-) TimerEvent: {}
+[14.126836] (msg_pub_sub_simple_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.188512] (-) TimerEvent: {}
+[14.289389] (-) TimerEvent: {}
+[14.344666] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[14.389684] (-) TimerEvent: {}
+[14.490543] (-) TimerEvent: {}
+[14.591366] (-) TimerEvent: {}
+[14.692088] (-) TimerEvent: {}
+[14.792531] (-) TimerEvent: {}
+[14.818127] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[14.820117] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[14.892824] (-) TimerEvent: {}
+[14.993424] (-) TimerEvent: {}
+[15.094324] (-) TimerEvent: {}
+[15.195077] (-) TimerEvent: {}
+[15.295810] (-) TimerEvent: {}
+[15.334749] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[15.395917] (-) TimerEvent: {}
+[15.428661] (msg_pub_sub_simple_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[15.429470] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node/include>\n'}
+[15.430107] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[15.430786] (msg_pub_sub_simple_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.432099] (msg_pub_sub_simple_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.432251] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.432656] (msg_pub_sub_simple_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.433880] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Configuring done (15.4s)\n'}
+[15.443826] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[15.446776] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Build files have been written to: /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node\n'}
+[15.476864] (msg_pub_sub_simple_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/greetings_node.dir/src/greetings_node.cpp.o\x1b[0m\n'}
+[15.496137] (-) TimerEvent: {}
+[15.573129] (msg_pub_sub_simple_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node/src/greetings_node.cpp:13:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[15.573413] (msg_pub_sub_simple_node) StderrLine: {'line': b'   13 | #include \x1b[01;31m\x1b[K"rclcpp/rclcpp.hpp"\x1b[m\x1b[K\n'}
+[15.573570] (msg_pub_sub_simple_node) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.573649] (msg_pub_sub_simple_node) StderrLine: {'line': b'compilation terminated.\n'}
+[15.576194] (msg_pub_sub_simple_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/greetings_node.dir/build.make:76: CMakeFiles/greetings_node.dir/src/greetings_node.cpp.o] Error 1\n'}
+[15.576759] (msg_pub_sub_simple_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/greetings_node.dir/all] Error 2\n'}
+[15.577407] (msg_pub_sub_simple_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.580130] (msg_pub_sub_simple_node) CommandEnded: {'returncode': 2}
+[15.596357] (-) TimerEvent: {}
+[15.645715] (msg_pub_sub_simple_node) JobEnded: {'identifier': 'msg_pub_sub_simple_node', 'rc': 2}
+[15.656736] (-) EventReactorShutdown: {}

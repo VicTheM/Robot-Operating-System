@@ -1,0 +1,2 @@
+Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node -- -j4 -l4
+Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node -- -j4 -l4

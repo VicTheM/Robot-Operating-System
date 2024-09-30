@@ -1,0 +1,22 @@
+[0.024s] Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node -- -j4 -l4
+[0.047s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.809s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[4.809s]   By not providing "Findrlccpp.cmake" in CMAKE_MODULE_PATH this project has
+[4.809s]   asked CMake to find a package configuration file provided by "rlccpp", but
+[4.810s]   CMake did not find one.
+[4.810s] 
+[4.810s]   Could not find a package configuration file provided by "rlccpp" with any
+[4.810s]   of the following names:
+[4.810s] 
+[4.810s]     rlccppConfig.cmake
+[4.810s]     rlccpp-config.cmake
+[4.810s] 
+[4.810s]   Add the installation prefix of "rlccpp" to CMAKE_PREFIX_PATH or set
+[4.810s]   "rlccpp_DIR" to a directory containing one of the above files.  If "rlccpp"
+[4.810s]   provides a separate development package or SDK, be sure it has been
+[4.810s]   installed.
+[4.810s] 
+[4.810s] [0m
+[4.811s] -- Configuring incomplete, errors occurred!
+[4.812s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[4.814s] Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node -- -j4 -l4

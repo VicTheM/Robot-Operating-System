@@ -1,0 +1,43 @@
+[0.017s] Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node -- -j4 -l4
+[0.050s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.355s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.903s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.915s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.931s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.951s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.982s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.072s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.078s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.313s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.396s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.496s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.496s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node/include>
+[14.496s] -- Configured cppcheck exclude dirs and/or files: 
+[14.497s] -- Added test 'lint_cmake' to check CMake code style
+[14.499s] -- Added test 'uncrustify' to check C / C++ code style
+[14.499s] -- Configured uncrustify additional arguments: 
+[14.499s] -- Added test 'xmllint' to check XML markup files
+[14.501s] -- Configuring done (14.5s)
+[14.518s] -- Generating done (0.0s)
+[14.521s] -- Build files have been written to: /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node
+[14.553s] [ 50%] [32mBuilding CXX object CMakeFiles/greetings_node.dir/src/greetings_node.cpp.o[0m
+[22.148s] [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node/src/greetings_node.cpp:43:59:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedptr[m[K’ in ‘[01m[Kclass rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >[m[K’ does not name a type
+[22.148s]    43 |                 rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedptr[m[K publisher_;
+[22.149s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[22.157s] [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node/src/greetings_node.cpp:[m[K In constructor ‘[01m[KGreetingsNode::GreetingsNode()[m[K’:
+[22.158s] [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node/src/greetings_node.cpp:27:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[22.158s]    27 |                         [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("messages", 10);
+[22.158s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[22.158s]       |                         [32m[Krmw_publisher_t[m[K
+[22.180s] [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node/src/greetings_node.cpp:[m[K In member function ‘[01m[Kvoid GreetingsNode::timer_callback()[m[K’:
+[22.180s] [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node/src/greetings_node.cpp:36:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs_msg[m[K’ has not been declared
+[22.181s]    36 |                         auto message = [01;31m[Kstd_msgs_msg[m[K::String();
+[22.181s]       |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[22.193s] [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node/src/greetings_node.cpp:39:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[22.193s]    39 |                         [01;31m[Kpublisher_[m[K->publish(message);
+[22.193s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[22.193s]       |                         [32m[Krmw_publisher_t[m[K
+[23.434s] gmake[2]: *** [CMakeFiles/greetings_node.dir/build.make:76: CMakeFiles/greetings_node.dir/src/greetings_node.cpp.o] Error 1
+[23.435s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/greetings_node.dir/all] Error 2
+[23.435s] gmake: *** [Makefile:146: all] Error 2
+[23.438s] Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node -- -j4 -l4

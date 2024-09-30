@@ -1,0 +1,10 @@
+/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node/CMakeFiles/uninstall.dir
+/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node/CMakeFiles/msg_pub_sub_simple_node_uninstall.dir
+/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node/CMakeFiles/greetings_node.dir
+/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node/CMakeFiles/test.dir
+/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node/CMakeFiles/edit_cache.dir
+/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node/CMakeFiles/rebuild_cache.dir
+/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node/CMakeFiles/list_install_components.dir
+/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node/CMakeFiles/install.dir
+/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node/CMakeFiles/install/local.dir
+/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node/CMakeFiles/install/strip.dir

@@ -1,0 +1,8 @@
+source;share/msg_pub_sub_simple_node/hook/cmake_prefix_path.ps1
+source;share/msg_pub_sub_simple_node/hook/cmake_prefix_path.dsv
+source;share/msg_pub_sub_simple_node/hook/cmake_prefix_path.sh
+source;share/msg_pub_sub_simple_node/local_setup.bash
+source;share/msg_pub_sub_simple_node/local_setup.dsv
+source;share/msg_pub_sub_simple_node/local_setup.ps1
+source;share/msg_pub_sub_simple_node/local_setup.sh
+source;share/msg_pub_sub_simple_node/local_setup.zsh

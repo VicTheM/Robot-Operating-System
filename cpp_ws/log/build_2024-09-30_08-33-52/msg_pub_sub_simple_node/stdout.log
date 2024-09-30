@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (12.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node
+[ 50%] [32mBuilding CXX object CMakeFiles/greetings_node.dir/src/greetings_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable greetings_node[0m
+[100%] Built target greetings_node
+-- Install configuration: ""
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/lib/msg_pub_sub_simple_node/greetings_node
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/ament_index/resource_index/package_run_dependencies/msg_pub_sub_simple_node
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/ament_index/resource_index/parent_prefix_path/msg_pub_sub_simple_node
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/ament_prefix_path.sh
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/ament_prefix_path.dsv
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/path.sh
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/path.dsv
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.bash
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.sh
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.zsh
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.dsv
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.dsv
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/ament_index/resource_index/packages/msg_pub_sub_simple_node
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/cmake/msg_pub_sub_simple_nodeConfig.cmake
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/cmake/msg_pub_sub_simple_nodeConfig-version.cmake
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.xml
