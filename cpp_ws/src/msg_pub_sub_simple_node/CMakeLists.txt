@@ -15,7 +15,15 @@ find_package(std_msgs REQUIRED)
 
 # The first argument is the name we desire to use alongside ros2 run
 add_executable(greetings_node src/greetings_node.cpp)
+add_executable(greetings_sub src/greetings_sub.cpp)
 ament_target_dependencies(greetings_node rclcpp std_msgs)
+ament_target_dependencies(greetings_sub rclcpp std_msgs)
+#
+target_include_directories(greetings_sub PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_compile_features(greetings_sub PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+
 
 target_include_directories(greetings_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -23,7 +31,7 @@ target_include_directories(greetings_node PUBLIC
 target_compile_features(greetings_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
 # For ROS2 to be able to find our executable
-install(TARGETS greetings_node
+install(TARGETS greetings_node greetings_sub
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

@@ -1,0 +1,8 @@
+[0.241s] Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node -- -j4 -l4
+[1.876s] [31mCMake Error at CMakeLists.txt:33:
+[1.877s]   Parse error.  Expected "(", got identifier with text "ROS2".
+[1.877s] 
+[1.878s] [0m
+[1.878s] -- Configuring incomplete, errors occurred!
+[1.933s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[1.943s] Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node -- -j4 -l4

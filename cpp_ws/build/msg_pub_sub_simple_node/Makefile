@@ -210,6 +210,19 @@ greetings_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/greetings_node.dir/build.make CMakeFiles/greetings_node.dir/build
 .PHONY : greetings_node/fast
 
+#=============================================================================
+# Target rules for targets named greetings_sub
+
+# Build rule for target.
+greetings_sub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 greetings_sub
+.PHONY : greetings_sub
+
+# fast build rule for target.
+greetings_sub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greetings_sub.dir/build.make CMakeFiles/greetings_sub.dir/build
+.PHONY : greetings_sub/fast
+
 src/greetings_node.o: src/greetings_node.cpp.o
 .PHONY : src/greetings_node.o
 
@@ -234,6 +247,30 @@ src/greetings_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/greetings_node.dir/build.make CMakeFiles/greetings_node.dir/src/greetings_node.cpp.s
 .PHONY : src/greetings_node.cpp.s
 
+src/greetings_sub.o: src/greetings_sub.cpp.o
+.PHONY : src/greetings_sub.o
+
+# target to build an object file
+src/greetings_sub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greetings_sub.dir/build.make CMakeFiles/greetings_sub.dir/src/greetings_sub.cpp.o
+.PHONY : src/greetings_sub.cpp.o
+
+src/greetings_sub.i: src/greetings_sub.cpp.i
+.PHONY : src/greetings_sub.i
+
+# target to preprocess a source file
+src/greetings_sub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greetings_sub.dir/build.make CMakeFiles/greetings_sub.dir/src/greetings_sub.cpp.i
+.PHONY : src/greetings_sub.cpp.i
+
+src/greetings_sub.s: src/greetings_sub.cpp.s
+.PHONY : src/greetings_sub.s
+
+# target to generate assembly for a file
+src/greetings_sub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greetings_sub.dir/build.make CMakeFiles/greetings_sub.dir/src/greetings_sub.cpp.s
+.PHONY : src/greetings_sub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... msg_pub_sub_simple_node_uninstall"
 	@echo "... uninstall"
 	@echo "... greetings_node"
+	@echo "... greetings_sub"
 	@echo "... src/greetings_node.o"
 	@echo "... src/greetings_node.i"
 	@echo "... src/greetings_node.s"
+	@echo "... src/greetings_sub.o"
+	@echo "... src/greetings_sub.i"
+	@echo "... src/greetings_sub.s"
 .PHONY : help
 
 
