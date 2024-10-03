@@ -1,0 +1,47 @@
+[0.029s] Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/srv_client -- -j4 -l4
+[0.059s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.416s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.691s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.695s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.704s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.738s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.789s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.792s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.883s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.963s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[9.025s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.116s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.116s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/victory/Robot-Operating-System/cpp_ws/src/srv_client/include>
+[9.116s] -- Configured cppcheck exclude dirs and/or files: 
+[9.117s] -- Added test 'lint_cmake' to check CMake code style
+[9.119s] -- Added test 'uncrustify' to check C / C++ code style
+[9.119s] -- Configured uncrustify additional arguments: 
+[9.120s] -- Added test 'xmllint' to check XML markup files
+[9.121s] -- Configuring done (9.1s)
+[9.182s] -- Generating done (0.1s)
+[9.185s] -- Build files have been written to: /home/victory/Robot-Operating-System/cpp_ws/build/srv_client
+[9.217s] [ 25%] [32mBuilding CXX object CMakeFiles/demo_request_client.dir/src/demo_request_client.cpp.o[0m
+[9.232s] [ 75%] Built target demo_service_client
+[14.011s] [100%] [32m[1mLinking CXX executable demo_request_client[0m
+[14.386s] [100%] Built target demo_request_client
+[14.395s] Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/srv_client -- -j4 -l4
+[14.469s] Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/srv_client
+[14.472s] -- Install configuration: ""
+[14.472s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/lib/srv_client/demo_service_client
+[14.473s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/ament_index/resource_index/package_run_dependencies/srv_client
+[14.473s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/ament_index/resource_index/parent_prefix_path/srv_client
+[14.474s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/environment/ament_prefix_path.sh
+[14.474s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/environment/ament_prefix_path.dsv
+[14.474s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/environment/path.sh
+[14.474s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/environment/path.dsv
+[14.475s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/local_setup.bash
+[14.475s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/local_setup.sh
+[14.476s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/local_setup.zsh
+[14.476s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/local_setup.dsv
+[14.477s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.dsv
+[14.478s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/ament_index/resource_index/packages/srv_client
+[14.478s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/cmake/srv_clientConfig.cmake
+[14.479s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/cmake/srv_clientConfig-version.cmake
+[14.480s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.xml
+[14.481s] Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/srv_client

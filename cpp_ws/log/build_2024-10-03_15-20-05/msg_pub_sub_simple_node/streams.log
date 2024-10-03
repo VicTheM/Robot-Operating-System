@@ -1,0 +1,24 @@
+[0.023s] Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node -- -j4 -l4
+[0.093s] [ 50%] Built target greetings_node
+[0.093s] [100%] Built target greetings_sub
+[0.102s] Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node -- -j4 -l4
+[0.160s] Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node
+[0.166s] -- Install configuration: ""
+[0.166s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/lib/msg_pub_sub_simple_node/greetings_node
+[0.167s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/lib/msg_pub_sub_simple_node/greetings_sub
+[0.168s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/ament_index/resource_index/package_run_dependencies/msg_pub_sub_simple_node
+[0.168s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/ament_index/resource_index/parent_prefix_path/msg_pub_sub_simple_node
+[0.169s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/ament_prefix_path.sh
+[0.169s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/ament_prefix_path.dsv
+[0.169s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/path.sh
+[0.170s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/path.dsv
+[0.170s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.bash
+[0.170s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.sh
+[0.171s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.zsh
+[0.171s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.dsv
+[0.174s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.dsv
+[0.174s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/ament_index/resource_index/packages/msg_pub_sub_simple_node
+[0.175s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/cmake/msg_pub_sub_simple_nodeConfig.cmake
+[0.175s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/cmake/msg_pub_sub_simple_nodeConfig-version.cmake
+[0.176s] -- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.xml
+[0.176s] Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node

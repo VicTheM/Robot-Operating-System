@@ -1,0 +1,20 @@
+[100%] Built target greetings_sub
+[100%] Built target greetings_node
+-- Install configuration: ""
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/lib/msg_pub_sub_simple_node/greetings_node
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/lib/msg_pub_sub_simple_node/greetings_sub
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/ament_index/resource_index/package_run_dependencies/msg_pub_sub_simple_node
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/ament_index/resource_index/parent_prefix_path/msg_pub_sub_simple_node
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/path.sh
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/path.dsv
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.bash
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.sh
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.zsh
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.dsv
+-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.dsv
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/ament_index/resource_index/packages/msg_pub_sub_simple_node
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/cmake/msg_pub_sub_simple_nodeConfig.cmake
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/cmake/msg_pub_sub_simple_nodeConfig-version.cmake
+-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.xml

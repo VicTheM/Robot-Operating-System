@@ -1,0 +1,2 @@
+source;share/srv_client/environment/ament_prefix_path.sh
+source;share/srv_client/environment/path.sh
