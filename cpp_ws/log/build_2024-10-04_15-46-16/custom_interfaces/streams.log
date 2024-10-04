@@ -1,0 +1,8 @@
+[0.018s] Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces -- -j4 -l4
+[0.092s] [31mCMake Error at CMakeLists.txt:18:
+[0.092s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.092s] 
+[0.092s] [0m
+[0.092s] -- Configuring incomplete, errors occurred!
+[0.093s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.096s] Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces -- -j4 -l4

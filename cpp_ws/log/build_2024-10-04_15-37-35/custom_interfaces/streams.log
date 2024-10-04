@@ -1,0 +1,47 @@
+[0.439s] Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake /home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces
+[3.293s] -- The C compiler identification is GNU 11.4.0
+[5.541s] -- The CXX compiler identification is GNU 11.4.0
+[6.809s] -- Detecting C compiler ABI info
+[7.336s] -- Detecting C compiler ABI info - done
+[7.357s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.359s] -- Detecting C compile features
+[7.374s] -- Detecting C compile features - done
+[7.401s] -- Detecting CXX compiler ABI info
+[7.756s] -- Detecting CXX compiler ABI info - done
+[7.778s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.779s] -- Detecting CXX compile features
+[7.780s] -- Detecting CXX compile features - done
+[8.253s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.512s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[9.019s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[9.090s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.191s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.674s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.958s] -- Added test 'lint_cmake' to check CMake code style
+[10.962s] -- Added test 'xmllint' to check XML markup files
+[10.994s] -- Configuring done (9.8s)
+[11.016s] -- Generating done (0.0s)
+[11.018s] -- Build files have been written to: /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces
+[11.030s] Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake /home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces
+[11.034s] Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces -- -j4 -l4
+[11.068s] Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces -- -j4 -l4
+[11.103s] Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces
+[11.108s] -- Install configuration: ""
+[11.133s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[11.135s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[11.137s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[11.137s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[11.137s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[11.138s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[11.138s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[11.139s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[11.139s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[11.140s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[11.140s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[11.141s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[11.142s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.143s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[11.143s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[11.143s] -- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[11.147s] Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces
