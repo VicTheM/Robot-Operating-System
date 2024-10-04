@@ -198,6 +198,19 @@ custom_interfaces_uninstall/fast:
 .PHONY : custom_interfaces_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named publish_address_book
+
+# Build rule for target.
+publish_address_book: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 publish_address_book
+.PHONY : publish_address_book
+
+# fast build rule for target.
+publish_address_book/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/build
+.PHONY : publish_address_book/fast
+
+#=============================================================================
 # Target rules for targets named custom_interfaces
 
 # Build rule for target.
@@ -669,6 +682,30 @@ rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/address_book__
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/address_book__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/address_book__type_support.cpp.s
 
+src/publish_address_book.o: src/publish_address_book.cpp.o
+.PHONY : src/publish_address_book.o
+
+# target to build an object file
+src/publish_address_book.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o
+.PHONY : src/publish_address_book.cpp.o
+
+src/publish_address_book.i: src/publish_address_book.cpp.i
+.PHONY : src/publish_address_book.i
+
+# target to preprocess a source file
+src/publish_address_book.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.i
+.PHONY : src/publish_address_book.cpp.i
+
+src/publish_address_book.s: src/publish_address_book.cpp.s
+.PHONY : src/publish_address_book.s
+
+# target to generate assembly for a file
+src/publish_address_book.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.s
+.PHONY : src/publish_address_book.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -700,6 +737,7 @@ help:
 	@echo "... custom_interfaces__rosidl_typesupport_introspection_c"
 	@echo "... custom_interfaces__rosidl_typesupport_introspection_c__pyext"
 	@echo "... custom_interfaces__rosidl_typesupport_introspection_cpp"
+	@echo "... publish_address_book"
 	@echo "... rosidl_generator_c/custom_interfaces/msg/detail/address_book__functions.o"
 	@echo "... rosidl_generator_c/custom_interfaces/msg/detail/address_book__functions.i"
 	@echo "... rosidl_generator_c/custom_interfaces/msg/detail/address_book__functions.s"
@@ -733,6 +771,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/address_book__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/address_book__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/address_book__type_support.s"
+	@echo "... src/publish_address_book.o"
+	@echo "... src/publish_address_book.i"
+	@echo "... src/publish_address_book.s"
 .PHONY : help
 
 

@@ -578,3 +578,53 @@ events:
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
       GNU ld (GNU Binutils for Ubuntu) 2.38
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.29.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.29.3/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.29.3/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.29.3/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfig.cmake:40 (find_package)"
+      - "/opt/ros/humble/share/rcl_logging_spdlog/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/humble/share/rcl_logging_spdlog/cmake/rcl_logging_spdlogConfig.cmake:41 (include)"
+      - "/opt/ros/humble/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/humble/share/rcl/cmake/rclConfig.cmake:41 (include)"
+      - "/opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)"
+      - "/opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles/CMakeScratch/TryCompile-N4BSZI"
+      binary: "/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles/CMakeScratch/TryCompile-N4BSZI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles/CMakeScratch/TryCompile-N4BSZI'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.29.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4e177/fast
+        gmake[1]: Entering directory '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles/CMakeScratch/TryCompile-N4BSZI'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4e177.dir/build.make CMakeFiles/cmTC_4e177.dir/build
+        gmake[2]: Entering directory '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles/CMakeScratch/TryCompile-N4BSZI'
+        Building C object CMakeFiles/cmTC_4e177.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_4e177.dir/src.c.o -c /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles/CMakeScratch/TryCompile-N4BSZI/src.c
+        Linking C executable cmTC_4e177
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.29.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e177.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4e177.dir/src.c.o -o cmTC_4e177
+        gmake[2]: Leaving directory '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles/CMakeScratch/TryCompile-N4BSZI'
+        gmake[1]: Leaving directory '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles/CMakeScratch/TryCompile-N4BSZI'
+        
+      exitCode: 0
+...

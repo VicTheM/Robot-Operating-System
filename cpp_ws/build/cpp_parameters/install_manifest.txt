@@ -1,0 +1,16 @@
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.xml

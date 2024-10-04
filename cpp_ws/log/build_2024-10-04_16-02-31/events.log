@@ -1,0 +1,601 @@
+[0.000000] (-) TimerEvent: {}
+[0.000528] (-) JobUnselected: {'identifier': 'msg_pub_sub_simple_node'}
+[0.000654] (-) JobUnselected: {'identifier': 'srv_client'}
+[0.000723] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000900] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.015464] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.017084] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.018468] (custom_interfaces) Command: {'cmd': ['/home/linuxbrew/.linuxbrew/bin/cmake', '--build', '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victory'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/victory'), ('OLDPWD', '/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victory'), ('NAME', 'Victory'), ('WSL_INTEROP', '/run/WSL/267_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.66.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.071585] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098165] (-) TimerEvent: {}
+[0.198614] (-) TimerEvent: {}
+[0.299008] (-) TimerEvent: {}
+[0.394708] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.397515] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.399231] (-) TimerEvent: {}
+[0.403283] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.499396] (-) TimerEvent: {}
+[0.599905] (-) TimerEvent: {}
+[0.700514] (-) TimerEvent: {}
+[0.777997] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800870] (-) TimerEvent: {}
+[0.901497] (-) TimerEvent: {}
+[1.002202] (-) TimerEvent: {}
+[1.102785] (-) TimerEvent: {}
+[1.182495] (custom_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.203760] (-) TimerEvent: {}
+[1.305086] (-) TimerEvent: {}
+[1.406268] (-) TimerEvent: {}
+[1.507724] (-) TimerEvent: {}
+[1.608690] (-) TimerEvent: {}
+[1.709239] (-) TimerEvent: {}
+[1.809873] (-) TimerEvent: {}
+[1.911602] (-) TimerEvent: {}
+[2.012651] (-) TimerEvent: {}
+[2.113279] (-) TimerEvent: {}
+[2.213819] (-) TimerEvent: {}
+[2.314438] (-) TimerEvent: {}
+[2.415059] (-) TimerEvent: {}
+[2.416445] (custom_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.483586] (custom_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.515716] (-) TimerEvent: {}
+[2.617189] (-) TimerEvent: {}
+[2.717961] (-) TimerEvent: {}
+[2.818731] (-) TimerEvent: {}
+[2.919460] (-) TimerEvent: {}
+[3.020333] (-) TimerEvent: {}
+[3.121152] (-) TimerEvent: {}
+[3.221631] (-) TimerEvent: {}
+[3.322201] (-) TimerEvent: {}
+[3.422761] (-) TimerEvent: {}
+[3.523322] (-) TimerEvent: {}
+[3.623834] (-) TimerEvent: {}
+[3.724290] (-) TimerEvent: {}
+[3.824768] (-) TimerEvent: {}
+[3.925413] (-) TimerEvent: {}
+[4.026159] (-) TimerEvent: {}
+[4.126745] (-) TimerEvent: {}
+[4.227312] (-) TimerEvent: {}
+[4.327838] (-) TimerEvent: {}
+[4.428429] (-) TimerEvent: {}
+[4.529069] (-) TimerEvent: {}
+[4.629851] (-) TimerEvent: {}
+[4.730370] (-) TimerEvent: {}
+[4.830893] (-) TimerEvent: {}
+[4.931444] (-) TimerEvent: {}
+[5.032053] (-) TimerEvent: {}
+[5.132575] (-) TimerEvent: {}
+[5.233360] (-) TimerEvent: {}
+[5.333927] (-) TimerEvent: {}
+[5.434544] (-) TimerEvent: {}
+[5.535124] (-) TimerEvent: {}
+[5.635732] (-) TimerEvent: {}
+[5.736448] (-) TimerEvent: {}
+[5.837273] (-) TimerEvent: {}
+[5.937833] (-) TimerEvent: {}
+[6.038656] (-) TimerEvent: {}
+[6.139253] (-) TimerEvent: {}
+[6.239892] (-) TimerEvent: {}
+[6.242443] (custom_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[6.340077] (-) TimerEvent: {}
+[6.440805] (-) TimerEvent: {}
+[6.541476] (-) TimerEvent: {}
+[6.642091] (-) TimerEvent: {}
+[6.742685] (-) TimerEvent: {}
+[6.843209] (-) TimerEvent: {}
+[6.943728] (-) TimerEvent: {}
+[7.044309] (-) TimerEvent: {}
+[7.144828] (-) TimerEvent: {}
+[7.246312] (-) TimerEvent: {}
+[7.347758] (-) TimerEvent: {}
+[7.449805] (-) TimerEvent: {}
+[7.550427] (-) TimerEvent: {}
+[7.651148] (-) TimerEvent: {}
+[7.751687] (-) TimerEvent: {}
+[7.852132] (-) TimerEvent: {}
+[7.952590] (-) TimerEvent: {}
+[8.053116] (-) TimerEvent: {}
+[8.153648] (-) TimerEvent: {}
+[8.254251] (-) TimerEvent: {}
+[8.355054] (-) TimerEvent: {}
+[8.455783] (-) TimerEvent: {}
+[8.556515] (-) TimerEvent: {}
+[8.656986] (-) TimerEvent: {}
+[8.757466] (-) TimerEvent: {}
+[8.858179] (-) TimerEvent: {}
+[8.930348] (custom_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[8.958485] (-) TimerEvent: {}
+[9.058881] (-) TimerEvent: {}
+[9.159357] (-) TimerEvent: {}
+[9.259923] (-) TimerEvent: {}
+[9.360438] (-) TimerEvent: {}
+[9.461046] (-) TimerEvent: {}
+[9.561647] (-) TimerEvent: {}
+[9.662119] (-) TimerEvent: {}
+[9.762822] (-) TimerEvent: {}
+[9.863347] (-) TimerEvent: {}
+[9.964101] (-) TimerEvent: {}
+[10.064761] (-) TimerEvent: {}
+[10.165448] (-) TimerEvent: {}
+[10.266038] (-) TimerEvent: {}
+[10.366505] (-) TimerEvent: {}
+[10.467269] (-) TimerEvent: {}
+[10.567817] (-) TimerEvent: {}
+[10.668463] (-) TimerEvent: {}
+[10.769023] (-) TimerEvent: {}
+[10.869655] (-) TimerEvent: {}
+[10.971355] (-) TimerEvent: {}
+[11.073199] (-) TimerEvent: {}
+[11.173656] (-) TimerEvent: {}
+[11.274229] (-) TimerEvent: {}
+[11.374737] (-) TimerEvent: {}
+[11.475300] (-) TimerEvent: {}
+[11.576178] (-) TimerEvent: {}
+[11.676808] (-) TimerEvent: {}
+[11.777535] (-) TimerEvent: {}
+[11.878143] (-) TimerEvent: {}
+[11.978613] (-) TimerEvent: {}
+[12.079222] (-) TimerEvent: {}
+[12.179806] (-) TimerEvent: {}
+[12.280319] (-) TimerEvent: {}
+[12.380852] (-) TimerEvent: {}
+[12.481369] (-) TimerEvent: {}
+[12.581920] (-) TimerEvent: {}
+[12.682532] (-) TimerEvent: {}
+[12.784239] (-) TimerEvent: {}
+[12.885656] (-) TimerEvent: {}
+[12.986283] (-) TimerEvent: {}
+[13.086882] (-) TimerEvent: {}
+[13.187556] (-) TimerEvent: {}
+[13.288027] (-) TimerEvent: {}
+[13.388594] (-) TimerEvent: {}
+[13.489112] (-) TimerEvent: {}
+[13.589808] (-) TimerEvent: {}
+[13.690430] (-) TimerEvent: {}
+[13.791138] (-) TimerEvent: {}
+[13.891748] (-) TimerEvent: {}
+[13.992329] (-) TimerEvent: {}
+[14.092903] (-) TimerEvent: {}
+[14.130190] (custom_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.193097] (-) TimerEvent: {}
+[14.293595] (-) TimerEvent: {}
+[14.366834] (custom_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[14.393791] (-) TimerEvent: {}
+[14.494692] (-) TimerEvent: {}
+[14.595967] (-) TimerEvent: {}
+[14.699196] (-) TimerEvent: {}
+[14.801424] (-) TimerEvent: {}
+[14.903918] (-) TimerEvent: {}
+[15.004540] (-) TimerEvent: {}
+[15.105120] (-) TimerEvent: {}
+[15.205727] (-) TimerEvent: {}
+[15.306242] (-) TimerEvent: {}
+[15.406930] (-) TimerEvent: {}
+[15.507509] (-) TimerEvent: {}
+[15.608260] (-) TimerEvent: {}
+[15.708903] (-) TimerEvent: {}
+[15.809771] (-) TimerEvent: {}
+[15.911234] (-) TimerEvent: {}
+[16.014096] (-) TimerEvent: {}
+[16.116907] (-) TimerEvent: {}
+[16.219937] (-) TimerEvent: {}
+[16.320670] (-) TimerEvent: {}
+[16.338824] (custom_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[16.340716] (custom_interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[16.421328] (-) TimerEvent: {}
+[16.521842] (-) TimerEvent: {}
+[16.622440] (-) TimerEvent: {}
+[16.723035] (-) TimerEvent: {}
+[16.823534] (-) TimerEvent: {}
+[16.924139] (-) TimerEvent: {}
+[17.024857] (-) TimerEvent: {}
+[17.125576] (-) TimerEvent: {}
+[17.226107] (-) TimerEvent: {}
+[17.326657] (-) TimerEvent: {}
+[17.427241] (-) TimerEvent: {}
+[17.527681] (-) TimerEvent: {}
+[17.573249] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[17.627862] (-) TimerEvent: {}
+[17.728316] (-) TimerEvent: {}
+[17.828801] (-) TimerEvent: {}
+[17.929407] (-) TimerEvent: {}
+[18.030085] (-) TimerEvent: {}
+[18.130975] (-) TimerEvent: {}
+[18.231691] (-) TimerEvent: {}
+[18.332148] (-) TimerEvent: {}
+[18.360103] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[18.432328] (-) TimerEvent: {}
+[18.532819] (-) TimerEvent: {}
+[18.633258] (-) TimerEvent: {}
+[18.733712] (-) TimerEvent: {}
+[18.834206] (-) TimerEvent: {}
+[18.934907] (-) TimerEvent: {}
+[19.035304] (-) TimerEvent: {}
+[19.135770] (-) TimerEvent: {}
+[19.211497] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[19.229831] (custom_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[19.230032] (custom_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[19.230118] (custom_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[19.230189] (custom_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[19.230257] (custom_interfaces) StderrLine: {'line': b'\n'}
+[19.230323] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[19.230390] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[19.230458] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[19.230525] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[19.230630] (custom_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[19.230715] (custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[19.236004] (-) TimerEvent: {}
+[19.278816] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[19.280796] (custom_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[19.281089] (custom_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[19.281323] (custom_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[19.281492] (custom_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[19.281699] (custom_interfaces) StderrLine: {'line': b'\n'}
+[19.281783] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[19.281856] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[19.281929] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[19.281999] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[19.282069] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[19.282139] (custom_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[19.282379] (custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[19.310691] (custom_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[19.311104] (custom_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[19.311201] (custom_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[19.311278] (custom_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[19.311374] (custom_interfaces) StderrLine: {'line': b'\n'}
+[19.311476] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[19.311546] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[19.311625] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[19.311694] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[19.311832] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[19.311921] (custom_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[19.311989] (custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[19.336200] (-) TimerEvent: {}
+[19.349728] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[19.350054] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[19.350184] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[19.417211] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[19.436447] (-) TimerEvent: {}
+[19.537091] (-) TimerEvent: {}
+[19.637729] (-) TimerEvent: {}
+[19.738533] (-) TimerEvent: {}
+[19.754178] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[19.755139] (custom_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[19.755406] (custom_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[19.789990] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[19.802462] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[19.802665] (custom_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[19.827629] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[19.839169] (-) TimerEvent: {}
+[19.877482] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done (19.8s)\n'}
+[19.939799] (-) TimerEvent: {}
+[20.040546] (-) TimerEvent: {}
+[20.141279] (-) TimerEvent: {}
+[20.242013] (-) TimerEvent: {}
+[20.342551] (-) TimerEvent: {}
+[20.443120] (-) TimerEvent: {}
+[20.495927] (custom_interfaces) StdoutLine: {'line': b'-- Generating done (0.5s)\n'}
+[20.511942] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces\n'}
+[20.543312] (-) TimerEvent: {}
+[20.575079] (custom_interfaces) StdoutLine: {'line': b'[  9%] Built target custom_interfaces__rosidl_generator_c\n'}
+[20.578542] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target custom_interfaces__cpp\n'}
+[20.603751] (custom_interfaces) StdoutLine: {'line': b'[ 21%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[20.605162] (custom_interfaces) StdoutLine: {'line': b'[ 30%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[20.606338] (custom_interfaces) StdoutLine: {'line': b'[ 39%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[20.626954] (custom_interfaces) StdoutLine: {'line': b'[ 39%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[20.638338] (custom_interfaces) StdoutLine: {'line': b'[ 48%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[20.642601] (custom_interfaces) StdoutLine: {'line': b'[ 57%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[20.642973] (custom_interfaces) StdoutLine: {'line': b'[ 66%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[20.643454] (-) TimerEvent: {}
+[20.666215] (custom_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o\x1b[0m\n'}
+[20.693715] (custom_interfaces) StdoutLine: {'line': b'[ 69%] Built target custom_interfaces\n'}
+[20.717858] (custom_interfaces) StdoutLine: {'line': b'[ 72%] Built target custom_interfaces__py\n'}
+[20.744183] (-) TimerEvent: {}
+[20.757443] (custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces__rosidl_generator_py\n'}
+[20.786959] (custom_interfaces) StdoutLine: {'line': b'[ 84%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[20.788238] (custom_interfaces) StdoutLine: {'line': b'[ 90%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.812947] (custom_interfaces) StdoutLine: {'line': b'[ 96%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[20.844336] (-) TimerEvent: {}
+[20.944765] (-) TimerEvent: {}
+[21.045237] (-) TimerEvent: {}
+[21.145841] (-) TimerEvent: {}
+[21.246433] (-) TimerEvent: {}
+[21.254524] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[21.256515] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[21.257177] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[21.258044] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[21.288433] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[21.308211] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[21.347371] (-) TimerEvent: {}
+[21.377899] (custom_interfaces) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[21.447992] (-) TimerEvent: {}
+[21.552060] (-) TimerEvent: {}
+[21.656764] (-) TimerEvent: {}
+[21.759952] (-) TimerEvent: {}
+[21.865086] (-) TimerEvent: {}
+[21.968625] (-) TimerEvent: {}
+[22.070416] (-) TimerEvent: {}
+[22.170922] (-) TimerEvent: {}
+[22.271451] (-) TimerEvent: {}
+[22.372119] (-) TimerEvent: {}
+[22.472648] (-) TimerEvent: {}
+[22.573275] (-) TimerEvent: {}
+[22.673904] (-) TimerEvent: {}
+[22.774675] (-) TimerEvent: {}
+[22.875190] (-) TimerEvent: {}
+[22.975718] (-) TimerEvent: {}
+[23.076339] (-) TimerEvent: {}
+[23.178009] (-) TimerEvent: {}
+[23.280913] (-) TimerEvent: {}
+[23.381422] (-) TimerEvent: {}
+[23.482052] (-) TimerEvent: {}
+[23.582566] (-) TimerEvent: {}
+[23.683122] (-) TimerEvent: {}
+[23.783679] (-) TimerEvent: {}
+[23.884961] (-) TimerEvent: {}
+[23.986585] (-) TimerEvent: {}
+[24.087075] (-) TimerEvent: {}
+[24.187694] (-) TimerEvent: {}
+[24.288203] (-) TimerEvent: {}
+[24.389162] (-) TimerEvent: {}
+[24.490356] (-) TimerEvent: {}
+[24.592010] (-) TimerEvent: {}
+[24.692676] (-) TimerEvent: {}
+[24.793550] (-) TimerEvent: {}
+[24.894298] (-) TimerEvent: {}
+[24.994840] (-) TimerEvent: {}
+[25.095593] (-) TimerEvent: {}
+[25.196197] (-) TimerEvent: {}
+[25.296853] (-) TimerEvent: {}
+[25.397599] (-) TimerEvent: {}
+[25.498437] (-) TimerEvent: {}
+[25.598978] (-) TimerEvent: {}
+[25.699753] (-) TimerEvent: {}
+[25.800306] (-) TimerEvent: {}
+[25.900867] (-) TimerEvent: {}
+[26.001582] (-) TimerEvent: {}
+[26.102090] (-) TimerEvent: {}
+[26.202883] (-) TimerEvent: {}
+[26.303548] (-) TimerEvent: {}
+[26.404052] (-) TimerEvent: {}
+[26.504973] (-) TimerEvent: {}
+[26.605563] (-) TimerEvent: {}
+[26.706109] (-) TimerEvent: {}
+[26.807232] (-) TimerEvent: {}
+[26.908157] (-) TimerEvent: {}
+[27.008743] (-) TimerEvent: {}
+[27.109183] (-) TimerEvent: {}
+[27.209683] (-) TimerEvent: {}
+[27.310262] (-) TimerEvent: {}
+[27.411006] (-) TimerEvent: {}
+[27.511554] (-) TimerEvent: {}
+[27.612002] (-) TimerEvent: {}
+[27.712519] (-) TimerEvent: {}
+[27.813098] (-) TimerEvent: {}
+[27.913609] (-) TimerEvent: {}
+[28.014075] (-) TimerEvent: {}
+[28.115306] (-) TimerEvent: {}
+[28.219357] (-) TimerEvent: {}
+[28.322619] (-) TimerEvent: {}
+[28.427015] (-) TimerEvent: {}
+[28.529737] (-) TimerEvent: {}
+[28.633362] (-) TimerEvent: {}
+[28.738756] (-) TimerEvent: {}
+[28.842058] (-) TimerEvent: {}
+[28.942640] (-) TimerEvent: {}
+[29.043155] (-) TimerEvent: {}
+[29.143821] (-) TimerEvent: {}
+[29.244503] (-) TimerEvent: {}
+[29.345072] (-) TimerEvent: {}
+[29.445730] (-) TimerEvent: {}
+[29.546301] (-) TimerEvent: {}
+[29.646807] (-) TimerEvent: {}
+[29.747269] (-) TimerEvent: {}
+[29.847874] (-) TimerEvent: {}
+[29.948360] (-) TimerEvent: {}
+[30.048948] (-) TimerEvent: {}
+[30.149595] (-) TimerEvent: {}
+[30.250285] (-) TimerEvent: {}
+[30.350917] (-) TimerEvent: {}
+[30.451368] (-) TimerEvent: {}
+[30.551862] (-) TimerEvent: {}
+[30.652389] (-) TimerEvent: {}
+[30.752923] (-) TimerEvent: {}
+[30.853390] (-) TimerEvent: {}
+[30.953925] (-) TimerEvent: {}
+[31.054386] (-) TimerEvent: {}
+[31.154987] (-) TimerEvent: {}
+[31.255442] (-) TimerEvent: {}
+[31.356024] (-) TimerEvent: {}
+[31.456495] (-) TimerEvent: {}
+[31.557222] (-) TimerEvent: {}
+[31.657988] (-) TimerEvent: {}
+[31.758458] (-) TimerEvent: {}
+[31.858985] (-) TimerEvent: {}
+[31.959491] (-) TimerEvent: {}
+[32.059939] (-) TimerEvent: {}
+[32.160562] (-) TimerEvent: {}
+[32.261317] (-) TimerEvent: {}
+[32.361817] (-) TimerEvent: {}
+[32.462301] (-) TimerEvent: {}
+[32.562822] (-) TimerEvent: {}
+[32.663333] (-) TimerEvent: {}
+[32.763950] (-) TimerEvent: {}
+[32.864699] (-) TimerEvent: {}
+[32.965285] (-) TimerEvent: {}
+[33.065895] (-) TimerEvent: {}
+[33.166465] (-) TimerEvent: {}
+[33.266992] (-) TimerEvent: {}
+[33.367633] (-) TimerEvent: {}
+[33.468310] (-) TimerEvent: {}
+[33.568746] (-) TimerEvent: {}
+[33.669296] (-) TimerEvent: {}
+[33.769899] (-) TimerEvent: {}
+[33.870362] (-) TimerEvent: {}
+[33.970957] (-) TimerEvent: {}
+[34.071557] (-) TimerEvent: {}
+[34.171987] (-) TimerEvent: {}
+[34.272476] (-) TimerEvent: {}
+[34.372928] (-) TimerEvent: {}
+[34.473398] (-) TimerEvent: {}
+[34.573863] (-) TimerEvent: {}
+[34.674492] (-) TimerEvent: {}
+[34.774988] (-) TimerEvent: {}
+[34.875597] (-) TimerEvent: {}
+[34.976102] (-) TimerEvent: {}
+[35.076630] (-) TimerEvent: {}
+[35.177094] (-) TimerEvent: {}
+[35.277561] (-) TimerEvent: {}
+[35.378036] (-) TimerEvent: {}
+[35.396117] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publish_address_book\x1b[0m\n'}
+[35.478202] (-) TimerEvent: {}
+[35.578778] (-) TimerEvent: {}
+[35.679387] (-) TimerEvent: {}
+[35.779904] (-) TimerEvent: {}
+[35.880538] (-) TimerEvent: {}
+[35.981225] (-) TimerEvent: {}
+[36.081897] (-) TimerEvent: {}
+[36.182390] (-) TimerEvent: {}
+[36.283222] (-) TimerEvent: {}
+[36.383826] (-) TimerEvent: {}
+[36.484597] (-) TimerEvent: {}
+[36.585331] (-) TimerEvent: {}
+[36.686064] (-) TimerEvent: {}
+[36.786711] (-) TimerEvent: {}
+[36.887719] (-) TimerEvent: {}
+[36.909820] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target publish_address_book\n'}
+[36.929885] (custom_interfaces) CommandEnded: {'returncode': 0}
+[36.988551] (-) TimerEvent: {}
+[37.093953] (-) TimerEvent: {}
+[37.105601] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[37.119791] (custom_interfaces) Command: {'cmd': ['/home/linuxbrew/.linuxbrew/bin/cmake', '--install', '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces'], 'cwd': '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victory'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/victory'), ('OLDPWD', '/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victory'), ('NAME', 'Victory'), ('WSL_INTEROP', '/run/WSL/267_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.66.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[37.137498] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.162487] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib/custom_interfaces/publish_address_book\n'}
+[37.165336] (custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib/custom_interfaces/publish_address_book" to ""\n'}
+[37.166002] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[37.166395] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[37.194739] (-) TimerEvent: {}
+[37.204246] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[37.204544] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[37.222586] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/address_book__functions.c\n'}
+[37.223470] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/address_book__type_support.h\n'}
+[37.223655] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/address_book__struct.h\n'}
+[37.223770] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/address_book__functions.h\n'}
+[37.223851] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/address_book.h\n'}
+[37.224033] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[37.224136] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[37.224211] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[37.248401] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[37.248760] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[37.258717] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[37.259249] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[37.259490] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[37.259590] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[37.261909] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[37.262271] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[37.266944] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[37.267526] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[37.267633] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[37.267747] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/address_book__type_support.c\n'}
+[37.267935] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[37.269311] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[37.270776] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[37.271315] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[37.286225] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[37.286847] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[37.286974] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/address_book__traits.hpp\n'}
+[37.287056] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/address_book__builder.hpp\n'}
+[37.287130] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/address_book__struct.hpp\n'}
+[37.287201] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/address_book.hpp\n'}
+[37.287273] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[37.292918] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[37.293243] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[37.294788] (-) TimerEvent: {}
+[37.307367] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[37.307923] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[37.308205] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[37.310239] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[37.310940] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[37.311695] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[37.325402] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[37.326022] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[37.326276] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[37.329187] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[37.331806] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[37.332151] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[37.332583] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[37.333031] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[37.333427] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[37.333627] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[37.333890] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[37.334278] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[37.334406] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[37.334482] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[37.345902] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[37.346806] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg\n'}
+[37.347118] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py\n'}
+[37.347381] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_address_book.py\n'}
+[37.347644] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_address_book_s.c\n'}
+[37.347877] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[37.348161] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[37.348393] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[37.348616] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[37.348838] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[37.349095] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[37.394980] (-) TimerEvent: {}
+[37.495523] (-) TimerEvent: {}
+[37.596001] (-) TimerEvent: {}
+[37.670264] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[37.670701] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...\n"}
+[37.670930] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...\n"}
+[37.679024] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[37.696233] (-) TimerEvent: {}
+[37.696858] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[37.699902] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[37.702847] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[37.703482] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/msg/AddressBook.idl\n'}
+[37.704085] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/msg/AddressBook.msg\n'}
+[37.704304] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[37.704505] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[37.716129] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[37.716568] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[37.717028] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[37.717316] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[37.717594] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[37.718293] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[37.718510] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[37.718805] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[37.718909] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[37.718987] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[37.719411] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[37.719642] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[37.720156] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[37.720428] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[37.721389] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[37.721908] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[37.722515] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[37.723195] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[37.723760] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[37.724575] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[37.725198] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[37.725964] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[37.726194] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[37.727841] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[37.728366] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[37.728909] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[37.729227] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[37.729509] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[37.729810] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[37.730334] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[37.730471] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[37.730550] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[37.730626] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[37.730847] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[37.730939] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[37.731026] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[37.731147] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[37.733658] (custom_interfaces) CommandEnded: {'returncode': 0}
+[37.796516] (-) TimerEvent: {}
+[37.897187] (-) TimerEvent: {}
+[37.979227] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[37.981902] (-) EventReactorShutdown: {}

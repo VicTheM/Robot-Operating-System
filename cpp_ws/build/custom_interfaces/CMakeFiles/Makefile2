@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/victory/Robot-Operating-System/cpp_ws/build/custom_inte
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/publish_address_book.dir/all
 all: CMakeFiles/custom_interfaces.dir/all
 all: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/all
 all: CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/all
@@ -86,6 +87,7 @@ preinstall: custom_interfaces__py/preinstall
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/custom_interfaces_uninstall.dir/clean
+clean: CMakeFiles/publish_address_book.dir/clean
 clean: CMakeFiles/custom_interfaces.dir/clean
 clean: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/clean
 clean: CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/clean
@@ -170,6 +172,33 @@ custom_interfaces_uninstall: CMakeFiles/custom_interfaces_uninstall.dir/rule
 CMakeFiles/custom_interfaces_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_interfaces_uninstall.dir/build.make CMakeFiles/custom_interfaces_uninstall.dir/clean
 .PHONY : CMakeFiles/custom_interfaces_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/publish_address_book.dir
+
+# All Build rule for target.
+CMakeFiles/publish_address_book.dir/all: CMakeFiles/custom_interfaces__cpp.dir/all
+CMakeFiles/publish_address_book.dir/all: CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles --progress-num=32,33 "Built target publish_address_book"
+.PHONY : CMakeFiles/publish_address_book.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/publish_address_book.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/publish_address_book.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles 0
+.PHONY : CMakeFiles/publish_address_book.dir/rule
+
+# Convenience name for target.
+publish_address_book: CMakeFiles/publish_address_book.dir/rule
+.PHONY : publish_address_book
+
+# clean rule for target.
+CMakeFiles/publish_address_book.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/clean
+.PHONY : CMakeFiles/publish_address_book.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/custom_interfaces.dir
@@ -468,9 +497,9 @@ CMakeFiles/ament_cmake_python_build_custom_interfaces_egg.dir/clean:
 # Target rules for target CMakeFiles/custom_interfaces__rosidl_generator_py.dir
 
 # All Build rule for target.
-CMakeFiles/custom_interfaces__rosidl_generator_py.dir/all: custom_interfaces__py/CMakeFiles/custom_interfaces__py.dir/all
 CMakeFiles/custom_interfaces__rosidl_generator_py.dir/all: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/custom_interfaces__rosidl_generator_py.dir/all: CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/all
+CMakeFiles/custom_interfaces__rosidl_generator_py.dir/all: custom_interfaces__py/CMakeFiles/custom_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/custom_interfaces__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/custom_interfaces__rosidl_generator_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles --progress-num=6,7 "Built target custom_interfaces__rosidl_generator_py"
@@ -496,11 +525,11 @@ CMakeFiles/custom_interfaces__rosidl_generator_py.dir/clean:
 # Target rules for target CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_generator_py.dir/all
-CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: custom_interfaces__py/CMakeFiles/custom_interfaces__py.dir/all
 CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/all
+CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_generator_py.dir/all
+CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: custom_interfaces__py/CMakeFiles/custom_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles --progress-num=19,20 "Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext"
@@ -526,11 +555,11 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_generator_py.dir/all
-CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: custom_interfaces__py/CMakeFiles/custom_interfaces__py.dir/all
 CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/all
+CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_generator_py.dir/all
+CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: custom_interfaces__py/CMakeFiles/custom_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles --progress-num=27,28 "Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext"
@@ -556,10 +585,10 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/clea
 # Target rules for target CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_generator_py.dir/all
-CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/all: custom_interfaces__py/CMakeFiles/custom_interfaces__py.dir/all
 CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/all
+CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/custom_interfaces__rosidl_generator_py.dir/all
+CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/all: custom_interfaces__py/CMakeFiles/custom_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces/CMakeFiles --progress-num=11,12 "Built target custom_interfaces__rosidl_typesupport_c__pyext"
