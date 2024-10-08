@@ -9,6 +9,9 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclcpp_action REQUIRED)
+find_package(package_with_interfaces REQUIRED)
+find_package(rclcpp_components REQUIRED)
 
 add_executable(publish_address_book src/publish_address_book.cpp)
 ament_target_dependencies(publish_address_book rclcpp)
@@ -16,6 +19,27 @@ ament_target_dependencies(publish_address_book rclcpp)
 set(msg_files
 	"msg/AddressBook.msg"
 	)
+
+add_library(action_server SHARED
+  src/fibonacci_action_server.cpp)
+target_include_directories(action_server PRIVATE
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_compile_definitions(action_server
+  PRIVATE "ACTION_TUTORIALS_CPP_BUILDING_DLL")
+ament_target_dependencies(action_server
+  "package_with_interfaces"
+  "rclcpp"
+  "rclcpp_action"
+  "rclcpp_components")
+
+rclcpp_components_register_node(action_server PLUGIN "action_tutorials_cpp::FibonacciActionServer" EXECUTABLE fibonacci_action_server)
+
+install(TARGETS
+  action_server
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION bin)
 
 install(TARGETS
 	publish_address_book
