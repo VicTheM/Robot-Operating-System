@@ -1,0 +1,319 @@
+[0.478s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.478s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fd2204a6710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd2204a56c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd2204a56c0>>, mixin_verb=('build',))
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.705s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/victory/Robot-Operating-System/cpp_ws'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ignore'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ignore_ament_install'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['colcon_pkg']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'colcon_pkg'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['colcon_meta']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'colcon_meta'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['ros']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ros'
+[0.731s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_parameters' with type 'ros.ament_cmake' and name 'cpp_parameters'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[0.733s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub_sub_simple_node) by extensions ['ignore', 'ignore_ament_install']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub_sub_simple_node) by extension 'ignore'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub_sub_simple_node) by extension 'ignore_ament_install'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub_sub_simple_node) by extensions ['colcon_pkg']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub_sub_simple_node) by extension 'colcon_pkg'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub_sub_simple_node) by extensions ['colcon_meta']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub_sub_simple_node) by extension 'colcon_meta'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub_sub_simple_node) by extensions ['ros']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub_sub_simple_node) by extension 'ros'
+[0.734s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msg_pub_sub_simple_node' with type 'ros.ament_cmake' and name 'msg_pub_sub_simple_node'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_client) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_client) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_client) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_client) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_client) by extension 'colcon_pkg'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_client) by extensions ['colcon_meta']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_client) by extension 'colcon_meta'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_client) by extensions ['ros']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_client) by extension 'ros'
+[0.736s] DEBUG:colcon.colcon_core.package_identification:Package 'src/srv_client' with type 'ros.ament_cmake' and name 'srv_client'
+[0.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.769s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/victory/Robot-Operating-System/python_ws/install
+[0.771s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 293 installed packages in /opt/ros/humble
+[0.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.850s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters', 'merge_install': False, 'path': '/home/victory/Robot-Operating-System/cpp_ws/src/cpp_parameters', 'symlink_install': False, 'test_result_base': None}
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.851s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces', 'merge_install': False, 'path': '/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'msg_pub_sub_simple_node' build argument 'cmake_args' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'msg_pub_sub_simple_node' build argument 'cmake_target' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'msg_pub_sub_simple_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'msg_pub_sub_simple_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'msg_pub_sub_simple_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'msg_pub_sub_simple_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'msg_pub_sub_simple_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'msg_pub_sub_simple_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'msg_pub_sub_simple_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.852s] DEBUG:colcon.colcon_core.verb:Building package 'msg_pub_sub_simple_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node', 'merge_install': False, 'path': '/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node', 'symlink_install': False, 'test_result_base': None}
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'srv_client' build argument 'cmake_args' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'srv_client' build argument 'cmake_target' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'srv_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'srv_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'srv_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'srv_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'srv_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'srv_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'srv_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.853s] DEBUG:colcon.colcon_core.verb:Building package 'srv_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client', 'merge_install': False, 'path': '/home/victory/Robot-Operating-System/cpp_ws/src/srv_client', 'symlink_install': False, 'test_result_base': None}
+[0.853s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.855s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/victory/Robot-Operating-System/cpp_ws/src/cpp_parameters' with build type 'ament_cmake'
+[0.855s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/victory/Robot-Operating-System/cpp_ws/src/cpp_parameters'
+[0.861s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.869s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces' with build type 'ament_cmake'
+[0.870s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces'
+[0.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.871s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.877s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node' with build type 'ament_cmake'
+[0.878s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/victory/Robot-Operating-System/cpp_ws/src/msg_pub_sub_simple_node'
+[0.879s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.880s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.889s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/victory/Robot-Operating-System/cpp_ws/src/srv_client' with build type 'ament_cmake'
+[0.890s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/victory/Robot-Operating-System/cpp_ws/src/srv_client'
+[0.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.892s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters -- -j4 -l4
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces -- -j4 -l4
+[0.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node -- -j4 -l4
+[0.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/srv_client -- -j4 -l4
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters -- -j4 -l4
+[1.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node -- -j4 -l4
+[1.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/srv_client -- -j4 -l4
+[1.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters
+[1.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node
+[1.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_pub_sub_simple_node)
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node' for CMake module files
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node' for CMake config files
+[1.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_pub_sub_simple_node', 'cmake_prefix_path')
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/hook/cmake_prefix_path.ps1'
+[1.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/hook/cmake_prefix_path.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/hook/cmake_prefix_path.sh'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/lib'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/bin'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/lib/pkgconfig/msg_pub_sub_simple_node.pc'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/lib/python3.10/site-packages'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/bin'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.sh'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.bash'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.zsh'
+[1.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/colcon-core/packages/msg_pub_sub_simple_node)
+[1.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/srv_client
+[1.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters' for CMake module files
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters' for CMake config files
+[1.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[1.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters
+[1.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/lib'
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/bin'
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/lib/python3.10/site-packages'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/bin'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.sh'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.bash'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[1.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[1.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srv_client)
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client' for CMake module files
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client' for CMake config files
+[1.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_client', 'cmake_prefix_path')
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/hook/cmake_prefix_path.ps1'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/hook/cmake_prefix_path.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/hook/cmake_prefix_path.sh'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/lib'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/bin'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/lib/pkgconfig/srv_client.pc'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/lib/python3.10/site-packages'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/bin'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.ps1'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.dsv'
+[1.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/srv_client
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.sh'
+[1.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.bash'
+[1.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.zsh'
+[1.228s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/colcon-core/packages/srv_client)
+[1.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_pub_sub_simple_node)
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node' for CMake module files
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node' for CMake config files
+[1.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_pub_sub_simple_node', 'cmake_prefix_path')
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/hook/cmake_prefix_path.ps1'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/hook/cmake_prefix_path.dsv'
+[1.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/hook/cmake_prefix_path.sh'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/lib'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/bin'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/lib/pkgconfig/msg_pub_sub_simple_node.pc'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/lib/python3.10/site-packages'
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/bin'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.ps1'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.dsv'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.sh'
+[1.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.bash'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.zsh'
+[1.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/colcon-core/packages/msg_pub_sub_simple_node)
+[1.266s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters' for CMake module files
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters' for CMake config files
+[1.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[1.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[1.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[1.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[1.273s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/lib'
+[1.273s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/bin'
+[1.273s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/lib/python3.10/site-packages'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/bin'
+[1.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[1.278s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.sh'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.bash'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[1.286s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[1.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srv_client)
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client' for CMake module files
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client' for CMake config files
+[1.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_client', 'cmake_prefix_path')
+[1.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/hook/cmake_prefix_path.ps1'
+[1.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/hook/cmake_prefix_path.dsv'
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/hook/cmake_prefix_path.sh'
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/lib'
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/bin'
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/lib/pkgconfig/srv_client.pc'
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/lib/python3.10/site-packages'
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/bin'
+[1.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.ps1'
+[1.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.dsv'
+[1.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.sh'
+[1.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.bash'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.zsh'
+[1.314s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/colcon-core/packages/srv_client)
+[17.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces -- -j4 -l4
+[17.903s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[17.904s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces' for CMake module files
+[17.905s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces' for CMake config files
+[17.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[17.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[17.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[17.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[17.907s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib'
+[17.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[17.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[17.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[17.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[17.909s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/bin'
+[17.909s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[17.910s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[17.910s] Level 1:colcon.colcon_core.environment:checking '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/bin'
+[17.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[17.911s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[17.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[17.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[17.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[17.914s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[17.925s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.925s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.925s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[17.926s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.136s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[18.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.137s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.137s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[18.137s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victory/Robot-Operating-System/cpp_ws/install/local_setup.ps1'
+[18.139s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victory/Robot-Operating-System/cpp_ws/install/_local_setup_util_ps1.py'
+[18.141s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victory/Robot-Operating-System/cpp_ws/install/setup.ps1'
+[18.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victory/Robot-Operating-System/cpp_ws/install/local_setup.sh'
+[18.143s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victory/Robot-Operating-System/cpp_ws/install/_local_setup_util_sh.py'
+[18.144s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victory/Robot-Operating-System/cpp_ws/install/setup.sh'
+[18.146s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victory/Robot-Operating-System/cpp_ws/install/local_setup.bash'
+[18.147s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victory/Robot-Operating-System/cpp_ws/install/setup.bash'
+[18.149s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victory/Robot-Operating-System/cpp_ws/install/local_setup.zsh'
+[18.149s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victory/Robot-Operating-System/cpp_ws/install/setup.zsh'

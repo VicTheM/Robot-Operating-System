@@ -1,0 +1,8 @@
+[01m[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Kcustom_interfaces/visibility_control.h: No such file or directory
+   14 | #include [01;31m[K"custom_interfaces/visibility_control.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/action_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

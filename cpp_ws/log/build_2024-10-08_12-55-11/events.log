@@ -1,0 +1,613 @@
+[0.000000] (-) TimerEvent: {}
+[0.000516] (cpp_parameters) JobQueued: {'identifier': 'cpp_parameters', 'dependencies': OrderedDict()}
+[0.000744] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.001043] (msg_pub_sub_simple_node) JobQueued: {'identifier': 'msg_pub_sub_simple_node', 'dependencies': OrderedDict()}
+[0.001221] (srv_client) JobQueued: {'identifier': 'srv_client', 'dependencies': OrderedDict()}
+[0.001439] (cpp_parameters) JobStarted: {'identifier': 'cpp_parameters'}
+[0.024975] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.042660] (msg_pub_sub_simple_node) JobStarted: {'identifier': 'msg_pub_sub_simple_node'}
+[0.066288] (srv_client) JobStarted: {'identifier': 'srv_client'}
+[0.094390] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'cmake'}
+[0.096459] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'build'}
+[0.096628] (-) TimerEvent: {}
+[0.099797] (cpp_parameters) Command: {'cmd': ['/home/linuxbrew/.linuxbrew/bin/cmake', '--build', '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters', '--', '-j4', '-l4'], 'cwd': '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victory'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victory'), ('OLDPWD', '/home/victory/Robot-Operating-System'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install:/home/victory/Robot-Operating-System/python_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victory'), ('NAME', 'Victory'), ('WSL_INTEROP', '/run/WSL/286_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.66.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.114308] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.116653] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.118024] (custom_interfaces) Command: {'cmd': ['/home/linuxbrew/.linuxbrew/bin/cmake', '--build', '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victory'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victory'), ('OLDPWD', '/home/victory/Robot-Operating-System'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install:/home/victory/Robot-Operating-System/python_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victory'), ('NAME', 'Victory'), ('WSL_INTEROP', '/run/WSL/286_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.66.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.130396] (msg_pub_sub_simple_node) JobProgress: {'identifier': 'msg_pub_sub_simple_node', 'progress': 'cmake'}
+[0.131504] (msg_pub_sub_simple_node) JobProgress: {'identifier': 'msg_pub_sub_simple_node', 'progress': 'build'}
+[0.139043] (msg_pub_sub_simple_node) Command: {'cmd': ['/home/linuxbrew/.linuxbrew/bin/cmake', '--build', '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node', '--', '-j4', '-l4'], 'cwd': '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victory'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victory'), ('OLDPWD', '/home/victory/Robot-Operating-System'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install:/home/victory/Robot-Operating-System/python_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victory'), ('NAME', 'Victory'), ('WSL_INTEROP', '/run/WSL/286_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.66.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.156372] (srv_client) JobProgress: {'identifier': 'srv_client', 'progress': 'cmake'}
+[0.158148] (srv_client) JobProgress: {'identifier': 'srv_client', 'progress': 'build'}
+[0.159119] (srv_client) Command: {'cmd': ['/home/linuxbrew/.linuxbrew/bin/cmake', '--build', '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client', '--', '-j4', '-l4'], 'cwd': '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victory'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victory'), ('OLDPWD', '/home/victory/Robot-Operating-System'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install:/home/victory/Robot-Operating-System/python_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victory'), ('NAME', 'Victory'), ('WSL_INTEROP', '/run/WSL/286_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.66.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.196793] (-) TimerEvent: {}
+[0.202169] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.223688] (cpp_parameters) StdoutLine: {'line': b'[100%] Built target minimal_param_node\n'}
+[0.245980] (cpp_parameters) CommandEnded: {'returncode': 0}
+[0.260586] (msg_pub_sub_simple_node) StdoutLine: {'line': b'[ 50%] Built target greetings_node\n'}
+[0.261767] (msg_pub_sub_simple_node) StdoutLine: {'line': b'[100%] Built target greetings_sub\n'}
+[0.272737] (msg_pub_sub_simple_node) CommandEnded: {'returncode': 0}
+[0.282886] (srv_client) StdoutLine: {'line': b'[ 50%] Built target demo_service_client\n'}
+[0.290689] (srv_client) StdoutLine: {'line': b'[100%] Built target demo_request_client\n'}
+[0.296924] (-) TimerEvent: {}
+[0.304441] (srv_client) CommandEnded: {'returncode': 0}
+[0.307808] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'install'}
+[0.321957] (cpp_parameters) Command: {'cmd': ['/home/linuxbrew/.linuxbrew/bin/cmake', '--install', '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters'], 'cwd': '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victory'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victory'), ('OLDPWD', '/home/victory/Robot-Operating-System'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install:/home/victory/Robot-Operating-System/python_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victory'), ('NAME', 'Victory'), ('WSL_INTEROP', '/run/WSL/286_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.66.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.334845] (cpp_parameters) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.338031] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node\n'}
+[0.341495] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters\n'}
+[0.341936] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters\n'}
+[0.342227] (msg_pub_sub_simple_node) JobProgress: {'identifier': 'msg_pub_sub_simple_node', 'progress': 'install'}
+[0.342309] (msg_pub_sub_simple_node) Command: {'cmd': ['/home/linuxbrew/.linuxbrew/bin/cmake', '--install', '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node'], 'cwd': '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victory'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victory'), ('OLDPWD', '/home/victory/Robot-Operating-System'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install:/home/victory/Robot-Operating-System/python_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victory'), ('NAME', 'Victory'), ('WSL_INTEROP', '/run/WSL/286_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.66.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victory/Robot-Operating-System/cpp_ws/build/msg_pub_sub_simple_node'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.343291] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh\n'}
+[0.343507] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv\n'}
+[0.343665] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh\n'}
+[0.343827] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv\n'}
+[0.344144] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash\n'}
+[0.344405] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh\n'}
+[0.344637] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh\n'}
+[0.344873] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv\n'}
+[0.345073] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.dsv\n'}
+[0.345230] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters\n'}
+[0.346241] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake\n'}
+[0.346617] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake\n'}
+[0.346832] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters/share/cpp_parameters/package.xml\n'}
+[0.349336] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.361099] (cpp_parameters) CommandEnded: {'returncode': 0}
+[0.362190] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/lib/msg_pub_sub_simple_node/greetings_node\n'}
+[0.362542] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/lib/msg_pub_sub_simple_node/greetings_sub\n'}
+[0.362774] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/ament_index/resource_index/package_run_dependencies/msg_pub_sub_simple_node\n'}
+[0.363023] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/ament_index/resource_index/parent_prefix_path/msg_pub_sub_simple_node\n'}
+[0.363212] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/ament_prefix_path.sh\n'}
+[0.363485] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/ament_prefix_path.dsv\n'}
+[0.363688] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/path.sh\n'}
+[0.363888] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/environment/path.dsv\n'}
+[0.363986] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.bash\n'}
+[0.364075] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.sh\n'}
+[0.364266] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.zsh\n'}
+[0.364473] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/local_setup.dsv\n'}
+[0.364579] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.dsv\n'}
+[0.364672] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/ament_index/resource_index/packages/msg_pub_sub_simple_node\n'}
+[0.364759] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/cmake/msg_pub_sub_simple_nodeConfig.cmake\n'}
+[0.364894] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/cmake/msg_pub_sub_simple_nodeConfig-version.cmake\n'}
+[0.364990] (msg_pub_sub_simple_node) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node/share/msg_pub_sub_simple_node/package.xml\n'}
+[0.382920] (srv_client) JobProgress: {'identifier': 'srv_client', 'progress': 'install'}
+[0.385516] (srv_client) Command: {'cmd': ['/home/linuxbrew/.linuxbrew/bin/cmake', '--install', '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client'], 'cwd': '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victory'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/lib:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victory'), ('OLDPWD', '/home/victory/Robot-Operating-System'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install:/home/victory/Robot-Operating-System/python_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victory'), ('NAME', 'Victory'), ('WSL_INTEROP', '/run/WSL/286_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/victory/.local/bin:/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.66.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/MySQL/MySQL Shell 8.3/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/victo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/victo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/python3:/mnt/c/Users/victo/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python3.12.exe:/mnt/c/Users/victo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ghcup/bin:/mnt/c/cabal/bin:/mnt/c/Users/victo/AppData/Roaming/npm:/snap/bin'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces/lib/python3.10/site-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface/local/lib/python3.10/dist-packages:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victory/Robot-Operating-System/cpp_ws/install/srv_client:/home/victory/Robot-Operating-System/cpp_ws/install/msg_pub_sub_simple_node:/home/victory/Robot-Operating-System/cpp_ws/install/custom_interfaces:/home/victory/Robot-Operating-System/cpp_ws/install/cpp_parameters:/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/package_with_action_interface:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.393534] (msg_pub_sub_simple_node) CommandEnded: {'returncode': 0}
+[0.401786] (-) TimerEvent: {}
+[0.402258] (srv_client) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.402621] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/lib/srv_client/demo_service_client\n'}
+[0.402906] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/lib/srv_client/demo_request_client\n'}
+[0.403226] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/ament_index/resource_index/package_run_dependencies/srv_client\n'}
+[0.403393] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/ament_index/resource_index/parent_prefix_path/srv_client\n'}
+[0.403562] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/environment/ament_prefix_path.sh\n'}
+[0.403711] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/environment/ament_prefix_path.dsv\n'}
+[0.403863] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/environment/path.sh\n'}
+[0.404002] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/environment/path.dsv\n'}
+[0.404414] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/local_setup.bash\n'}
+[0.404739] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/local_setup.sh\n'}
+[0.404959] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/local_setup.zsh\n'}
+[0.405426] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/local_setup.dsv\n'}
+[0.405741] (srv_client) StdoutLine: {'line': b'-- Installing: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.dsv\n'}
+[0.405957] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/ament_index/resource_index/packages/srv_client\n'}
+[0.406932] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/cmake/srv_clientConfig.cmake\n'}
+[0.407939] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/cmake/srv_clientConfig-version.cmake\n'}
+[0.408312] (srv_client) StdoutLine: {'line': b'-- Up-to-date: /home/victory/Robot-Operating-System/cpp_ws/install/srv_client/share/srv_client/package.xml\n'}
+[0.430257] (srv_client) CommandEnded: {'returncode': 0}
+[0.474103] (cpp_parameters) JobEnded: {'identifier': 'cpp_parameters', 'rc': 0}
+[0.502361] (-) TimerEvent: {}
+[0.516616] (msg_pub_sub_simple_node) JobEnded: {'identifier': 'msg_pub_sub_simple_node', 'rc': 0}
+[0.550638] (srv_client) JobEnded: {'identifier': 'srv_client', 'rc': 0}
+[0.602567] (-) TimerEvent: {}
+[0.703055] (-) TimerEvent: {}
+[0.790212] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.798418] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.803239] (-) TimerEvent: {}
+[0.807594] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.903489] (-) TimerEvent: {}
+[1.004100] (-) TimerEvent: {}
+[1.104709] (-) TimerEvent: {}
+[1.205468] (-) TimerEvent: {}
+[1.306062] (-) TimerEvent: {}
+[1.406629] (-) TimerEvent: {}
+[1.507318] (-) TimerEvent: {}
+[1.573040] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.607500] (-) TimerEvent: {}
+[1.621800] (custom_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.693873] (custom_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.696528] (custom_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.707694] (-) TimerEvent: {}
+[1.808203] (-) TimerEvent: {}
+[1.908698] (-) TimerEvent: {}
+[2.009107] (-) TimerEvent: {}
+[2.109536] (-) TimerEvent: {}
+[2.209986] (-) TimerEvent: {}
+[2.310559] (-) TimerEvent: {}
+[2.411196] (-) TimerEvent: {}
+[2.511620] (-) TimerEvent: {}
+[2.612249] (-) TimerEvent: {}
+[2.712924] (-) TimerEvent: {}
+[2.813767] (-) TimerEvent: {}
+[2.914447] (-) TimerEvent: {}
+[3.014994] (-) TimerEvent: {}
+[3.115813] (-) TimerEvent: {}
+[3.216492] (-) TimerEvent: {}
+[3.316977] (-) TimerEvent: {}
+[3.417719] (-) TimerEvent: {}
+[3.518935] (-) TimerEvent: {}
+[3.619659] (-) TimerEvent: {}
+[3.720544] (-) TimerEvent: {}
+[3.821582] (-) TimerEvent: {}
+[3.922299] (-) TimerEvent: {}
+[4.023356] (-) TimerEvent: {}
+[4.124367] (-) TimerEvent: {}
+[4.225262] (-) TimerEvent: {}
+[4.325947] (-) TimerEvent: {}
+[4.426705] (-) TimerEvent: {}
+[4.527605] (-) TimerEvent: {}
+[4.628555] (-) TimerEvent: {}
+[4.729346] (-) TimerEvent: {}
+[4.830226] (-) TimerEvent: {}
+[4.931081] (-) TimerEvent: {}
+[5.031816] (-) TimerEvent: {}
+[5.132565] (-) TimerEvent: {}
+[5.233347] (-) TimerEvent: {}
+[5.334258] (-) TimerEvent: {}
+[5.435148] (-) TimerEvent: {}
+[5.535795] (-) TimerEvent: {}
+[5.636679] (-) TimerEvent: {}
+[5.737521] (-) TimerEvent: {}
+[5.838407] (-) TimerEvent: {}
+[5.939209] (-) TimerEvent: {}
+[6.039888] (-) TimerEvent: {}
+[6.140463] (-) TimerEvent: {}
+[6.241085] (-) TimerEvent: {}
+[6.341982] (-) TimerEvent: {}
+[6.442787] (-) TimerEvent: {}
+[6.543576] (-) TimerEvent: {}
+[6.644710] (-) TimerEvent: {}
+[6.745560] (-) TimerEvent: {}
+[6.846489] (-) TimerEvent: {}
+[6.947128] (-) TimerEvent: {}
+[7.047812] (-) TimerEvent: {}
+[7.148647] (-) TimerEvent: {}
+[7.249629] (-) TimerEvent: {}
+[7.350202] (-) TimerEvent: {}
+[7.451040] (-) TimerEvent: {}
+[7.551834] (-) TimerEvent: {}
+[7.652792] (-) TimerEvent: {}
+[7.753515] (-) TimerEvent: {}
+[7.854332] (-) TimerEvent: {}
+[7.955063] (-) TimerEvent: {}
+[8.055792] (-) TimerEvent: {}
+[8.156365] (-) TimerEvent: {}
+[8.256909] (-) TimerEvent: {}
+[8.357605] (-) TimerEvent: {}
+[8.458437] (-) TimerEvent: {}
+[8.559163] (-) TimerEvent: {}
+[8.659851] (-) TimerEvent: {}
+[8.760678] (-) TimerEvent: {}
+[8.861554] (-) TimerEvent: {}
+[8.962167] (-) TimerEvent: {}
+[9.062892] (-) TimerEvent: {}
+[9.163537] (-) TimerEvent: {}
+[9.264239] (-) TimerEvent: {}
+[9.364899] (-) TimerEvent: {}
+[9.465412] (-) TimerEvent: {}
+[9.566138] (-) TimerEvent: {}
+[9.666741] (-) TimerEvent: {}
+[9.767478] (-) TimerEvent: {}
+[9.868237] (-) TimerEvent: {}
+[9.968997] (-) TimerEvent: {}
+[10.069725] (-) TimerEvent: {}
+[10.170433] (-) TimerEvent: {}
+[10.271209] (-) TimerEvent: {}
+[10.371815] (-) TimerEvent: {}
+[10.472433] (-) TimerEvent: {}
+[10.573021] (-) TimerEvent: {}
+[10.673599] (-) TimerEvent: {}
+[10.774138] (-) TimerEvent: {}
+[10.874793] (-) TimerEvent: {}
+[10.975420] (-) TimerEvent: {}
+[11.076070] (-) TimerEvent: {}
+[11.176644] (-) TimerEvent: {}
+[11.277657] (-) TimerEvent: {}
+[11.378555] (-) TimerEvent: {}
+[11.480374] (-) TimerEvent: {}
+[11.581203] (-) TimerEvent: {}
+[11.682056] (-) TimerEvent: {}
+[11.782949] (-) TimerEvent: {}
+[11.883656] (-) TimerEvent: {}
+[11.984460] (-) TimerEvent: {}
+[12.085216] (-) TimerEvent: {}
+[12.185961] (-) TimerEvent: {}
+[12.286653] (-) TimerEvent: {}
+[12.387610] (-) TimerEvent: {}
+[12.488301] (-) TimerEvent: {}
+[12.589205] (-) TimerEvent: {}
+[12.689821] (-) TimerEvent: {}
+[12.790570] (-) TimerEvent: {}
+[12.891470] (-) TimerEvent: {}
+[12.992400] (-) TimerEvent: {}
+[13.093107] (-) TimerEvent: {}
+[13.193736] (-) TimerEvent: {}
+[13.294430] (-) TimerEvent: {}
+[13.395256] (-) TimerEvent: {}
+[13.496007] (-) TimerEvent: {}
+[13.596837] (-) TimerEvent: {}
+[13.697661] (-) TimerEvent: {}
+[13.798388] (-) TimerEvent: {}
+[13.899512] (-) TimerEvent: {}
+[14.000674] (-) TimerEvent: {}
+[14.101589] (-) TimerEvent: {}
+[14.202386] (-) TimerEvent: {}
+[14.303158] (-) TimerEvent: {}
+[14.403929] (-) TimerEvent: {}
+[14.504754] (-) TimerEvent: {}
+[14.605625] (-) TimerEvent: {}
+[14.706535] (-) TimerEvent: {}
+[14.807347] (-) TimerEvent: {}
+[14.908269] (-) TimerEvent: {}
+[15.008990] (-) TimerEvent: {}
+[15.109986] (-) TimerEvent: {}
+[15.211047] (-) TimerEvent: {}
+[15.311809] (-) TimerEvent: {}
+[15.412619] (-) TimerEvent: {}
+[15.513519] (-) TimerEvent: {}
+[15.614564] (-) TimerEvent: {}
+[15.715610] (-) TimerEvent: {}
+[15.816420] (-) TimerEvent: {}
+[15.917225] (-) TimerEvent: {}
+[16.018120] (-) TimerEvent: {}
+[16.119054] (-) TimerEvent: {}
+[16.219868] (-) TimerEvent: {}
+[16.320734] (-) TimerEvent: {}
+[16.421655] (-) TimerEvent: {}
+[16.522468] (-) TimerEvent: {}
+[16.623444] (-) TimerEvent: {}
+[16.724489] (-) TimerEvent: {}
+[16.825456] (-) TimerEvent: {}
+[16.926566] (-) TimerEvent: {}
+[17.027531] (-) TimerEvent: {}
+[17.128444] (-) TimerEvent: {}
+[17.229235] (-) TimerEvent: {}
+[17.330267] (-) TimerEvent: {}
+[17.431146] (-) TimerEvent: {}
+[17.532005] (-) TimerEvent: {}
+[17.632812] (-) TimerEvent: {}
+[17.733765] (-) TimerEvent: {}
+[17.834640] (-) TimerEvent: {}
+[17.936181] (-) TimerEvent: {}
+[18.037365] (-) TimerEvent: {}
+[18.138665] (-) TimerEvent: {}
+[18.239674] (-) TimerEvent: {}
+[18.340492] (-) TimerEvent: {}
+[18.441607] (-) TimerEvent: {}
+[18.542430] (-) TimerEvent: {}
+[18.643225] (-) TimerEvent: {}
+[18.744057] (-) TimerEvent: {}
+[18.845082] (-) TimerEvent: {}
+[18.857777] (custom_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[18.945286] (-) TimerEvent: {}
+[19.017438] (custom_interfaces) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[19.045461] (-) TimerEvent: {}
+[19.073952] (custom_interfaces) StdoutLine: {'line': b'-- Found package_with_interfaces: 0.0.0 (/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake)\n'}
+[19.145695] (-) TimerEvent: {}
+[19.180407] (custom_interfaces) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[19.245978] (-) TimerEvent: {}
+[19.346551] (-) TimerEvent: {}
+[19.447081] (-) TimerEvent: {}
+[19.547741] (-) TimerEvent: {}
+[19.648262] (-) TimerEvent: {}
+[19.748897] (-) TimerEvent: {}
+[19.849545] (-) TimerEvent: {}
+[19.950216] (-) TimerEvent: {}
+[20.050832] (-) TimerEvent: {}
+[20.151417] (-) TimerEvent: {}
+[20.173345] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[20.251678] (-) TimerEvent: {}
+[20.352428] (-) TimerEvent: {}
+[20.452969] (-) TimerEvent: {}
+[20.553433] (-) TimerEvent: {}
+[20.653916] (-) TimerEvent: {}
+[20.754494] (-) TimerEvent: {}
+[20.855150] (-) TimerEvent: {}
+[20.955764] (-) TimerEvent: {}
+[21.056307] (-) TimerEvent: {}
+[21.139999] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[21.156559] (-) TimerEvent: {}
+[21.257059] (-) TimerEvent: {}
+[21.357568] (-) TimerEvent: {}
+[21.458145] (-) TimerEvent: {}
+[21.558777] (-) TimerEvent: {}
+[21.659343] (-) TimerEvent: {}
+[21.759904] (-) TimerEvent: {}
+[21.860505] (-) TimerEvent: {}
+[21.961088] (-) TimerEvent: {}
+[22.061757] (-) TimerEvent: {}
+[22.162359] (-) TimerEvent: {}
+[22.262922] (-) TimerEvent: {}
+[22.307380] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[22.312917] (custom_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[22.313257] (custom_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[22.313415] (custom_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[22.313556] (custom_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[22.313798] (custom_interfaces) StderrLine: {'line': b'\n'}
+[22.313939] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[22.314069] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[22.314210] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[22.314371] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:48 (rosidl_generate_interfaces)\n'}
+[22.314530] (custom_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[22.314664] (custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[22.363138] (-) TimerEvent: {}
+[22.367572] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[22.368657] (custom_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[22.369027] (custom_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[22.369287] (custom_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[22.369727] (custom_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[22.370075] (custom_interfaces) StderrLine: {'line': b'\n'}
+[22.370476] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[22.370633] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[22.370768] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[22.371007] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[22.371180] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:48 (rosidl_generate_interfaces)\n'}
+[22.371515] (custom_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[22.371763] (custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[22.416825] (custom_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[22.417156] (custom_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[22.417317] (custom_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[22.417461] (custom_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[22.417701] (custom_interfaces) StderrLine: {'line': b'\n'}
+[22.417902] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[22.418092] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[22.418293] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[22.418477] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[22.418674] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:48 (rosidl_generate_interfaces)\n'}
+[22.418876] (custom_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[22.419046] (custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[22.421089] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[22.421399] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[22.421584] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[22.463357] (-) TimerEvent: {}
+[22.466379] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[22.496532] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[22.498553] (custom_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/include>\n'}
+[22.498832] (custom_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[22.500829] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[22.503984] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[22.504555] (custom_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[22.505587] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[22.514082] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done (22.3s)\n'}
+[22.563711] (-) TimerEvent: {}
+[22.665038] (-) TimerEvent: {}
+[22.765985] (-) TimerEvent: {}
+[22.867033] (-) TimerEvent: {}
+[22.968352] (-) TimerEvent: {}
+[23.064744] (custom_interfaces) StdoutLine: {'line': b'-- Generating done (0.5s)\n'}
+[23.068860] (-) TimerEvent: {}
+[23.092525] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces\n'}
+[23.169049] (-) TimerEvent: {}
+[23.186274] (custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o\x1b[0m\n'}
+[23.192720] (custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o\x1b[0m\n'}
+[23.201462] (custom_interfaces) StdoutLine: {'line': b'[ 13%] Built target custom_interfaces__cpp\n'}
+[23.201835] (custom_interfaces) StdoutLine: {'line': b'[ 16%] Built target custom_interfaces__rosidl_generator_c\n'}
+[23.254585] (custom_interfaces) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[23.269199] (-) TimerEvent: {}
+[23.280043] (custom_interfaces) StdoutLine: {'line': b'[ 24%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[23.369838] (-) TimerEvent: {}
+[23.388757] (custom_interfaces) StdoutLine: {'line': b'[ 32%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[23.418989] (custom_interfaces) StdoutLine: {'line': b'[ 40%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[23.461233] (custom_interfaces) StdoutLine: {'line': b'[ 48%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[23.469975] (-) TimerEvent: {}
+[23.508035] (custom_interfaces) StdoutLine: {'line': b'[ 56%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[23.570459] (-) TimerEvent: {}
+[23.645561] (custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[23.670737] (-) TimerEvent: {}
+[23.760956] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target publish_address_book\n'}
+[23.770929] (-) TimerEvent: {}
+[23.800169] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces\n'}
+[23.841968] (custom_interfaces) StdoutLine: {'line': b'[ 72%] Built target custom_interfaces__py\n'}
+[23.871004] (-) TimerEvent: {}
+[23.971619] (-) TimerEvent: {}
+[24.072210] (-) TimerEvent: {}
+[24.089496] (custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces__rosidl_generator_py\n'}
+[24.148273] (custom_interfaces) StdoutLine: {'line': b'[ 83%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[24.172405] (-) TimerEvent: {}
+[24.203725] (custom_interfaces) StdoutLine: {'line': b'[ 89%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[24.268978] (custom_interfaces) StdoutLine: {'line': b'[ 94%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[24.272569] (-) TimerEvent: {}
+[24.373284] (-) TimerEvent: {}
+[24.474815] (-) TimerEvent: {}
+[24.576027] (-) TimerEvent: {}
+[24.641491] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[24.647237] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[24.649082] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[24.651442] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[24.676790] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[24.677540] (-) TimerEvent: {}
+[24.693711] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[24.777927] (-) TimerEvent: {}
+[24.789799] (custom_interfaces) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[24.878299] (-) TimerEvent: {}
+[24.979248] (-) TimerEvent: {}
+[25.080134] (-) TimerEvent: {}
+[25.181107] (-) TimerEvent: {}
+[25.286157] (-) TimerEvent: {}
+[25.387395] (-) TimerEvent: {}
+[25.488773] (-) TimerEvent: {}
+[25.589617] (-) TimerEvent: {}
+[25.690200] (-) TimerEvent: {}
+[25.790851] (-) TimerEvent: {}
+[25.892238] (-) TimerEvent: {}
+[25.993323] (-) TimerEvent: {}
+[26.095146] (-) TimerEvent: {}
+[26.196433] (-) TimerEvent: {}
+[26.297639] (-) TimerEvent: {}
+[26.398659] (-) TimerEvent: {}
+[26.499900] (-) TimerEvent: {}
+[26.601358] (-) TimerEvent: {}
+[26.702099] (-) TimerEvent: {}
+[26.803072] (-) TimerEvent: {}
+[26.904384] (-) TimerEvent: {}
+[27.005982] (-) TimerEvent: {}
+[27.107647] (-) TimerEvent: {}
+[27.208584] (-) TimerEvent: {}
+[27.309533] (-) TimerEvent: {}
+[27.410707] (-) TimerEvent: {}
+[27.511971] (-) TimerEvent: {}
+[27.613262] (-) TimerEvent: {}
+[27.714352] (-) TimerEvent: {}
+[27.815556] (-) TimerEvent: {}
+[27.916792] (-) TimerEvent: {}
+[28.017767] (-) TimerEvent: {}
+[28.118803] (-) TimerEvent: {}
+[28.219846] (-) TimerEvent: {}
+[28.321208] (-) TimerEvent: {}
+[28.422603] (-) TimerEvent: {}
+[28.523708] (-) TimerEvent: {}
+[28.625049] (-) TimerEvent: {}
+[28.726077] (-) TimerEvent: {}
+[28.827690] (-) TimerEvent: {}
+[28.928872] (-) TimerEvent: {}
+[29.030250] (-) TimerEvent: {}
+[29.131866] (-) TimerEvent: {}
+[29.233238] (-) TimerEvent: {}
+[29.333991] (-) TimerEvent: {}
+[29.434600] (-) TimerEvent: {}
+[29.535284] (-) TimerEvent: {}
+[29.636000] (-) TimerEvent: {}
+[29.736743] (-) TimerEvent: {}
+[29.837482] (-) TimerEvent: {}
+[29.938442] (-) TimerEvent: {}
+[30.039406] (-) TimerEvent: {}
+[30.140094] (-) TimerEvent: {}
+[30.240768] (-) TimerEvent: {}
+[30.341329] (-) TimerEvent: {}
+[30.441849] (-) TimerEvent: {}
+[30.542470] (-) TimerEvent: {}
+[30.643076] (-) TimerEvent: {}
+[30.743651] (-) TimerEvent: {}
+[30.844221] (-) TimerEvent: {}
+[30.945133] (-) TimerEvent: {}
+[31.045814] (-) TimerEvent: {}
+[31.146300] (-) TimerEvent: {}
+[31.246784] (-) TimerEvent: {}
+[31.347296] (-) TimerEvent: {}
+[31.447872] (-) TimerEvent: {}
+[31.548536] (-) TimerEvent: {}
+[31.649236] (-) TimerEvent: {}
+[31.750029] (-) TimerEvent: {}
+[31.851585] (-) TimerEvent: {}
+[31.952997] (-) TimerEvent: {}
+[32.053647] (-) TimerEvent: {}
+[32.154256] (-) TimerEvent: {}
+[32.254804] (-) TimerEvent: {}
+[32.355386] (-) TimerEvent: {}
+[32.455959] (-) TimerEvent: {}
+[32.556654] (-) TimerEvent: {}
+[32.657240] (-) TimerEvent: {}
+[32.757794] (-) TimerEvent: {}
+[32.858349] (-) TimerEvent: {}
+[32.959208] (-) TimerEvent: {}
+[33.059833] (-) TimerEvent: {}
+[33.160483] (-) TimerEvent: {}
+[33.261132] (-) TimerEvent: {}
+[33.361854] (-) TimerEvent: {}
+[33.462531] (-) TimerEvent: {}
+[33.563198] (-) TimerEvent: {}
+[33.663943] (-) TimerEvent: {}
+[33.764607] (-) TimerEvent: {}
+[33.865295] (-) TimerEvent: {}
+[33.965761] (-) TimerEvent: {}
+[34.066474] (-) TimerEvent: {}
+[34.167552] (-) TimerEvent: {}
+[34.268502] (-) TimerEvent: {}
+[34.369729] (-) TimerEvent: {}
+[34.470400] (-) TimerEvent: {}
+[34.571045] (-) TimerEvent: {}
+[34.671640] (-) TimerEvent: {}
+[34.772162] (-) TimerEvent: {}
+[34.872848] (-) TimerEvent: {}
+[34.930134] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:24:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KACTION_TUTORIALS_CPP_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KACTION_TUTORIALS_CPP_BUILDING_DLL\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[34.930514] (custom_interfaces) StderrLine: {'line': b'   24 |   \x1b[01;31m\x1b[KACTION_TUTORIALS_CPP_PUBLIC\x1b[m\x1b[K\n'}
+[34.930748] (custom_interfaces) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.931036] (custom_interfaces) StderrLine: {'line': b'      |   \x1b[32m\x1b[KACTION_TUTORIALS_CPP_BUILDING_DLL\x1b[m\x1b[K\n'}
+[34.973042] (-) TimerEvent: {}
+[35.073589] (-) TimerEvent: {}
+[35.174177] (-) TimerEvent: {}
+[35.274688] (-) TimerEvent: {}
+[35.375214] (-) TimerEvent: {}
+[35.475961] (-) TimerEvent: {}
+[35.576812] (-) TimerEvent: {}
+[35.677461] (-) TimerEvent: {}
+[35.778011] (-) TimerEvent: {}
+[35.878915] (-) TimerEvent: {}
+[35.979583] (-) TimerEvent: {}
+[36.080302] (-) TimerEvent: {}
+[36.153284] (custom_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[36.153542] (custom_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[36.153666] (custom_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[36.153835] (custom_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[36.153955] (custom_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:5\x1b[m\x1b[K:\n'}
+[36.154060] (custom_interfaces) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = action_tutorials_cpp::FibonacciActionServer; _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[36.154168] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = action_tutorials_cpp::FibonacciActionServer; _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<action_tutorials_cpp::FibonacciActionServer>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[36.154293] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer; _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[36.154409] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = action_tutorials_cpp::FibonacciActionServer; _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; _Args = {const rclcpp::NodeOptions&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[36.154649] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[36.154781] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[36.154885] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = action_tutorials_cpp::FibonacciActionServer; _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; _Args = {const rclcpp::NodeOptions&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[36.154985] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = action_tutorials_cpp::FibonacciActionServer; _Args = {const rclcpp::NodeOptions&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[36.155087] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:45:40:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp_components::NodeInstanceWrapper rclcpp_components::NodeFactoryTemplate<NodeT>::create_node_instance(const rclcpp::NodeOptions&) [with NodeT = action_tutorials_cpp::FibonacciActionServer]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[36.155199] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:43:3:\x1b[m\x1b[K   required from here\n'}
+[36.155300] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[36.155399] (custom_interfaces) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[36.155498] (custom_interfaces) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[36.155695] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer()\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[36.155807] (custom_interfaces) StderrLine: {'line': b'   18 | class \x1b[01;36m\x1b[KFibonacciActionServer\x1b[m\x1b[K : public rclcpp::Node\n'}
+[36.155908] (custom_interfaces) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[36.165661] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[36.166385] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer(const action_tutorials_cpp::FibonacciActionServer&)\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[36.167071] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::NodeOptions\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst action_tutorials_cpp::FibonacciActionServer&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[36.167437] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer(action_tutorials_cpp::FibonacciActionServer&&)\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[36.167733] (custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::NodeOptions\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kaction_tutorials_cpp::FibonacciActionServer&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[36.180550] (-) TimerEvent: {}
+[36.281267] (-) TimerEvent: {}
+[36.382001] (-) TimerEvent: {}
+[36.382910] (custom_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1\n'}
+[36.384219] (custom_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/action_server.dir/all] Error 2\n'}
+[36.384528] (custom_interfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[36.482331] (-) TimerEvent: {}
+[36.583414] (-) TimerEvent: {}
+[36.684251] (-) TimerEvent: {}
+[36.785334] (-) TimerEvent: {}
+[36.886069] (-) TimerEvent: {}
+[36.986855] (-) TimerEvent: {}
+[37.087799] (-) TimerEvent: {}
+[37.186430] (custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable fibonacci_action_server\x1b[0m\n'}
+[37.188094] (-) TimerEvent: {}
+[37.289015] (-) TimerEvent: {}
+[37.389972] (-) TimerEvent: {}
+[37.490637] (-) TimerEvent: {}
+[37.591619] (-) TimerEvent: {}
+[37.692332] (-) TimerEvent: {}
+[37.793192] (-) TimerEvent: {}
+[37.893987] (-) TimerEvent: {}
+[37.995139] (-) TimerEvent: {}
+[38.096123] (-) TimerEvent: {}
+[38.197352] (-) TimerEvent: {}
+[38.298642] (-) TimerEvent: {}
+[38.400042] (-) TimerEvent: {}
+[38.501691] (-) TimerEvent: {}
+[38.602824] (-) TimerEvent: {}
+[38.703464] (-) TimerEvent: {}
+[38.804371] (-) TimerEvent: {}
+[38.905604] (-) TimerEvent: {}
+[39.006845] (-) TimerEvent: {}
+[39.108141] (-) TimerEvent: {}
+[39.209352] (-) TimerEvent: {}
+[39.213136] (custom_interfaces) StdoutLine: {'line': b'[ 97%] Built target fibonacci_action_server\n'}
+[39.214670] (custom_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[39.217793] (custom_interfaces) CommandEnded: {'returncode': 2}
+[39.309539] (-) TimerEvent: {}
+[39.377841] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 2}
+[39.389205] (-) EventReactorShutdown: {}

@@ -1,0 +1,128 @@
+[0.104s] Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces -- -j4 -l4
+[0.177s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.765s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.774s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.783s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.548s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.597s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.669s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.672s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[18.833s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[18.993s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[19.049s] -- Found package_with_interfaces: 0.0.0 (/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake)
+[19.156s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[20.148s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[21.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.288s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[22.288s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[22.288s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[22.289s]   the cmake_policy command to set the policy and suppress this warning.
+[22.289s] 
+[22.289s] Call Stack (most recent call first):
+[22.289s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[22.289s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[22.289s]   CMakeLists.txt:48 (rosidl_generate_interfaces)
+[22.289s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[22.290s] [0m
+[22.343s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[22.344s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[22.344s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[22.344s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[22.345s]   the cmake_policy command to set the policy and suppress this warning.
+[22.345s] 
+[22.345s] Call Stack (most recent call first):
+[22.346s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[22.346s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[22.346s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[22.346s]   CMakeLists.txt:48 (rosidl_generate_interfaces)
+[22.347s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[22.347s] [0m
+[22.392s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[22.392s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[22.392s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[22.393s]   the cmake_policy command to set the policy and suppress this warning.
+[22.393s] 
+[22.393s] Call Stack (most recent call first):
+[22.393s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[22.393s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[22.393s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[22.394s]   CMakeLists.txt:48 (rosidl_generate_interfaces)
+[22.394s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[22.394s] [0m
+[22.396s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[22.396s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[22.397s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[22.442s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.472s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.474s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/include>
+[22.474s] -- Configured cppcheck exclude dirs and/or files: 
+[22.476s] -- Added test 'lint_cmake' to check CMake code style
+[22.479s] -- Added test 'uncrustify' to check C / C++ code style
+[22.480s] -- Configured uncrustify additional arguments: 
+[22.481s] -- Added test 'xmllint' to check XML markup files
+[22.490s] -- Configuring done (22.3s)
+[23.040s] -- Generating done (0.5s)
+[23.068s] -- Build files have been written to: /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces
+[23.162s] [  2%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o[0m
+[23.168s] [  5%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[23.177s] [ 13%] Built target custom_interfaces__cpp
+[23.177s] [ 16%] Built target custom_interfaces__rosidl_generator_c
+[23.230s] [ 16%] Built target ament_cmake_python_copy_custom_interfaces
+[23.255s] [ 24%] Built target custom_interfaces__rosidl_typesupport_cpp
+[23.365s] [ 32%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[23.394s] [ 40%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[23.437s] [ 48%] Built target custom_interfaces__rosidl_typesupport_c
+[23.484s] [ 56%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[23.621s] [ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[23.736s] [ 70%] Built target publish_address_book
+[23.775s] [ 70%] Built target custom_interfaces
+[23.817s] [ 72%] Built target custom_interfaces__py
+[24.065s] [ 78%] Built target custom_interfaces__rosidl_generator_py
+[24.123s] [ 83%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[24.179s] [ 89%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[24.244s] [ 94%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[24.617s] running egg_info
+[24.623s] writing custom_interfaces.egg-info/PKG-INFO
+[24.624s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[24.627s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[24.652s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[24.669s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[24.765s] [ 94%] Built target ament_cmake_python_build_custom_interfaces_egg
+[34.905s] [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:24:3:[m[K [01;31m[Kerror: [m[K‘[01m[KACTION_TUTORIALS_CPP_PUBLIC[m[K’ does not name a type; did you mean ‘[01m[KACTION_TUTORIALS_CPP_BUILDING_DLL[m[K’?
+[34.906s]    24 |   [01;31m[KACTION_TUTORIALS_CPP_PUBLIC[m[K
+[34.906s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[34.906s]       |   [32m[KACTION_TUTORIALS_CPP_BUILDING_DLL[m[K
+[36.128s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[36.129s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[36.129s]                  from [01m[K/usr/include/c++/11/unordered_map:40[m[K,
+[36.129s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[36.129s]                  from [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:5[m[K:
+[36.129s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = action_tutorials_cpp::FibonacciActionServer; _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer][m[K’:
+[36.129s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = action_tutorials_cpp::FibonacciActionServer; _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<action_tutorials_cpp::FibonacciActionServer>][m[K’
+[36.129s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer; _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[36.129s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = action_tutorials_cpp::FibonacciActionServer; _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; _Args = {const rclcpp::NodeOptions&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[36.130s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[36.130s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer][m[K’
+[36.130s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = action_tutorials_cpp::FibonacciActionServer; _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; _Args = {const rclcpp::NodeOptions&}][m[K’
+[36.130s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = action_tutorials_cpp::FibonacciActionServer; _Args = {const rclcpp::NodeOptions&}][m[K’
+[36.130s] [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:45:40:[m[K   required from ‘[01m[Krclcpp_components::NodeInstanceWrapper rclcpp_components::NodeFactoryTemplate<NodeT>::create_node_instance(const rclcpp::NodeOptions&) [with NodeT = action_tutorials_cpp::FibonacciActionServer][m[K’
+[36.130s] [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:43:3:[m[K   required from here
+[36.130s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer(const rclcpp::NodeOptions&)[m[K’
+[36.130s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[36.131s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[36.131s] [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:18:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer()[m[K’ (deleted)
+[36.131s]    18 | class [01;36m[KFibonacciActionServer[m[K : public rclcpp::Node
+[36.131s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[36.141s] [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:18:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[36.142s] [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:18:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer(const action_tutorials_cpp::FibonacciActionServer&)[m[K’ (deleted)
+[36.142s] [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:18:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst rclcpp::NodeOptions[m[K’ to ‘[01m[Kconst action_tutorials_cpp::FibonacciActionServer&[m[K’
+[36.143s] [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:18:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer(action_tutorials_cpp::FibonacciActionServer&&)[m[K’ (deleted)
+[36.143s] [01m[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:18:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst rclcpp::NodeOptions[m[K’ to ‘[01m[Kaction_tutorials_cpp::FibonacciActionServer&&[m[K’
+[36.359s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1
+[36.359s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/action_server.dir/all] Error 2
+[36.360s] gmake[1]: *** Waiting for unfinished jobs....
+[37.162s] [ 97%] [32m[1mLinking CXX executable fibonacci_action_server[0m
+[39.188s] [ 97%] Built target fibonacci_action_server
+[39.190s] gmake: *** [Makefile:146: all] Error 2
+[39.193s] Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victory/Robot-Operating-System/python_ws/install/python_package_that_uses_parameters_and_launch_files:/home/victory/Robot-Operating-System/python_ws/install/positio_encoder_decoder_python_package:/home/victory/Robot-Operating-System/python_ws/install/package_with_configurable_nodes:/home/victory/Robot-Operating-System/python_ws/install/package_that_uses_package_with_interfaces:/home/victory/Robot-Operating-System/python_ws/install/motor_distance_sensor_package:/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces -- -j4 -l4

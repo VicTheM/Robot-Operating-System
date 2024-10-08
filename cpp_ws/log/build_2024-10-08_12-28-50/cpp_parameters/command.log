@@ -1,0 +1,4 @@
+Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters -- -j4 -l4
+Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters -- -j4 -l4
+Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters
+Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/cpp_parameters

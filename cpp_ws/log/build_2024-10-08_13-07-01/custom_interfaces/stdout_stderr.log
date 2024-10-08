@@ -1,0 +1,33 @@
+[  2%] Built target custom_interfaces__cpp
+[  5%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[ 13%] Built target custom_interfaces__rosidl_generator_c
+[ 13%] Built target ament_cmake_python_copy_custom_interfaces
+[ 18%] Built target fibonacci_action_server
+[ 27%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 35%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[ 43%] Built target custom_interfaces__rosidl_typesupport_cpp
+[ 48%] Built target publish_address_book
+[ 56%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[ 72%] Built target custom_interfaces__rosidl_typesupport_c
+[ 72%] Built target custom_interfaces
+[ 75%] Built target custom_interfaces__py
+[ 81%] Built target custom_interfaces__rosidl_generator_py
+[ 86%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+running egg_info
+writing custom_interfaces.egg-info/PKG-INFO
+writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+writing top-level names to custom_interfaces.egg-info/top_level.txt
+reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[01m[K/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces/src/fibonacci_action_server.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Kcustom_interfaces/visibility_control.h: No such file or directory
+   14 | #include [01;31m[K"custom_interfaces/visibility_control.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/action_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 97%] Built target ament_cmake_python_build_custom_interfaces_egg
+gmake: *** [Makefile:146: all] Error 2

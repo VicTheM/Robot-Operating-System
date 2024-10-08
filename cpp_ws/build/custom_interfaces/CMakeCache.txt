@@ -295,10 +295,16 @@ SITE:STRING=Victory
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
 
 //Path to a file.
 _numpy_h:FILEPATH=/usr/include/python3.10/numpy/numpyconfig.h
+
+//The directory containing a CMake configuration file for action_msgs.
+action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
+
+//Dependencies for the target
+action_server_LIB_DEPENDS:STATIC=general;package_with_interfaces::package_with_interfaces__rosidl_generator_c;general;package_with_interfaces::package_with_interfaces__rosidl_typesupport_fastrtps_c;general;package_with_interfaces::package_with_interfaces__rosidl_typesupport_fastrtps_cpp;general;package_with_interfaces::package_with_interfaces__rosidl_typesupport_introspection_c;general;package_with_interfaces::package_with_interfaces__rosidl_typesupport_c;general;package_with_interfaces::package_with_interfaces__rosidl_typesupport_introspection_cpp;general;package_with_interfaces::package_with_interfaces__rosidl_typesupport_cpp;general;package_with_interfaces::package_with_interfaces__rosidl_generator_py;general;rclcpp::rclcpp;general;rclcpp_action::rclcpp_action;general;rclcpp_components::component_manager;
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
@@ -402,6 +408,15 @@ ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
 
+//The directory containing a CMake configuration file for class_loader.
+class_loader_DIR:PATH=/opt/ros/humble/share/class_loader/cmake
+
+//The directory containing a CMake configuration file for composition_interfaces.
+composition_interfaces_DIR:PATH=/opt/ros/humble/share/composition_interfaces/cmake
+
+//The directory containing a CMake configuration file for console_bridge.
+console_bridge_DIR:PATH=/usr/lib/x86_64-linux-gnu/console_bridge/cmake
+
 //Value Computed by CMake
 custom_interfaces_BINARY_DIR:STATIC=/home/victory/Robot-Operating-System/cpp_ws/build/custom_interfaces
 
@@ -459,11 +474,17 @@ fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
 //The directory containing a CMake configuration file for foonathan_memory.
 foonathan_memory_DIR:PATH=/opt/ros/humble/lib/foonathan_memory/cmake
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
+
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/cmake
 
 //The directory containing a CMake configuration file for libyaml_vendor.
 libyaml_vendor_DIR:PATH=/opt/ros/humble/share/libyaml_vendor/cmake
+
+//The directory containing a CMake configuration file for package_with_interfaces.
+package_with_interfaces_DIR:PATH=/home/victory/Robot-Operating-System/python_ws/install/package_with_interfaces/share/package_with_interfaces/cmake
 
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
@@ -476,6 +497,9 @@ python_cmake_module_DIR:PATH=/opt/ros/humble/share/python_cmake_module/cmake
 
 //The directory containing a CMake configuration file for rcl.
 rcl_DIR:PATH=/opt/ros/humble/share/rcl/cmake
+
+//The directory containing a CMake configuration file for rcl_action.
+rcl_action_DIR:PATH=/opt/ros/humble/share/rcl_action/cmake
 
 //The directory containing a CMake configuration file for rcl_interfaces.
 rcl_interfaces_DIR:PATH=/opt/ros/humble/share/rcl_interfaces/cmake
@@ -491,6 +515,12 @@ rcl_yaml_param_parser_DIR:PATH=/opt/ros/humble/share/rcl_yaml_param_parser/cmake
 
 //The directory containing a CMake configuration file for rclcpp.
 rclcpp_DIR:PATH=/opt/ros/humble/share/rclcpp/cmake
+
+//The directory containing a CMake configuration file for rclcpp_action.
+rclcpp_action_DIR:PATH=/opt/ros/humble/share/rclcpp_action/cmake
+
+//The directory containing a CMake configuration file for rclcpp_components.
+rclcpp_components_DIR:PATH=/opt/ros/humble/share/rclcpp_components/cmake
 
 //The directory containing a CMake configuration file for rcpputils.
 rcpputils_DIR:PATH=/opt/ros/humble/share/rcpputils/cmake
@@ -581,6 +611,9 @@ std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/humble/share/tracetools/cmake
+
+//The directory containing a CMake configuration file for unique_identifier_msgs.
+unique_identifier_msgs_DIR:PATH=/opt/ros/humble/share/unique_identifier_msgs/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint

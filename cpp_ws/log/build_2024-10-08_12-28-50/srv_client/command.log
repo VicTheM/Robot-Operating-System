@@ -1,0 +1,4 @@
+Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/srv_client -- -j4 -l4
+Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --build /home/victory/Robot-Operating-System/cpp_ws/build/srv_client -- -j4 -l4
+Invoking command in '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/srv_client
+Invoked command in '/home/victory/Robot-Operating-System/cpp_ws/build/srv_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/linuxbrew/.linuxbrew/bin/cmake --install /home/victory/Robot-Operating-System/cpp_ws/build/srv_client
