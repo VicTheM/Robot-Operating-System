@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:property name="base_width" value="0.62"/>
+    <xacro:property name="base_length" value="1.0"/>
+    <xacro:property name="base_height" value="0.1"/>
+
+    <xacro:property name="wheel_radius" value="0.25" />
+    <xacro:property name="wheel_length" value="0.1" />
+    <xacro:property name="wheel_color_name" value="wheel_red" />
+    <xacro:property name="wheel_color_rgb" value="1 0 0 1" />
+    <xacro:property name="wheel_zoff" value="0.08"/>
+
+    <xacro:property name="caster_zoff" value="-0.08"/>
+    
+</robot>

@@ -1,0 +1,9 @@
+vscode/
+
+# Compiled binaries for ROS2 workspace
+build/
+install/
+log/
+
+# My test files
+tests/

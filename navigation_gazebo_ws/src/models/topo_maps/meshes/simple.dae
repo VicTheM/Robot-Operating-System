@@ -1,0 +1,141 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <created>2023-11-27T12:48:14</created>
+        <modified>2023-11-27T12:48:14</modified>
+        <unit meter="1.0" name="meter" />
+        <up_axis>Y_UP</up_axis>
+    </asset>
+
+    <library_images>
+        <image id="texture0" name="texture">
+            <init_from>../textures/perfect_texture_01.png</init_from>
+        </image>
+    </library_images>
+
+    <library_effects>
+        <effect id="effect0">
+            <profile_COMMON>
+                <newparam sid="surface0">
+                    <surface type="2D">
+                        <init_from>texture0</init_from>
+                    </surface>
+                </newparam>
+                <newparam sid="sampler0">
+                    <sampler2D>
+                        <source>surface0</source>
+                    </sampler2D>
+                </newparam>
+                <technique sid="common">
+                    <phong>
+                        <diffuse>
+                            <texture texture="sampler0" texcoord="UVSET0" />
+                        </diffuse>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+
+    <library_materials>
+        <material id="material0">
+            <instance_effect url="#effect0" />
+        </material>
+    </library_materials>
+
+    <library_geometries>
+        <geometry id="shape0">
+            <mesh>
+                <source id="positions">
+                    <float_array id="positions-array" count="15">
+                        0 10 0
+                        10 10 0
+                        10 0 0
+                        0 0 0
+
+                        5 5 10
+                    </float_array>
+                    <technique_common>
+                        <accessor count="5" source="#positions-array" stride="3">
+                        <param name="X" type="float" />
+                        <param name="Y" type="float" />
+                        <param name="Z" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+
+                <source id="normals">
+                    <float_array id="normals-array" count="15">
+                        0.0 0.0 -1.0
+                        0.0 0.0 -1.0
+                        0.0 0.0 -1.0
+                        0.0 0.0 -1.0
+                        0.0 0.0  1.0
+                    </float_array>
+                    <technique_common>
+                        <accessor count="5" source="#normals-array" stride="3">
+                        <param name="X" type="float" />
+                        <param name="Y" type="float" />
+                        <param name="Z" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+
+                <source id="uv-source">
+                    <float_array id="uv-float-array" count="10">
+                        0.0 1.0
+                        1.0 1.0
+                        1.0 0.0
+                        0.0 0.0
+                        0.5 0.5
+                    </float_array>
+                    <technique_common>
+                        <accessor source="#uv-float-array" count="5" stride="2">
+                        <param name="S" type="float"/>
+                        <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+
+                <vertices id="verts-array-vertices">
+                    <input semantic="POSITION" source="#positions" />
+                    <input semantic="NORMAL" source="#normals" />
+                    <input semantic="TEXCOORD" source="#uv-source" />
+                </vertices>
+
+                <triangles count="4" material="material0">
+                    <input offset="0" semantic="VERTEX" source="#verts-array-vertices" />
+                    
+                    <p>
+                        <!-- 0 1 2 
+                        0 2 3 -->
+
+                        0 4 3
+                        3 4 2
+                        2 4 1
+                        1 4 0
+                    </p>
+                </triangles>
+            </mesh>
+        </geometry>
+    </library_geometries>
+
+    <library_visual_scenes>
+        <visual_scene id="scene0">
+        <node name="node0">
+            <instance_geometry url="#shape0">
+                <bind_material>
+                    <technique_common>
+                        <instance_material symbol="material0" target="#material0">
+                            <bind_vertex_input semantic="TEXCOORD" input_semantic="TEXCOORD" />
+                        </instance_material>
+                    </technique_common>
+                </bind_material>
+            </instance_geometry>
+        </node>
+        </visual_scene>
+    </library_visual_scenes>
+
+    <scene>
+        <instance_visual_scene url="#scene0" />
+    </scene>
+</COLLADA>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="nav25d_03">
+    
+    <xacro:arg name="robot_name" default=""/>
+    <xacro:arg name="robot_type" default="dif4wd"/>
+    <xacro:arg name="namespace" default=""/>
+        
+    <xacro:arg name="robot_material_name" default="Blue"/>
+    <xacro:arg name="robot_material_color_rgb" default="0 0 1 1"/>
+
+    <xacro:include filename="$(find nav25d_03)/description/xacro/inertial_macros.xacro" />
+    <xacro:include filename="$(find nav25d_03)/description/xacro/lidar.xacro" />
+    <xacro:include filename="$(find nav25d_03)/description/xacro/camera.xacro" />
+    <xacro:include filename="$(find nav25d_03)/description/xacro/imu_sensor.xacro" />
+    <xacro:include filename="$(find nav25d_03)/description/xacro/gps.xacro" />
+    
+    <!-- xacro:include filename="$(find nav25d_03)/description/xacro/depth_camera.xacro" / -->
+
+    <xacro:include filename="$(find nav25d_03)/description/xacro/gazebo_control_$(arg robot_type).xacro" />
+    
+    <xacro:include filename="$(find nav25d_03)/description/xacro/robot_$(arg robot_type).xacro" />
+
+</robot>

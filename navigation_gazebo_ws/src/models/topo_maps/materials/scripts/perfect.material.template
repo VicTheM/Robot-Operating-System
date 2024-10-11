@@ -1,0 +1,15 @@
+material perfect_material
+{
+    receive_shadows off
+
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture ###TEXTURE_FILE_NAME###
+            }
+        }
+    }
+}

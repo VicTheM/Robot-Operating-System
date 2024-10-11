@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+	<xacro:macro name="bumper_ctr_sensor">
+		<gazebo reference="link6">
+			<!-- contact sensor -->
+			<sensor name="end_effector_sensor" type="contact">
+				<selfCollide>true</selfCollide>
+				<alwaysOn>true</alwaysOn>
+				<update_rate>50</update_rate>
+				<contact>
+					<collision>link6_collision</collision>
+				</contact>
+                
+				<!-- gazebo plugin -->
+				<plugin name="gazebo_ros_bumper_sensor" filename="libgazebo_ros_bumper.so">
+					<ros>
+						<namespace>contact_sensor</namespace>
+						<remapping>bumper_states:=bumper_link6</remapping>
+					</ros>
+					<frame_name>link6</frame_name>
+				</plugin>
+			</sensor>
+		</gazebo>
+	</xacro:macro>
+</robot>

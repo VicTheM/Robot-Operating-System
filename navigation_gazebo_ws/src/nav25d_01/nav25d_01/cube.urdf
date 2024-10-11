@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+
+    <link name="world" />
+    <joint name="fixed" type="fixed">
+        <parent link="world"/>
+        <child link="box_display_link"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/> 
+    </joint>
+
+    <model name="box_display">
+        <static>true</static>
+        <!-- TBD: pass grid size, rather than hardcoding -->
+      <pose>0.0 0.0 -0.01 0 0 0</pose>
+      <link name="box_display_link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>16 16 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>16 16 0.1</size>
+            </box>
+          </geometry>
+          <plugin name="display_video_controller" filename="libgazebo_ros_video.so">
+            <ros>
+              <remapping>~/image_raw:=/images/ground_plane</remapping>
+            </ros>
+            <height>640</height>
+            <width>640</width>
+          </plugin>
+        </visual>
+      </link>
+    </model>    
+    
+
+</sdf>

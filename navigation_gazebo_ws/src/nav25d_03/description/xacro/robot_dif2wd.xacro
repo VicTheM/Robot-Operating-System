@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:include filename="colors.xacro" />
+    <xacro:include filename="dimensions.xacro" />
+
+    <xacro:macro name="body_link" params="name size_x size_y size_z color color_rgb mass" >
+        <link name="$(arg robot_name)${name}">
+            <visual>
+                <geometry>
+                    <cylinder radius="${size_x/2}" length="${size_z}" />
+                    <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+                </geometry>
+                
+                <material name="${color}">
+                    <color rgba="${color_rgb}"/>
+                </material>
+            </visual>
+            <collision>
+                <geometry>
+                    <cylinder radius="${size_x/2}" length="${size_z}" />
+                    <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+                </geometry>
+            </collision>
+            <xacro:inertial_cylinder mass="${mass}" radius="${size_z/2}" length="${size_z}">
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+            </xacro:inertial_cylinder>            
+          
+        </link>
+   
+    </xacro:macro>
+
+<xacro:macro name="wheel" params="name mass wheel_radius">
+    <link name="$(arg robot_name)${name}">
+        <visual>
+            <geometry>
+                <cylinder radius="${wheel_radius}" length="${wheel_length}" />
+                <!-- mesh filename="file:///$(find nav25d_03)/description/meshes/wheel.stl"
+                    scale="0.01 0.01 0.01" /-->
+            </geometry>
+            <material name="${wheel_color_name}">
+                <color rgba="${wheel_color_rgb}"/>
+            </material>
+        </visual>
+        <visual name="mark_visual">
+            <geometry>
+                <cylinder radius="${wheel_radius/2}" length="${wheel_length}" />
+            </geometry>
+            <material name="${wheel_color_name}_mark">
+                <color rgba="1 1 1 1"/>
+            </material>
+            <origin xyz="${wheel_radius/2} 0 0" rpy="0 0 0"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder length="${wheel_length}" radius="${wheel_radius}" />
+            </geometry>
+            <material name="blue"/>
+            <surface>
+                <friction>
+                    <ode>
+                        <mu>1.0</mu>
+                        <mu2>1.0</mu2>
+                        <!-- kp value="1e7" />
+                        <kd value="1" /-->
+                        <slip1>0.014</slip1>
+                        <slip2>0.014</slip2>
+                    </ode>
+                    <!-- torsional>
+                        <coefficient>0.6</coefficient>
+                        <surface_radius>0.25</surface_radius>
+                        <use_patch_radius>true</use_patch_radius>
+                    </torsional -->
+                </friction>
+            </surface>
+        </collision>
+        <xacro:inertial_cylinder mass="${mass}" length="${wheel_length}" radius="${wheel_radius}">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+</xacro:macro>
+
+<xacro:macro name="wheel_joint" params="name parent child xyz ">
+    <joint name="$(arg robot_name)${name}" type="continuous">
+        <parent link="$(arg robot_name)${parent}" />
+        <child link="$(arg robot_name)${child}" />
+        <origin xyz="${xyz}" rpy="${-pi/2} 0 0"/>
+        <axis rpy="0 0 0" xyz="0 0 1"/>
+        <!-- limit effort="1" velocity="1"/ -->
+        <joint_properties damping="2.0" friction="0.01"/>
+    </joint>
+</xacro:macro>   
+
+<!-- Robot Description -->
+
+<xacro:body_link name="base_link" size_x="${base_length}" size_y="${base_width}" size_z="${base_height}"
+    color="$(arg robot_material_name)" color_rgb="$(arg robot_material_color_rgb)" 
+    mass="1.0"/> 
+
+<!-- Robot Footprint -->
+<xacro:body_link name="base_footprint" size_x="0.0" size_y="0.0" size_z="0.0" color="green" color_rgb="0 1 0 1" 
+    mass="0.0"/>
+
+<joint name="$(arg robot_name)base_joint" type="fixed">
+    <parent link="$(arg robot_name)base_link"/>
+    <child link="$(arg robot_name)base_footprint"/>
+    <origin xyz="0.0 0.0 ${-(wheel_radius+wheel_zoff)}" rpy="0 0 0"/>
+</joint>
+    
+<xacro:wheel name="right_wheel" mass="0.1" wheel_radius="${wheel_radius}"/>
+
+<xacro:wheel_joint name="base_link_right_wheel" parent="base_link" 
+    child="right_wheel" xyz="${wheel_radius} -0.4 ${wheel_zoff}" />
+
+<xacro:wheel name="left_wheel" mass="0.1" wheel_radius="${wheel_radius}"/> 
+<xacro:wheel_joint name="base_link_left_wheel" parent="base_link" 
+    child="left_wheel" xyz="${wheel_radius} 0.4 ${wheel_zoff}" />
+
+<joint name="caster_wheel_joint" type="fixed">
+    <parent link="$(arg robot_name)base_link"/>
+    <child link="$(arg robot_name)caster_wheel"/>
+    <origin xyz="${-wheel_radius} 0 ${caster_zoff}"/>
+</joint>
+
+<link name="caster_wheel">
+    <visual>
+        <geometry>
+            <sphere radius="0.1" />
+        </geometry>
+        <material name="black"/>
+    </visual>
+    <collision>
+        <geometry>
+            <sphere radius="0.1" />
+        </geometry>
+        <material name="black"/>
+    </collision>    
+    <xacro:inertial_sphere mass="0.1" radius="0.1">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </xacro:inertial_sphere>
+
+    <surface>
+        <friction>
+            <ode>
+                <mu>0.0</mu>
+                <mu2>0.0</mu2>
+        <kp value="0.0" />
+        <kd value="0.0" />
+        <slip1>1.0</slip1>
+        <slip2>1.0</slip2>
+            </ode>
+            <torsional>
+                <ode/>
+            </torsional>
+        </friction>
+    </surface>    
+</link>        
+
+    <!-- Gazebo Colors -->
+    <gazebo reference="$(arg robot_name)base_link">
+        <material>Gazebo/$(arg robot_material_name)</material>
+    </gazebo>
+    <gazebo reference="$(arg robot_name)right_wheel">
+        <material>Gazebo/Red</material>
+    </gazebo>
+    <gazebo reference="$(arg robot_name)left_wheel">
+        <material>Gazebo/Red</material>
+    </gazebo>
+
+    <gazebo reference="$(arg robot_name)caster_wheel">
+        <material>Gazebo/Black</material>
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
+    </gazebo>        
+
+</robot>
+

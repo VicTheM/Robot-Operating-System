@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+    <name>multi_bot_nav_01</name>
+    <version>0.0.0</version>
+    <description>Deploying multiple robots</description>
+    <maintainer email="noreply@snowcron.com">robotics.snowcron.com</maintainer>
+    <license>MIT License</license>
+
+    <depend>rclpy</depend>
+    <depend>urdf</depend>
+    <depend>angles</depend>
+    <depend>gazebo_dev</depend>
+    <depend>gazebo_ros</depend>
+    <depend>controller_manager</depend>
+    <depend>hardware_interface</depend>
+    <depend>pluginlib</depend>
+    <depend>std_msgs</depend>
+    <depend>joint_state_publisher</depend>
+    <depend>robot_state_publisher</depend>
+    <depend>gazebo_ros_pkgs</depend>
+    <depend>ros2launch</depend>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <build_depend>nav2_common</build_depend>
+    
+    <build_depend>navigation2</build_depend>
+    <build_depend>launch_ros</build_depend>  
+
+    <exec_depend>launch_ros</exec_depend>
+    <exec_depend>navigation2</exec_depend>
+    <exec_depend>nav2_common</exec_depend>
+    <exec_depend>slam_toolbox</exec_depend>
+
+    <exec_depend>rviz2</exec_depend>
+    <exec_depend>xacro</exec_depend>
+    <exec_depend>robot_localization</exec_depend>  
+
+    <!-- Declare your service -->
+    <!-- export>
+        <ament_python_package multi_bot_nav_01>
+            <build_type>ament_python</build_type>
+            <include_file_match>srv/FollowPath.srv</include_file_match>
+        </ament_python_package>
+    </export -->
+    
+    <export>
+        <build_type>ament_python</build_type>
+        
+    <!-- 
+      The variables correspond to the following environment variables:
+
+      gazebo_plugin_path: GAZEBO_PLUGIN_PATH
+      gazebo_model_path: GAZEBO_MODEL_PATH
+      gazebo_media_path: GAZEBO_RESOURCE_PATH    
+
+      This will not set the environment variables directly, but will make the values available to gazebo_ros.  
+    -->
+    <!-- gazebo_ros gazebo_plugin_path="lib"/ -->
+    <gazebo_ros gazebo_model_path="${prefix}/../models"/>
+    <!-- gazebo_ros gazebo_media_path="${prefix}/../models -->
+    <!-- gazebo_ros gazebo_media_path="${prefix}/worlds:${prefix}/media"/ -->
+  </export>
+
+</package>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <link name="$(arg robot_name)gps_link">
+        <visual>
+            <geometry>
+            <box size="0.1 0.1 0.1"/>
+            </geometry>
+        </visual>
+
+        <collision>
+            <geometry>
+            <box size="0.1 0.1 0.1"/>
+            </geometry>
+        </collision>
+
+        <xacro:inertial_box mass="0.0" x="0.0" y="0.0" z="0.0">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_box>
+    </link>
+
+    <joint name="$(arg robot_name)gps_joint" type="fixed">
+        <parent link="$(arg robot_name)base_link"/>
+        <child link="$(arg robot_name)gps_link"/>
+        <origin xyz="0. 0. 0.1"  rpy="0 0 0"/>
+    </joint>  
+
+    <gazebo reference="$(arg robot_name)gps_link">
+        <sensor name="bmb_gps" type="gps">
+            <always_on>true</always_on>
+            <update_rate>10.0</update_rate>
+            <gps>
+                <position_sensing>
+                    <horizontal>
+                        <noise type="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>1.0</stddev>
+                        </noise>
+                    </horizontal>
+                    <vertical>
+                        <noise type="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>1.0</stddev>
+                        </noise>
+                    </vertical>
+                </position_sensing>
+            </gps>
+            <plugin name="basic_mobile_bot_gps" filename="libgazebo_ros_gps_sensor.so">
+                <ros>
+                    <remapping>~/out:=gps/fix</remapping>
+                </ros>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+</robot>

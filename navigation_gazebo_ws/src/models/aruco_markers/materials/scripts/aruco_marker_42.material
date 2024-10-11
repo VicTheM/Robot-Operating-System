@@ -1,0 +1,32 @@
+material aruco_marker_42
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_marker_42.png
+        scale 1 1
+        //padding 0.5
+        
+        //u_repeat 1
+        //v_repeat 1
+        //filter trilinear
+        //max_anisotropy 8
+        
+        //repeat_u false
+        //repeat_v false     
+        //wrap clamp
+        //wrap_s clamp
+        //wrap_t clamp
+        
+        //filtering anisotropic
+        //max_anisotropy 8
+        //scale 1 1
+        // set wrap to "clamp" to prevent tiling
+        //wrap s_clamp t_clamp        
+      }
+    }
+  }
+}

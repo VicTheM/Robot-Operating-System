@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="armA" >
+
+  <xacro:arg name="color"   default="blue"/>
+  <xacro:arg name="gripper" default="none"/>
+  <xacro:arg name="namespace" default=""/>
+
+  <xacro:include filename="$(find arm_01)/description/xacro/armA_core.xacro" />
+  <xacro:armA namespace="$(arg namespace)"/>
+
+  <!-- World fixed joint-->
+  <link name="world" />
+  <joint name="world_fixed" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="world"/>
+    <child link="base_0"/>
+  </joint>
+
+</robot>
+
