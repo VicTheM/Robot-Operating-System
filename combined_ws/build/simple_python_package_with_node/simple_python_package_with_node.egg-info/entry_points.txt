@@ -1,4 +1,0 @@
-[console_scripts]
-talk_forever_node = simple_python_package_with_node.talk_forever_node:main
-victory_is_talking_python_node = simple_python_package_with_node.victory_is_talking_python_node:main
-

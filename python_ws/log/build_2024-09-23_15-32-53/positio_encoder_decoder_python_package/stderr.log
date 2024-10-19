@@ -1,5 +1,0 @@
-  File "/home/victory/Robot-Operating-System/test_2_ros2_ws/install/positio_encoder_decoder_python_package/lib/python3.10/site-packages/positio_encoder_decoder_python_package/position_decoder_node.py", line 19
-    super()__init__('position_decoder_node')
-           ^^^^^^^^
-SyntaxError: invalid syntax
-

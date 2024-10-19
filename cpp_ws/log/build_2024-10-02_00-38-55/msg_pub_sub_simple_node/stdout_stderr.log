@@ -1,6 +1,0 @@
-[31mCMake Error at CMakeLists.txt:33:
-  Parse error.  Expected "(", got identifier with text "ROS2".
-
-[0m
--- Configuring incomplete, errors occurred!
-gmake: *** [Makefile:267: cmake_check_build_system] Error 1

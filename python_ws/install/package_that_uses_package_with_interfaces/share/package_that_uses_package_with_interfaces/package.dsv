@@ -1,6 +1,0 @@
-source;share/package_that_uses_package_with_interfaces/hook/pythonpath.ps1
-source;share/package_that_uses_package_with_interfaces/hook/pythonpath.dsv
-source;share/package_that_uses_package_with_interfaces/hook/pythonpath.sh
-source;share/package_that_uses_package_with_interfaces/hook/ament_prefix_path.ps1
-source;share/package_that_uses_package_with_interfaces/hook/ament_prefix_path.dsv
-source;share/package_that_uses_package_with_interfaces/hook/ament_prefix_path.sh

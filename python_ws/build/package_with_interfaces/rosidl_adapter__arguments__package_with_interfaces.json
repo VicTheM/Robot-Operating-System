@@ -1,8 +1,0 @@
-{
-  "package_name": "package_with_interfaces",
-  "non_idl_tuples": [
-    "/home/victory/Robot-Operating-System/python_ws/src/package_with_interfaces:msg/AmazingQuote.msg",
-    "/home/victory/Robot-Operating-System/python_ws/src/package_with_interfaces:srv/WhatIsThePoint.srv",
-    "/home/victory/Robot-Operating-System/python_ws/src/package_with_interfaces:action/Fibonacci.action"
-  ]
-}

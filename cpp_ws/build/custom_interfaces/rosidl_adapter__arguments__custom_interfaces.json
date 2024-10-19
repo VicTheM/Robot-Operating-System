@@ -1,6 +1,0 @@
-{
-  "package_name": "custom_interfaces",
-  "non_idl_tuples": [
-    "/home/victory/Robot-Operating-System/cpp_ws/src/custom_interfaces:msg/AddressBook.msg"
-  ]
-}

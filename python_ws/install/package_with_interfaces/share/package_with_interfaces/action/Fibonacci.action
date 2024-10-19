@@ -1,6 +1,0 @@
-# This action computes the fibonacci sequence up to a specified value
-int32 order
----
-int32[] sequence
----
-int32[] partial_sequence

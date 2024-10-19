@@ -1,4 +1,0 @@
-[console_scripts]
-distance_sensor_node = motor_distance_sensor_package.distance_sensor_node:main
-motor_control_node = motor_distance_sensor_package.motor_control_node:main
-
