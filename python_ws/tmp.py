@@ -91,3 +91,65 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
+
+"""
+// Define pins for UART communication
+const int rxPin = 10; // RX pin of Arduino connected to TX of sensor
+const int txPin = 11; // TX pin of Arduino connected to RX of sensor
+
+// Include SoftwareSerial library for UART communication
+#include <SoftwareSerial.h>
+
+// Create a SoftwareSerial object
+SoftwareSerial mySerial(rxPin, txPin);
+
+// Variable to store the distance
+float distance;
+
+void setup() {
+  // Initialize the serial communication for debugging
+  Serial.begin(9600);
+
+  // Initialize the UART communication with the sensor
+  mySerial.begin(9600);
+
+  Serial.println("A02YYUW Sensor Initialized");
+}
+
+void loop() {
+  // Request distance measurement from the sensor
+  mySerial.write(0x55); // Command to request distance
+
+  // Wait for the sensor to respond
+  delay(100);
+
+  // Check if data is available from the sensor
+  if (mySerial.available() >= 4) {
+    // Read the response (4 bytes expected)
+    byte header = mySerial.read();
+    byte highByte = mySerial.read();
+    byte lowByte = mySerial.read();
+    byte checksum = mySerial.read();
+
+    // Validate the header and checksum
+    if (header == 0xFF && checksum == (0xFF + highByte + lowByte) % 256) {
+      // Combine high and low bytes to get distance in millimeters
+      int distanceMM = (highByte << 8) + lowByte;
+      distance = distanceMM / 10.0; // Convert to centimeters
+
+      // Print the distance to the Serial Monitor
+      Serial.print("Distance: ");
+      Serial.print(distance);
+      Serial.println(" cm");
+    } else {
+      Serial.println("Invalid data received");
+    }
+  } else {
+    Serial.println("No data received");
+  }
+
+  // Add a delay before the next measurement
+  delay(500);
+}
+"""
